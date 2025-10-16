@@ -1,0 +1,966 @@
+{
+  "backend_uuid": "0c6d3efd-c4b3-4b6f-bab3-8bcd91e3daf5",
+  "context_uuid": "1a7655e3-a9d3-4bbe-9f2e-fe408b117d47",
+  "uuid": "63ce0e1d-4ad0-4c4d-a623-91a0aca15c70",
+  "frontend_context_uuid": "d3c8e8b5-f01d-4f9b-be7f-56e0e6e92f8e",
+  "frontend_uuid": "63ce0e1d-4ad0-4c4d-a623-91a0aca15c70",
+  "text": [
+    {
+      "step_type": "INITIAL_QUERY",
+      "content": {
+        "query": "latest news"
+      },
+      "uuid": ""
+    },
+    {
+      "step_type": "SEARCH_WEB",
+      "content": {
+        "goal_id": "0",
+        "queries": [
+          {
+            "engine": "web",
+            "query": "latest news",
+            "limit": 8
+          }
+        ]
+      },
+      "uuid": "755259b6-9861-4eda-8717-b1e0134349c4"
+    },
+    {
+      "step_type": "SEARCH_RESULTS",
+      "content": {
+        "goal_id": "0",
+        "web_results": [
+          {
+            "name": "Latest News Today: Breaking News and Top Headlines from ...",
+            "url": "https://indianexpress.com",
+            "snippet": "India sending MoS Kirti Vardhan Singh to Egypt for Gaza peace summit · How NDA sealed Bihar seat-sharing pact · After MBBS student raped, CM Mamata says 'female ...\nDescription: Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "indianexpress",
+              "suffix": "com",
+              "domain_name": "The Indian Express",
+              "description": "Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com",
+              "published_date": "2019-10-12T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Latest News, Breaking News, Top News Headlines and ...",
+            "url": "https://timesofindia.indiatimes.com/news",
+            "snippet": "Latest News · Cam Newton's kids: meet his 9 children and their three mothers · Report: Westbrook gets big China offer amid LeBron scapegoat buzz · Haryana ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "timesofindia.indiatimes",
+              "suffix": "com",
+              "domain_name": "The Times of India",
+              "description": "Latest News Today: Breaking news on Politics, Business, Sports, Bollywood, Education, Science. Latest News on Politics, India, Current affairs. The Times of India Covers all latest breaking news across India and world",
+              "published_date": "2025-10-01T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Latest News: Today's News Headlines, Breaking News India ...",
+            "url": "https://www.hindustantimes.com",
+            "snippet": "Top News · 4 killed, 20 others injured in shooting at South Carolina bar · 'Her life in danger': Bengal rape survivor's father wants her shifted to Odisha.\nDescription: News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "hindustantimes",
+              "suffix": "com",
+              "domain_name": "Hindustan Times",
+              "description": "News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times",
+              "published_date": "2025-08-13T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Hindi news, हिंदी न्यूज़ , Hindi Samachar, हिंदी समाचार, Latest ...",
+            "url": "https://www.aajtak.in",
+            "snippet": "साइंस न्यूज़ · philippines earthquake. हिलती इमारतें, गिरते गमले, छिपते लोग... 6 Videos में देखिए फिलीपींस का विनाशकारी भूकंप · atacama desert with flowers due to extreme summer. Atacama ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "aajtak",
+              "suffix": "in",
+              "domain_name": "AajTak",
+              "description": "AajTak: Hindi news (हिंदी समाचार) website, watch live tv coverages, Latest Khabar, Breaking news in Hindi of India, World, Sports, business, film and Entertainment. आज तक पर पढ़ें ताजा समाचार देश और दुनिया से, जाने व्यापार, बॉलीवुड, खेल और राजनीति के ख़बरें",
+              "published_date": "2025-10-12T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Latest News: Top News, Breaking News, LIVE ...",
+            "url": "https://www.business-standard.com/latest-news",
+            "snippet": "Kremlin warns the West over 'dramatic' escalation moment in Ukraine war · ED arrests Reliance Power CFO in ₹68 crore fake bank guarantee case · Trump announces ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "business-standard",
+              "suffix": "com",
+              "domain_name": "www.business-standard.com",
+              "description": "Get all the latest news headlines from India and around the world. Explore more for today’s news coverage with videos & photos on Business Standard.",
+              "published_date": "2025-10-12T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "India Today: Latest News, Breaking News Today ...",
+            "url": "https://www.indiatoday.in",
+            "snippet": "News · NDA finalises Bihar seat-sharing deal, BJP and JDU to contest 101 seats each · IND vs AUS Live: Healy, Gardner dominating India · At least 12 injured ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "indiatoday",
+              "suffix": "in",
+              "domain_name": "India Today",
+              "description": "Check out the latest news from India and around the world. Latest India news on Bollywood, Politics, Business, Cricket, Technology and Travel.",
+              "published_date": "2019-09-12T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "BBC Home - Breaking News, World News, US News, Sports ...",
+            "url": "https://www.bbc.com",
+            "snippet": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.\nDescription: Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "bbc",
+              "suffix": "com",
+              "domain_name": "BBC News",
+              "description": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+              "published_date": "2025-10-12T18:02:28"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Breaking News, World News and Video from Al Jazeera",
+            "url": "https://www.aljazeera.com",
+            "snippet": "Three Qatari officials killed in car crash in Egypt's Sharm el-Sheikh · Displaced Palestinians walk with their belongings as they return to ...\nDescription: News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "aljazeera",
+              "suffix": "com",
+              "domain_name": "Al Jazeera English",
+              "description": "News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+              "published_date": "2025-09-30T08:00:23"
+            },
+            "sitelinks": null
+          }
+        ]
+      },
+      "uuid": "a92f4d0e-6e90-40d8-b6db-1baf2ce34817"
+    },
+    {
+      "step_type": "FINAL",
+      "content": {
+        "answer": "{\"answer\": \"Here are some of the latest major news headlines as of October 12, 2025:\\n\\n- Two men were arrested following the death of Ian Watkins, former singer of Lostprophets, who died in a prison attack while serving a sentence for attempted rape of a baby. Police investigations are ongoing.  \\n- Prime Minister Modi received an invitation to a Gaza peace summit. The Indian Education Ministry is pushing UPI in schools and plans to introduce an AI curriculum starting from Class 3.  \\n- Pakistan Prime Minister vowed a strong response after Afghanistan claimed to have killed 58 Pakistani soldiers. Afghan officials accused Pakistan of bombing Kabul and a market in eastern Afghanistan.  \\n- A mass shooting at a packed bar in South Carolina left 4 people dead and 20 injured. The investigation is ongoing.  \\n- Malayalam superhero film \\\"Lokah\\\" starring Kalyani Priyadarshan crossed \\u20b9300 crore at the box office, becoming the highest-grossing Malayalam movie ever.  \\n- Former New Zealand cricketer Lou Vincent, banned for life due to match-fixing, is now focusing on educating youth about corruption.  \\n- U.S. President Donald Trump softened his stance on China after earlier threats, while negotiations and diplomatic efforts continue.  \\n- Tata Consultancy Services (TCS) is localizing its US workforce amid H-1B visa changes and investing in AI-led talent development.  \\n- Rahul Gandhi criticized the challenges to free and scientific thinking in India and called for an inclusive education system fostering curiosity and critical thought.  \\n- Former NFL quarterback Mark Sanchez is recovering after a violent stabbing incident in Indianapolis.  \\n- Microsoft faced internal protests over its contracts with the Israeli military amid Gaza conflict-related controversies.  \\n- Afghan-Pakistan border clashes have escalated, with accusations and counteraccusations between the two countries disrupting regional stability.  \\n- Canadian Foreign Minister Anita Anand is on a visit to India to strengthen diplomatic and economic ties.  \\n- NBA star Stephen Curry's wife, Ayesha, faced fan backlash for candid comments about marriage and children but was supported by other athletes.  \\n- Former NFL quarterback Cam Newton welcomed his ninth child and spoke about the importance of love and accountability in his family.  \\n- A mass shooting occurred at Willie's Bar and Grill in South Carolina, resulting in several deaths and injuries.  \\n- Bihar's NDA finalized seat-sharing for upcoming assembly elections between BJP and JD(U).  \\n\\nThese headlines cover global politics, regional conflicts, entertainment, sports, and social issues, reflecting the current major news themes.[1][2][3]\", \"web_results\": [{\"name\": \"Latest News Today: Breaking News and Top Headlines from ...\", \"snippet\": \"Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com\", \"timestamp\": \"2019-10-12T00:00:00\", \"url\": \"https://indianexpress.com\", \"meta_data\": {\"client\": \"trending\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"indianexpress\", \"suffix\": \"com\", \"domain_name\": \"The Indian Express\", \"description\": \"Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com\", \"images\": [\"https://indianexpress.com/wp-content/themes/indianexpress/images/IE-OGimage.jpg\"], \"published_date\": \"2019-10-12T00:00:00\", \"authors\": []}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Latest News, Breaking News, Top News Headlines and ...\", \"snippet\": \"Latest News Today: Breaking news on Politics, Business, Sports, Bollywood, Education, Science. Latest News on Politics, India, Current affairs. The Times of India Covers all latest breaking news across India and world\", \"timestamp\": \"2025-10-01T00:00:00\", \"url\": \"https://timesofindia.indiatimes.com/news\", \"meta_data\": {\"client\": \"web\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"timesofindia.indiatimes\", \"suffix\": \"com\", \"domain_name\": \"The Times of India\", \"description\": \"Latest News Today: Breaking news on Politics, Business, Sports, Bollywood, Education, Science. Latest News on Politics, India, Current affairs. The Times of India Covers all latest breaking news across India and world\", \"images\": [\"https://static.toiimg.com/photo/24487812.cms\"], \"published_date\": \"2025-10-01T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Latest News: Today's News Headlines, Breaking News India ...\", \"snippet\": \"News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times\", \"timestamp\": \"2025-08-13T00:00:00\", \"url\": \"https://www.hindustantimes.com\", \"meta_data\": {\"client\": \"trending\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"hindustantimes\", \"suffix\": \"com\", \"domain_name\": \"Hindustan Times\", \"description\": \"News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times\", \"images\": [\"https://www.hindustantimes.com/res/images/logo.png\"], \"published_date\": \"2025-08-13T00:00:00\", \"authors\": []}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Hindi news, \\u0939\\u093f\\u0902\\u0926\\u0940 \\u0928\\u094d\\u092f\\u0942\\u091c\\u093c , Hindi Samachar, \\u0939\\u093f\\u0902\\u0926\\u0940 \\u0938\\u092e\\u093e\\u091a\\u093e\\u0930, Latest ...\", \"snippet\": \"AajTak: Hindi news (\\u0939\\u093f\\u0902\\u0926\\u0940 \\u0938\\u092e\\u093e\\u091a\\u093e\\u0930) website, watch live tv coverages, Latest Khabar, Breaking news in Hindi of India, World, Sports, business, film and Entertainment. \\u0906\\u091c \\u0924\\u0915 \\u092a\\u0930 \\u092a\\u0922\\u093c\\u0947\\u0902 \\u0924\\u093e\\u091c\\u093e \\u0938\\u092e\\u093e\\u091a\\u093e\\u0930 \\u0926\\u0947\\u0936 \\u0914\\u0930 \\u0926\\u0941\\u0928\\u093f\\u092f\\u093e \\u0938\\u0947, \\u091c\\u093e\\u0928\\u0947 \\u0935\\u094d\\u092f\\u093e\\u092a\\u093e\\u0930, \\u092c\\u0949\\u0932\\u0940\\u0935\\u0941\\u0921, \\u0916\\u0947\\u0932 \\u0914\\u0930 \\u0930\\u093e\\u091c\\u0928\\u0940\\u0924\\u093f \\u0915\\u0947 \\u0916\\u093c\\u092c\\u0930\\u0947\\u0902\", \"timestamp\": \"2025-10-12T00:00:00\", \"url\": \"https://www.aajtak.in\", \"meta_data\": {\"client\": \"web\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"aajtak\", \"suffix\": \"in\", \"domain_name\": \"AajTak\", \"description\": \"AajTak: Hindi news (\\u0939\\u093f\\u0902\\u0926\\u0940 \\u0938\\u092e\\u093e\\u091a\\u093e\\u0930) website, watch live tv coverages, Latest Khabar, Breaking news in Hindi of India, World, Sports, business, film and Entertainment. \\u0906\\u091c \\u0924\\u0915 \\u092a\\u0930 \\u092a\\u0922\\u093c\\u0947\\u0902 \\u0924\\u093e\\u091c\\u093e \\u0938\\u092e\\u093e\\u091a\\u093e\\u0930 \\u0926\\u0947\\u0936 \\u0914\\u0930 \\u0926\\u0941\\u0928\\u093f\\u092f\\u093e \\u0938\\u0947, \\u091c\\u093e\\u0928\\u0947 \\u0935\\u094d\\u092f\\u093e\\u092a\\u093e\\u0930, \\u092c\\u0949\\u0932\\u0940\\u0935\\u0941\\u0921, \\u0916\\u0947\\u0932 \\u0914\\u0930 \\u0930\\u093e\\u091c\\u0928\\u0940\\u0924\\u093f \\u0915\\u0947 \\u0916\\u093c\\u092c\\u0930\\u0947\\u0902\", \"images\": [\"https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/home-share-635X396.png\"], \"published_date\": \"2025-10-12T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Latest News: Top News, Breaking News, LIVE ...\", \"snippet\": \"Get all the latest news headlines from India and around the world. Explore more for today\\u2019s news coverage with videos & photos on Business Standard.\", \"timestamp\": \"2025-10-12T00:00:00\", \"url\": \"https://www.business-standard.com/latest-news\", \"meta_data\": {\"client\": \"web\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"business-standard\", \"suffix\": \"com\", \"domain_name\": \"www.business-standard.com\", \"description\": \"Get all the latest news headlines from India and around the world. Explore more for today\\u2019s news coverage with videos & photos on Business Standard.\", \"images\": [\"https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg\"], \"published_date\": \"2025-10-12T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"India Today: Latest News, Breaking News Today ...\", \"snippet\": \"Check out the latest news from India and around the world. Latest India news on Bollywood, Politics, Business, Cricket, Technology and Travel.\", \"timestamp\": \"2019-09-12T00:00:00\", \"url\": \"https://www.indiatoday.in\", \"meta_data\": {\"client\": \"web\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"indiatoday\", \"suffix\": \"in\", \"domain_name\": \"India Today\", \"description\": \"Check out the latest news from India and around the world. Latest India news on Bollywood, Politics, Business, Cricket, Technology and Travel.\", \"images\": [\"https://akm-img-a-in.tosshub.com/indiatoday/images/misc/icon-512x512.png\"], \"published_date\": \"2019-09-12T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"BBC Home - Breaking News, World News, US News, Sports ...\", \"snippet\": \"Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.\", \"timestamp\": \"2025-10-12T18:02:28\", \"url\": \"https://www.bbc.com\", \"meta_data\": {\"client\": \"trending\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"bbc\", \"suffix\": \"com\", \"domain_name\": \"BBC News\", \"description\": \"Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.\", \"images\": [], \"published_date\": \"2025-10-12T18:02:28\", \"authors\": []}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Breaking News, World News and Video from Al Jazeera\", \"snippet\": \"News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.\", \"timestamp\": \"2025-09-30T08:00:23\", \"url\": \"https://www.aljazeera.com\", \"meta_data\": {\"client\": \"trending\", \"date\": \"2025-10-12\", \"citation_domain_name\": \"aljazeera\", \"suffix\": \"com\", \"domain_name\": \"Al Jazeera English\", \"description\": \"News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.\", \"images\": [], \"published_date\": \"2025-09-30T08:00:23\", \"authors\": []}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}], \"chunks\": [\"Here are some\", \" of the latest\", \" major news headlines\", \" as of October\", \" 12, 2025:\\n\\n-\", \" Two men were\", \" arrested following\", \" the death of\", \" Ian Watkins,\", \" former singer\", \" of Lostprophets\", \", who died in\", \" a prison attack\", \" while serving\", \" a sentence for\", \" attempted rape\", \" of a baby. Police\", \" investigations\", \" are ongoing.\", \"  \\n- Prime Minister\", \" Modi received\", \" an invitation\", \" to a Gaza peace\", \" summit. The Indian\", \" Education Ministry\", \" is pushing U\", \"PI in schools\", \" and plans to\", \" introduce an\", \" AI curriculum\", \" starting from\", \" Class 3.  \\n-\", \" Pakistan Prime\", \" Minister vowed\", \" a strong response\", \" after Afghanistan\", \" claimed to have\", \" killed 58 Pakistani\", \" soldiers. Afghan\", \" officials accused\", \" Pakistan of bombing\", \" Kabul and a market\", \" in eastern Afghanistan\", \".  \\n- A mass shooting\", \" at a packed bar\", \" in South Carolina\", \" left 4 people\", \" dead and 20 injured\", \". The investigation\", \" is ongoing.\", \"  \\n- Malayalam superhero\", \" film \\\"Lokah\\\"\", \" starring Kaly\", \"ani Priyadarshan\", \" crossed \\u20b9300\", \" crore at the\", \" box office, becoming\", \" the highest-g\", \"rossing Malayalam\", \" movie ever.\", \"  \\n- Former New Zealand\", \" cricketer Lou\", \" Vincent, banned\", \" for life due\", \" to match-fixing\", \", is now focusing\", \" on educating\", \" youth about corruption\", \".  \\n- U.S. President\", \" Donald Trump\", \" softened his\", \" stance on China\", \" after earlier\", \" threats, while\", \" negotiations\", \" and diplomatic\", \" efforts continue\", \".  \\n- Tata Consultancy\", \" Services (TCS\", \") is localizing\", \" its US workforce\", \" amid H-1B visa\", \" changes and investing\", \" in AI-led talent\", \" development.\", \"  \\n- Rahul Gandhi\", \" criticized the\", \" challenges to\", \" free and scientific\", \" thinking in India\", \" and called for\", \" an inclusive\", \" education system\", \" fostering curiosity\", \" and critical\", \" thought.  \\n-\", \" Former NFL quarterback\", \" Mark Sanchez\", \" is recovering\", \" after a violent\", \" stabbing incident\", \" in Indianapolis\", \".  \\n- Microsoft\", \" faced internal\", \" protests over\", \" its contracts\", \" with the Israeli\", \" military amid\", \" Gaza conflict\", \"-related controversies\", \".  \\n- Afghan-P\", \"akistan border\", \" clashes have\", \" escalated, with\", \" accusations and\", \" counteraccus\", \"ations between\", \" the two countries\", \" disrupting regional\", \" stability.\", \"  \\n- Canadian Foreign\", \" Minister Anita\", \" Anand is on a\", \" visit to India\", \" to strengthen\", \" diplomatic and\", \" economic ties\", \".  \\n- NBA star\", \" Stephen Curry\", \"'s wife, Ayesha\", \", faced fan backlash\", \" for candid comments\", \" about marriage\", \" and children\", \" but was supported\", \" by other athletes\", \".  \\n- Former NFL\", \" quarterback Cam\", \" Newton welcomed\", \" his ninth child\", \" and spoke about\", \" the importance\", \" of love and accountability\", \" in his family\", \".  \\n- A mass shooting\", \" occurred at Will\", \"ie's Bar and Grill\", \" in South Carolina\", \", resulting in\", \" several deaths\", \" and injuries\", \".  \\n- Bihar's\", \" NDA finalized\", \" seat-sharing\", \" for upcoming\", \" assembly elections\", \" between BJP and\", \" JD(U).  \\n\\nThese\", \" headlines cover\", \" global politics\", \", regional conflicts\", \", entertainment\", \", sports, and\", \" social issues\", \", reflecting the\", \" current major\", \" news themes.\", \"[1][2][3]\"], \"extra_web_results\": [], \"structured_answer\": []}"
+      },
+      "uuid": ""
+    }
+  ],
+  "thread_title": "latest news",
+  "related_queries": [
+    "Show top world headlines now",
+    "Latest political news in my country",
+    "Breaking tech and AI stories today",
+    "Major sports results and highlights today",
+    "Local news near me"
+  ],
+  "display_model": "turbo",
+  "user_selected_model": "turbo",
+  "personalized": true,
+  "mode": "COPILOT",
+  "query_str": "latest news",
+  "search_focus": "internet",
+  "source": "default",
+  "attachments": [],
+  "updated_datetime": "2025-10-12T20:32:16.935523",
+  "read_write_token": "19554cac-8934-4d57-af04-ab0115f83f1b",
+  "is_pro_reasoning_mode": false,
+  "step_type": "FINAL",
+  "bookmark_state": "NOT_BOOKMARKED",
+  "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+  "thread_access": 2,
+  "thread_url_slug": "latest-news-DG0._cSzS2.6s4vNkePa9Q",
+  "expect_search_results": "true",
+  "plan": {
+    "goals": [
+      {
+        "id": "0",
+        "description": "Searching the web",
+        "final": true,
+        "todo_task_status": "INCOMPLETE"
+      }
+    ],
+    "final": true
+  },
+  "privacy_state": "NONE",
+  "gpt4": false,
+  "sources": {
+    "sources": [
+      "web"
+    ]
+  },
+  "text_completed": true,
+  "expect_sponsored_results": false,
+  "entry_updated_datetime": "2025-10-12T20:32:28.228887+00:00",
+  "blocks": [
+    {
+      "intended_usage": "plan",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [
+          {
+            "id": "0",
+            "description": "Searching the web",
+            "final": true,
+            "todo_task_status": "INCOMPLETE"
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "pro_search_steps",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [],
+        "steps": [
+          {
+            "uuid": "",
+            "step_type": "INITIAL_QUERY",
+            "initial_query_content": {
+              "query": "latest news"
+            }
+          },
+          {
+            "uuid": "755259b6-9861-4eda-8717-b1e0134349c4",
+            "step_type": "SEARCH_WEB",
+            "search_web_content": {
+              "goal_id": "0",
+              "queries": [
+                {
+                  "engine": "web",
+                  "query": "latest news",
+                  "limit": 8
+                }
+              ]
+            }
+          },
+          {
+            "uuid": "a92f4d0e-6e90-40d8-b6db-1baf2ce34817",
+            "step_type": "SEARCH_RESULTS",
+            "web_results_content": {
+              "goal_id": "0",
+              "web_results": [
+                {
+                  "name": "Latest News Today: Breaking News and Top Headlines from ...",
+                  "url": "https://indianexpress.com",
+                  "snippet": "India sending MoS Kirti Vardhan Singh to Egypt for Gaza peace summit · How NDA sealed Bihar seat-sharing pact · After MBBS student raped, CM Mamata says 'female ...\nDescription: Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "trending",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "indianexpress",
+                    "suffix": "com",
+                    "domain_name": "The Indian Express",
+                    "description": "Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com",
+                    "published_date": "2019-10-12T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Latest News, Breaking News, Top News Headlines and ...",
+                  "url": "https://timesofindia.indiatimes.com/news",
+                  "snippet": "Latest News · Cam Newton's kids: meet his 9 children and their three mothers · Report: Westbrook gets big China offer amid LeBron scapegoat buzz · Haryana ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "timesofindia.indiatimes",
+                    "suffix": "com",
+                    "domain_name": "The Times of India",
+                    "description": "Latest News Today: Breaking news on Politics, Business, Sports, Bollywood, Education, Science. Latest News on Politics, India, Current affairs. The Times of India Covers all latest breaking news across India and world",
+                    "published_date": "2025-10-01T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Latest News: Today's News Headlines, Breaking News India ...",
+                  "url": "https://www.hindustantimes.com",
+                  "snippet": "Top News · 4 killed, 20 others injured in shooting at South Carolina bar · 'Her life in danger': Bengal rape survivor's father wants her shifted to Odisha.\nDescription: News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "trending",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "hindustantimes",
+                    "suffix": "com",
+                    "domain_name": "Hindustan Times",
+                    "description": "News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times",
+                    "published_date": "2025-08-13T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Hindi news, हिंदी न्यूज़ , Hindi Samachar, हिंदी समाचार, Latest ...",
+                  "url": "https://www.aajtak.in",
+                  "snippet": "साइंस न्यूज़ · philippines earthquake. हिलती इमारतें, गिरते गमले, छिपते लोग... 6 Videos में देखिए फिलीपींस का विनाशकारी भूकंप · atacama desert with flowers due to extreme summer. Atacama ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "aajtak",
+                    "suffix": "in",
+                    "domain_name": "AajTak",
+                    "description": "AajTak: Hindi news (हिंदी समाचार) website, watch live tv coverages, Latest Khabar, Breaking news in Hindi of India, World, Sports, business, film and Entertainment. आज तक पर पढ़ें ताजा समाचार देश और दुनिया से, जाने व्यापार, बॉलीवुड, खेल और राजनीति के ख़बरें",
+                    "published_date": "2025-10-12T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Latest News: Top News, Breaking News, LIVE ...",
+                  "url": "https://www.business-standard.com/latest-news",
+                  "snippet": "Kremlin warns the West over 'dramatic' escalation moment in Ukraine war · ED arrests Reliance Power CFO in ₹68 crore fake bank guarantee case · Trump announces ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "business-standard",
+                    "suffix": "com",
+                    "domain_name": "www.business-standard.com",
+                    "description": "Get all the latest news headlines from India and around the world. Explore more for today’s news coverage with videos & photos on Business Standard.",
+                    "published_date": "2025-10-12T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "India Today: Latest News, Breaking News Today ...",
+                  "url": "https://www.indiatoday.in",
+                  "snippet": "News · NDA finalises Bihar seat-sharing deal, BJP and JDU to contest 101 seats each · IND vs AUS Live: Healy, Gardner dominating India · At least 12 injured ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "indiatoday",
+                    "suffix": "in",
+                    "domain_name": "India Today",
+                    "description": "Check out the latest news from India and around the world. Latest India news on Bollywood, Politics, Business, Cricket, Technology and Travel.",
+                    "published_date": "2019-09-12T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "BBC Home - Breaking News, World News, US News, Sports ...",
+                  "url": "https://www.bbc.com",
+                  "snippet": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.\nDescription: Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "trending",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "bbc",
+                    "suffix": "com",
+                    "domain_name": "BBC News",
+                    "description": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+                    "published_date": "2025-10-12T18:02:28"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Breaking News, World News and Video from Al Jazeera",
+                  "url": "https://www.aljazeera.com",
+                  "snippet": "Three Qatari officials killed in car crash in Egypt's Sharm el-Sheikh · Displaced Palestinians walk with their belongings as they return to ...\nDescription: News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "trending",
+                    "date": "2025-10-12",
+                    "citation_domain_name": "aljazeera",
+                    "suffix": "com",
+                    "domain_name": "Al Jazeera English",
+                    "description": "News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+                    "published_date": "2025-09-30T08:00:23"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                }
+              ]
+            }
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "ask_text",
+      "markdown_block": {
+        "progress": "DONE",
+        "chunks": [
+          "Here are some",
+          " of the latest",
+          " major news headlines",
+          " as of October",
+          " 12, 2025:\n\n-",
+          " Two men were",
+          " arrested following",
+          " the death of",
+          " Ian Watkins,",
+          " former singer",
+          " of Lostprophets",
+          ", who died in",
+          " a prison attack",
+          " while serving",
+          " a sentence for",
+          " attempted rape",
+          " of a baby. Police",
+          " investigations",
+          " are ongoing.",
+          "  \n- Prime Minister",
+          " Modi received",
+          " an invitation",
+          " to a Gaza peace",
+          " summit. The Indian",
+          " Education Ministry",
+          " is pushing U",
+          "PI in schools",
+          " and plans to",
+          " introduce an",
+          " AI curriculum",
+          " starting from",
+          " Class 3.  \n-",
+          " Pakistan Prime",
+          " Minister vowed",
+          " a strong response",
+          " after Afghanistan",
+          " claimed to have",
+          " killed 58 Pakistani",
+          " soldiers. Afghan",
+          " officials accused",
+          " Pakistan of bombing",
+          " Kabul and a market",
+          " in eastern Afghanistan",
+          ".  \n- A mass shooting",
+          " at a packed bar",
+          " in South Carolina",
+          " left 4 people",
+          " dead and 20 injured",
+          ". The investigation",
+          " is ongoing.",
+          "  \n- Malayalam superhero",
+          " film \"Lokah\"",
+          " starring Kaly",
+          "ani Priyadarshan",
+          " crossed ₹300",
+          " crore at the",
+          " box office, becoming",
+          " the highest-g",
+          "rossing Malayalam",
+          " movie ever.",
+          "  \n- Former New Zealand",
+          " cricketer Lou",
+          " Vincent, banned",
+          " for life due",
+          " to match-fixing",
+          ", is now focusing",
+          " on educating",
+          " youth about corruption",
+          ".  \n- U.S. President",
+          " Donald Trump",
+          " softened his",
+          " stance on China",
+          " after earlier",
+          " threats, while",
+          " negotiations",
+          " and diplomatic",
+          " efforts continue",
+          ".  \n- Tata Consultancy",
+          " Services (TCS",
+          ") is localizing",
+          " its US workforce",
+          " amid H-1B visa",
+          " changes and investing",
+          " in AI-led talent",
+          " development.",
+          "  \n- Rahul Gandhi",
+          " criticized the",
+          " challenges to",
+          " free and scientific",
+          " thinking in India",
+          " and called for",
+          " an inclusive",
+          " education system",
+          " fostering curiosity",
+          " and critical",
+          " thought.  \n-",
+          " Former NFL quarterback",
+          " Mark Sanchez",
+          " is recovering",
+          " after a violent",
+          " stabbing incident",
+          " in Indianapolis",
+          ".  \n- Microsoft",
+          " faced internal",
+          " protests over",
+          " its contracts",
+          " with the Israeli",
+          " military amid",
+          " Gaza conflict",
+          "-related controversies",
+          ".  \n- Afghan-P",
+          "akistan border",
+          " clashes have",
+          " escalated, with",
+          " accusations and",
+          " counteraccus",
+          "ations between",
+          " the two countries",
+          " disrupting regional",
+          " stability.",
+          "  \n- Canadian Foreign",
+          " Minister Anita",
+          " Anand is on a",
+          " visit to India",
+          " to strengthen",
+          " diplomatic and",
+          " economic ties",
+          ".  \n- NBA star",
+          " Stephen Curry",
+          "'s wife, Ayesha",
+          ", faced fan backlash",
+          " for candid comments",
+          " about marriage",
+          " and children",
+          " but was supported",
+          " by other athletes",
+          ".  \n- Former NFL",
+          " quarterback Cam",
+          " Newton welcomed",
+          " his ninth child",
+          " and spoke about",
+          " the importance",
+          " of love and accountability",
+          " in his family",
+          ".  \n- A mass shooting",
+          " occurred at Will",
+          "ie's Bar and Grill",
+          " in South Carolina",
+          ", resulting in",
+          " several deaths",
+          " and injuries",
+          ".  \n- Bihar's",
+          " NDA finalized",
+          " seat-sharing",
+          " for upcoming",
+          " assembly elections",
+          " between BJP and",
+          " JD(U).  \n\nThese",
+          " headlines cover",
+          " global politics",
+          ", regional conflicts",
+          ", entertainment",
+          ", sports, and",
+          " social issues",
+          ", reflecting the",
+          " current major",
+          " news themes.",
+          "[1][2][3]"
+        ],
+        "chunk_starting_offset": 0,
+        "answer": "Here are some of the latest major news headlines as of October 12, 2025:\n\n- Two men were arrested following the death of Ian Watkins, former singer of Lostprophets, who died in a prison attack while serving a sentence for attempted rape of a baby. Police investigations are ongoing.  \n- Prime Minister Modi received an invitation to a Gaza peace summit. The Indian Education Ministry is pushing UPI in schools and plans to introduce an AI curriculum starting from Class 3.  \n- Pakistan Prime Minister vowed a strong response after Afghanistan claimed to have killed 58 Pakistani soldiers. Afghan officials accused Pakistan of bombing Kabul and a market in eastern Afghanistan.  \n- A mass shooting at a packed bar in South Carolina left 4 people dead and 20 injured. The investigation is ongoing.  \n- Malayalam superhero film \"Lokah\" starring Kalyani Priyadarshan crossed ₹300 crore at the box office, becoming the highest-grossing Malayalam movie ever.  \n- Former New Zealand cricketer Lou Vincent, banned for life due to match-fixing, is now focusing on educating youth about corruption.  \n- U.S. President Donald Trump softened his stance on China after earlier threats, while negotiations and diplomatic efforts continue.  \n- Tata Consultancy Services (TCS) is localizing its US workforce amid H-1B visa changes and investing in AI-led talent development.  \n- Rahul Gandhi criticized the challenges to free and scientific thinking in India and called for an inclusive education system fostering curiosity and critical thought.  \n- Former NFL quarterback Mark Sanchez is recovering after a violent stabbing incident in Indianapolis.  \n- Microsoft faced internal protests over its contracts with the Israeli military amid Gaza conflict-related controversies.  \n- Afghan-Pakistan border clashes have escalated, with accusations and counteraccusations between the two countries disrupting regional stability.  \n- Canadian Foreign Minister Anita Anand is on a visit to India to strengthen diplomatic and economic ties.  \n- NBA star Stephen Curry's wife, Ayesha, faced fan backlash for candid comments about marriage and children but was supported by other athletes.  \n- Former NFL quarterback Cam Newton welcomed his ninth child and spoke about the importance of love and accountability in his family.  \n- A mass shooting occurred at Willie's Bar and Grill in South Carolina, resulting in several deaths and injuries.  \n- Bihar's NDA finalized seat-sharing for upcoming assembly elections between BJP and JD(U).  \n\nThese headlines cover global politics, regional conflicts, entertainment, sports, and social issues, reflecting the current major news themes.[1][2][3]"
+      }
+    },
+    {
+      "intended_usage": "web_results",
+      "web_result_block": {
+        "progress": "DONE",
+        "web_results": [
+          {
+            "name": "Latest News Today: Breaking News and Top Headlines from ...",
+            "snippet": "Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com",
+            "timestamp": "2019-10-12T00:00:00",
+            "url": "https://indianexpress.com",
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "indianexpress",
+              "suffix": "com",
+              "domain_name": "The Indian Express",
+              "description": "Today's news: Get latest and Breaking News on Politics, Business, Lifestyle, Entertainment and Sports along with News updates from around the world. Also, find English News, live coverage on Bollywood, Cricket, Technology, Celebrities and more on indianexpress.com",
+              "images": [
+                "https://indianexpress.com/wp-content/themes/indianexpress/images/IE-OGimage.jpg"
+              ],
+              "published_date": "2019-10-12T00:00:00",
+              "authors": []
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Latest News, Breaking News, Top News Headlines and ...",
+            "snippet": "Latest News Today: Breaking news on Politics, Business, Sports, Bollywood, Education, Science. Latest News on Politics, India, Current affairs. The Times of India Covers all latest breaking news across India and world",
+            "timestamp": "2025-10-01T00:00:00",
+            "url": "https://timesofindia.indiatimes.com/news",
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "timesofindia.indiatimes",
+              "suffix": "com",
+              "domain_name": "The Times of India",
+              "description": "Latest News Today: Breaking news on Politics, Business, Sports, Bollywood, Education, Science. Latest News on Politics, India, Current affairs. The Times of India Covers all latest breaking news across India and world",
+              "images": [
+                "https://static.toiimg.com/photo/24487812.cms"
+              ],
+              "published_date": "2025-10-01T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Latest News: Today's News Headlines, Breaking News India ...",
+            "snippet": "News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times",
+            "timestamp": "2025-08-13T00:00:00",
+            "url": "https://www.hindustantimes.com",
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "hindustantimes",
+              "suffix": "com",
+              "domain_name": "Hindustan Times",
+              "description": "News Headlines Today: Hindustan Times offers the most reliable news in politics, sports, entertainment and business, featuring National and International news Breaking News on Hindustan Times",
+              "images": [
+                "https://www.hindustantimes.com/res/images/logo.png"
+              ],
+              "published_date": "2025-08-13T00:00:00",
+              "authors": []
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Hindi news, हिंदी न्यूज़ , Hindi Samachar, हिंदी समाचार, Latest ...",
+            "snippet": "AajTak: Hindi news (हिंदी समाचार) website, watch live tv coverages, Latest Khabar, Breaking news in Hindi of India, World, Sports, business, film and Entertainment. आज तक पर पढ़ें ताजा समाचार देश और दुनिया से, जाने व्यापार, बॉलीवुड, खेल और राजनीति के ख़बरें",
+            "timestamp": "2025-10-12T00:00:00",
+            "url": "https://www.aajtak.in",
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "aajtak",
+              "suffix": "in",
+              "domain_name": "AajTak",
+              "description": "AajTak: Hindi news (हिंदी समाचार) website, watch live tv coverages, Latest Khabar, Breaking news in Hindi of India, World, Sports, business, film and Entertainment. आज तक पर पढ़ें ताजा समाचार देश और दुनिया से, जाने व्यापार, बॉलीवुड, खेल और राजनीति के ख़बरें",
+              "images": [
+                "https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/home-share-635X396.png"
+              ],
+              "published_date": "2025-10-12T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Latest News: Top News, Breaking News, LIVE ...",
+            "snippet": "Get all the latest news headlines from India and around the world. Explore more for today’s news coverage with videos & photos on Business Standard.",
+            "timestamp": "2025-10-12T00:00:00",
+            "url": "https://www.business-standard.com/latest-news",
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "business-standard",
+              "suffix": "com",
+              "domain_name": "www.business-standard.com",
+              "description": "Get all the latest news headlines from India and around the world. Explore more for today’s news coverage with videos & photos on Business Standard.",
+              "images": [
+                "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg"
+              ],
+              "published_date": "2025-10-12T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "India Today: Latest News, Breaking News Today ...",
+            "snippet": "Check out the latest news from India and around the world. Latest India news on Bollywood, Politics, Business, Cricket, Technology and Travel.",
+            "timestamp": "2019-09-12T00:00:00",
+            "url": "https://www.indiatoday.in",
+            "meta_data": {
+              "client": "web",
+              "date": "2025-10-12",
+              "citation_domain_name": "indiatoday",
+              "suffix": "in",
+              "domain_name": "India Today",
+              "description": "Check out the latest news from India and around the world. Latest India news on Bollywood, Politics, Business, Cricket, Technology and Travel.",
+              "images": [
+                "https://akm-img-a-in.tosshub.com/indiatoday/images/misc/icon-512x512.png"
+              ],
+              "published_date": "2019-09-12T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "BBC Home - Breaking News, World News, US News, Sports ...",
+            "snippet": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+            "timestamp": "2025-10-12T18:02:28",
+            "url": "https://www.bbc.com",
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "bbc",
+              "suffix": "com",
+              "domain_name": "BBC News",
+              "description": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+              "images": [],
+              "published_date": "2025-10-12T18:02:28",
+              "authors": []
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Breaking News, World News and Video from Al Jazeera",
+            "snippet": "News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+            "timestamp": "2025-09-30T08:00:23",
+            "url": "https://www.aljazeera.com",
+            "meta_data": {
+              "client": "trending",
+              "date": "2025-10-12",
+              "citation_domain_name": "aljazeera",
+              "suffix": "com",
+              "domain_name": "Al Jazeera English",
+              "description": "News, analysis from the Middle East & worldwide, multimedia & interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+              "images": [],
+              "published_date": "2025-09-30T08:00:23",
+              "authors": []
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          }
+        ]
+      }
+    }
+  ],
+  "message_mode": "FULL",
+  "related_query_items": [
+    {
+      "text": "Show top world headlines now",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Latest political news in my country",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Breaking tech and AI stories today",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Major sports results and highlights today",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Local news near me",
+      "type": "DEFAULT"
+    }
+  ],
+  "access_level": "PUBLIC_READ",
+  "answer_modes": [
+    {
+      "answer_mode_type": "IMAGE",
+      "has_preview": false
+    },
+    {
+      "answer_mode_type": "SOURCES"
+    }
+  ],
+  "reconnectable": false,
+  "image_completions": [],
+  "cursor": "068ec105-c5fa-7960-8000-1788915dc056",
+  "classifier_results": {
+    "personal_search": false,
+    "skip_search": false,
+    "widget_type": "GENERAL",
+    "hide_nav": false,
+    "hide_sources": false,
+    "image_generation": false,
+    "time_widget": false,
+    "mhe_predictions": {
+      "skip_search": false,
+      "image_generation_intent": false,
+      "time_widget": false,
+      "sports_intent": false,
+      "places_search_intent": false,
+      "shopping_intent": false,
+      "movie_lists_intent": false,
+      "image_preview": false,
+      "video_preview": false,
+      "nav_intent": false,
+      "study_intent": false,
+      "personal_search": false,
+      "weather_widget": false,
+      "finance_widget_gating": false,
+      "calculator_widget": false
+    }
+  },
+  "search_implementation_mode": "fast",
+  "telemetry_data": {
+    "has_displayed_search_results": true,
+    "has_first_output_token": true,
+    "has_first_token": true,
+    "country": "IN",
+    "is_followup": false,
+    "source": "default",
+    "engine_mode": "auto",
+    "search_implementation_mode": "fast",
+    "has_widget_data": false,
+    "search_duration_seconds": 0.8209431171417236,
+    "has_useful_renderable_content": true
+  },
+  "has_expired_attachments": false,
+  "status": "COMPLETED",
+  "final": true,
+  "_extras": {
+    "next": null,
+    "country": "IN",
+    "subdomain": null,
+    "pro_search_mode": "auto",
+    "core_elapsed": 11.48396222712472
+  },
+  "final_sse_message": true
+}

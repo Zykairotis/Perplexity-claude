@@ -1,0 +1,55 @@
+services:
+  perplexity-mcp:
+    build: .
+    command: python -m src.perplexity_mcp_server.server
+    environment:
+      - PERPLEXITY_MCP_LOG_LEVEL=INFO
+      - PERPLEXITY_MCP_PERPLEXITY_TIMEOUT=120
+      - PERPLEXITY_MCP_DEFAULT_MODE=pro
+      - PERPLEXITY_MCP_DEFAULT_SOURCES=web
+      - PERPLEXITY_MCP_REQUIRED_MODEL=true
+      - PERPLEXITY_MCP_REQUIRED_PROFILE=true
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+      - ./cookies.json:/app/cookies.json
+    stdin_open: true
+    tty: true
+
+  perplexity-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python src/server.py
+    ports:
+      - "9522:9522"
+    environment:
+      - WEBHOOK_DEFAULT_TIMEOUT=30
+      - WEBHOOK_MAX_RETRIES=3
+      - WEBHOOK_RETRY_DELAY=1.0
+      - PERPLEXITY_TIMEOUT=120
+      - DEFAULT_PERPLEXITY_MODE=auto
+      - DEFAULT_PERPLEXITY_SOURCES=web
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+
+  litellm-proxy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python src/s2.py
+    ports:
+      - "4000:4000"
+    environment:
+      - WEBHOOK_DEFAULT_TIMEOUT=30
+      - WEBHOOK_MAX_RETRIES=3
+      - WEBHOOK_RETRY_DELAY=1.0
+      - PERPLEXITY_TIMEOUT=120
+      - DEFAULT_PERPLEXITY_MODE=auto
+      - DEFAULT_PERPLEXITY_SOURCES=web
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - perplexity-server

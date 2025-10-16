@@ -1,0 +1,5 @@
+{
+  "pplx.visitor-id": "your-visitor-id-here",
+  "pplx.session-id": "your-session-id-here",
+  "__Secure-next-auth.session-token": "your-session-token-here"
+}

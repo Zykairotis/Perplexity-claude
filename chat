@@ -1,0 +1,167 @@
+#!/bin/bash
+
+# Perplexity CLI Chat Launcher
+# Simple launcher for the Perplexity CLI chat tool
+
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CLI_SCRIPT="$SCRIPT_DIR/chat_cli.py"
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+CYAN='\033[0;36m'
+BOLD='\033[1m'
+NC='\033[0m' # No Color
+
+# Function to print colored output
+print_info() {
+    echo -e "${BLUE}ℹ️  $1${NC}"
+}
+
+print_success() {
+    echo -e "${GREEN}✅ $1${NC}"
+}
+
+print_warning() {
+    echo -e "${YELLOW}⚠️  $1${NC}"
+}
+
+print_error() {
+    echo -e "${RED}❌ $1${NC}"
+}
+
+print_banner() {
+    echo -e "${CYAN}${BOLD}"
+    echo "╔═══════════════════════════════════════════════════════╗"
+    echo "║              🔍 Perplexity CLI Chat                   ║"
+    echo "║            Simple AI Search Interface                 ║"
+    echo "╚═══════════════════════════════════════════════════════╝"
+    echo -e "${NC}"
+}
+
+# Function to show usage
+show_usage() {
+    echo -e "${BOLD}Usage:${NC}"
+    echo "  $0 [OPTIONS] [MESSAGE]"
+    echo ""
+    echo -e "${BOLD}Options:${NC}"
+    echo "  --mode <mode>        Search mode (auto, pro, reasoning, deep research, deep lab)"
+    echo "  --model <model>      Specific model to use"
+    echo "  --sources <list>     Comma-separated sources (web,scholar,social,edgar)"
+    echo "  --base-url <url>     Server URL (default: http://localhost:4000)"
+    echo "  --stream             Enable streaming responses"
+    echo "  --help               Show this help"
+    echo ""
+    echo -e "${BOLD}Examples:${NC}"
+    echo "  $0                                    # Interactive chat"
+    echo "  $0 \"What is quantum computing?\"       # Single message"
+    echo "  $0 --mode pro --model gpt-4o \"AI news\" # Pro mode with GPT-4o"
+    echo "  $0 --sources web,scholar \"Research AI\" # Multi-source search"
+}
+
+# Parse arguments to check for help
+for arg in "$@"; do
+    if [[ "$arg" == "--help" || "$arg" == "-h" ]]; then
+        print_banner
+        show_usage
+        exit 0
+    fi
+done
+
+# Display banner
+print_banner
+
+# Check if Python is available
+if ! command -v python3 &> /dev/null; then
+    print_error "Python 3 is required but not installed"
+    exit 1
+fi
+
+# Check if the CLI script exists
+if [ ! -f "$CLI_SCRIPT" ]; then
+    print_error "Chat CLI script not found at: $CLI_SCRIPT"
+    exit 1
+fi
+
+# Check for virtual environment and activate it
+if [ -d "$SCRIPT_DIR/.venv" ] && [ -f "$SCRIPT_DIR/.venv/bin/activate" ]; then
+    print_info "Activating virtual environment..."
+    source "$SCRIPT_DIR/.venv/bin/activate"
+    print_success "Virtual environment activated"
+elif [ -d "$SCRIPT_DIR/venv" ] && [ -f "$SCRIPT_DIR/venv/bin/activate" ]; then
+    print_info "Activating virtual environment..."
+    source "$SCRIPT_DIR/venv/bin/activate"
+    print_success "Virtual environment activated"
+fi
+
+# Check for required dependencies
+print_info "Checking dependencies..."
+MISSING_DEPS=()
+
+python3 -c "import rich" 2>/dev/null || MISSING_DEPS+=("rich")
+python3 -c "import httpx" 2>/dev/null || MISSING_DEPS+=("httpx")
+python3 -c "import prompt_toolkit" 2>/dev/null || MISSING_DEPS+=("prompt_toolkit")
+
+if [ ${#MISSING_DEPS[@]} -ne 0 ]; then
+    print_warning "Missing dependencies: ${MISSING_DEPS[*]}"
+    print_info "Installing missing dependencies..."
+
+    if command -v uv &> /dev/null; then
+        uv pip install "${MISSING_DEPS[@]}"
+    elif command -v pip3 &> /dev/null; then
+        pip3 install "${MISSING_DEPS[@]}"
+    elif command -v pip &> /dev/null; then
+        pip install "${MISSING_DEPS[@]}"
+    else
+        print_error "No package installer found. Please install manually:"
+        echo "  pip install ${MISSING_DEPS[*]}"
+        exit 1
+    fi
+fi
+
+print_success "Dependencies ready"
+
+# Check if Perplexity server is running
+DEFAULT_SERVER="http://localhost:4000"
+SERVER_URL="$DEFAULT_SERVER"
+
+# Extract base-url from arguments if provided
+for ((i=1; i<=$#; i++)); do
+    if [[ "${!i}" == "--base-url" ]]; then
+        ((i++))
+        if [[ $i -le $# ]]; then
+            SERVER_URL="${!i}"
+        fi
+        break
+    fi
+done
+
+print_info "Checking server at $SERVER_URL..."
+
+# Check server health
+if command -v curl &> /dev/null; then
+    SERVER_OK=$(curl -s -f "${SERVER_URL}/health" > /dev/null 2>&1 && echo "true" || echo "false")
+else
+    SERVER_OK=$(python3 -c "
+import urllib.request
+try:
+    urllib.request.urlopen('${SERVER_URL}/health', timeout=3)
+    print('true')
+except:
+    print('false')
+" 2>/dev/null)
+fi
+
+if [[ "$SERVER_OK" == "true" ]]; then
+    print_success "Server is running"
+else
+    print_warning "Cannot connect to server at $SERVER_URL"
+    print_info "To start the server: python3 server.py"
+fi
+
+# Launch the CLI
+print_info "Starting Perplexity CLI..."
+exec python3 "$CLI_SCRIPT" "$@"

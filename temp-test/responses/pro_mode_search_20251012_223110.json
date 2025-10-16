@@ -1,0 +1,1410 @@
+{
+  "query": "Explain quantum computing simply",
+  "answer": "Quantum computing is a type of computing that uses principles from quantum physics to solve problems that classical computers find very hard or impossible. Unlike classical bits, which can be either 0 or 1, quantum bits called *qubits* can be in multiple states at once, thanks to a property called *superposition*. Another key principle is *entanglement*, where qubits become linked so that the state of one instantly influences the other, no matter the distance. These features let quantum computers perform many calculations simultaneously, potentially making them much faster for certain tasks.\n\nBefore we dive deeper, let me ask: how familiar are you with these ideas already? This will help me explain the concepts at the right level.",
+  "sources": [
+    {
+      "name": "What is Quantum Computing?",
+      "snippet": "Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing",
+      "timestamp": "2025-09-29T00:00:00",
+      "url": "https://aws.amazon.com/what-is/quantum-computing/",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "aws.amazon",
+        "suffix": "com",
+        "domain_name": "Amazon Web Services, Inc.",
+        "description": "Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing",
+        "images": [],
+        "published_date": "2025-09-29T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "What is quantum computing? How it works and examples",
+      "snippet": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+      "timestamp": "2025-04-25T00:00:00",
+      "url": "https://www.techtarget.com/whatis/definition/quantum-computing",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "techtarget",
+        "suffix": "com",
+        "domain_name": "TechTarget",
+        "description": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+        "images": [
+          "https://www.techtarget.com/ITKE/images/logos/TTlogo-379x201.png"
+        ],
+        "published_date": "2025-04-25T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "Quantum computing",
+      "snippet": "A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled states, and the intrinsically non-deterministic outcomes of quantum measurements, as features of its computation. Quantum computers can be viewed as sampling from quantum systems that evolve in ways classically described as operating on an enormous number of possibilities simultaneously, though still subject to strict computational constraints....",
+      "timestamp": "2001-10-21T00:00:00",
+      "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "wikipedia",
+        "suffix": "org",
+        "domain_name": "Wikimedia Foundation, Inc.",
+        "description": null,
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1133px-Bloch_sphere.svg.png"
+        ],
+        "published_date": "2001-10-21T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "Quantum Computing Explained: Definition, Uses, and ...",
+      "snippet": "A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.",
+      "timestamp": "2024-04-05T00:00:00",
+      "url": "https://www.investopedia.com/terms/q/quantum-computing.asp",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "investopedia",
+        "suffix": "com",
+        "domain_name": "Investopedia",
+        "description": "A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.",
+        "images": [],
+        "published_date": "2024-04-05T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "Explaining the Concepts of Quantum Computing",
+      "snippet": "Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!",
+      "timestamp": "2025-06-09T00:00:00",
+      "url": "https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-quantum-computing",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "simplilearn",
+        "suffix": "com",
+        "domain_name": "Simplilearn",
+        "description": "Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!",
+        "images": [
+          "https://www.simplilearn.com/logo.png"
+        ],
+        "published_date": "2025-06-09T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "What Is Quantum Computing? | IBM",
+      "snippet": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+      "timestamp": "2025-06-10T00:00:00",
+      "url": "https://www.ibm.com/think/topics/quantum-computing",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "ibm",
+        "suffix": "com",
+        "domain_name": "ibm.com",
+        "description": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+        "images": [
+          "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/90/03/000019957987_XXXLarge.jpg/_jcr_content/renditions/cq5dam.thumbnail.1280.1280.png"
+        ],
+        "published_date": "2025-06-10T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "How Quantum Computing Works",
+      "snippet": "Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the...",
+      "timestamp": "2024-09-23T00:00:00",
+      "url": "https://www.youtube.com/watch?v=B3U1NDUiwSA",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "youtube",
+        "suffix": "com",
+        "domain_name": "youtube",
+        "description": "Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the state of one qubit can depend on the state of another, no matter how far apart they are. This correlation can be used to perform complex calculations more efficiently. Quantum computers could break widely used encryption methods (like RSA) due to their ability to factor large numbers quickly. This has led to the development of quantum-resistant encryption algorithms. They can simulate molecular interactions at a quantum level, significantly speeding up the drug discovery process by predicting how different compounds will behave. In this video, we have explained quantum computing in simple words and explained how quantum computers work.\n\n#QuantumComputing #FutureOfTech #QuantumSupremacy\n\nVideo link:\n\nQuantum entanglement explained: https://youtu.be/fkAAbXPEAtU?si=l5jUh0cCxj6jXDfE\n\nReferences:\nhttps://www.nature.com/articles/d41586-023-01692-9\nhttps://penntoday.upenn.edu/news/googles-claims-quantum-supremacy-groundbreaking-overhyped-or-both\nhttps://news.ucsb.edu/2019/019682/achieving-quantum-supremacy\nhttps://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now\n\nIf you wish to buy/license this video, please write to us at admin@scienceabc.com.\n\nVoice Over Artist: John Staughton ( https://www.fiverr.com/jswildwood )\n\nSUBSCRIBE to get more such science videos! \nhttps://www.youtube.com/channel/UCcN3IuIAR6Fn74FWMQf6lFA?sub_confirmation=1\n\nFollow us on Twitter! \nhttps://twitter.com/abc_science\n\nFollow us on Facebook!\nhttps://facebook.com/sciabc\n\nFollow us on Instagram!\nhttps://www.instagram.com/scienceabcofficial/ \n\nFollow us on LinkedIn!\nhttps://www.linkedin.com/company/scienceabc\n\nFollow our Website!\nhttps://www.scienceabc.com",
+        "images": [],
+        "published_date": "2024-09-23T00:00:00"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "What Is Quantum Computing? A Super-Easy Explanation ...",
+      "snippet": "In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+      "timestamp": "2017-07-04T04:30:00",
+      "url": "https://www.forbes.com/sites/bernardmarr/2017/07/04/what-is-quantum-computing-a-super-easy-explanation-for-anyone/",
+      "meta_data": {
+        "client": "trending",
+        "date": null,
+        "citation_domain_name": "forbes",
+        "suffix": "com",
+        "domain_name": null,
+        "description": "In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+        "images": [
+          "https://imageio.forbes.com/specials-images/imageserve/550712995/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+        ],
+        "published_date": "2017-07-04T04:30:00",
+        "authors": [
+          "Bernard Marr"
+        ]
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "Explain it like I'm 5? : r/QuantumComputing",
+      "snippet": "Explain it like I’m 5?",
+      "timestamp": "2022-11-01T22:45:45",
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/yjnvwh/explain_it_like_im_5/",
+      "meta_data": {
+        "client": "web",
+        "date": null,
+        "citation_domain_name": "reddit",
+        "suffix": "com",
+        "domain_name": "reddit",
+        "description": "Explain it like I’m 5?",
+        "images": [],
+        "published_date": "2022-11-01T22:45:45"
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    },
+    {
+      "name": "The WIRED Guide to Quantum Computing",
+      "snippet": "Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+      "timestamp": "2018-08-22T10:00:00",
+      "url": "https://www.wired.com/story/wired-guide-to-quantum-computing/",
+      "meta_data": {
+        "client": "trending",
+        "date": null,
+        "citation_domain_name": "wired",
+        "suffix": "com",
+        "domain_name": null,
+        "description": "Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+        "images": [
+          "https://media.wired.com/photos/5b78fefcbf43583fad135df8/191:100/w_1280,c_limit/Quantum%20Computing.png"
+        ],
+        "published_date": "2018-08-22T10:00:00",
+        "authors": [
+          "Tom Simonite"
+        ]
+      },
+      "file_metadata": null,
+      "is_attachment": false,
+      "is_image": false,
+      "is_code_interpreter": false,
+      "is_knowledge_card": false,
+      "is_navigational": false,
+      "is_widget": false,
+      "sitelinks": null,
+      "is_focused_web": false,
+      "is_client_context": false,
+      "inline_entity_id": null,
+      "is_memory": false,
+      "is_conversation_history": false,
+      "tab_id": null,
+      "is_scrubbed": null
+    }
+  ],
+  "mode": "pro",
+  "model": "claude45sonnet",
+  "language": "en-US",
+  "timestamp": 1760301048.021736,
+  "backend_uuid": "f4656510-6bd3-4fc9-9f74-5407be7406a3",
+  "context_uuid": "a777421c-f418-437d-b468-ed8ca5c941f0",
+  "related_queries": [],
+  "chunks": [
+    "Quantum computing",
+    " is a type of",
+    " computing that",
+    " uses principles",
+    " from quantum",
+    " physics to solve",
+    " problems that",
+    " classical computers",
+    " find very hard",
+    " or impossible",
+    ". Unlike classical",
+    " bits, which can",
+    " be either 0 or",
+    " 1, quantum bits",
+    " called *qubits",
+    "* can be in multiple",
+    " states at once",
+    ", thanks to a",
+    " property called",
+    " *superposition",
+    "*. Another key",
+    " principle is",
+    " *entanglement",
+    "*, where qubits",
+    " become linked",
+    " so that the state",
+    " of one instantly",
+    " influences the",
+    " other, no matter",
+    " the distance",
+    ". These features",
+    " let quantum computers",
+    " perform many",
+    " calculations",
+    " simultaneously",
+    ", potentially",
+    " making them much",
+    " faster for certain",
+    " tasks.\n\nBefore we",
+    " dive deeper,",
+    " let me ask: how",
+    " familiar are",
+    " you with these",
+    " ideas already",
+    "? This will help",
+    " me explain the",
+    " concepts at the",
+    " right level."
+  ],
+  "raw_response": {
+    "backend_uuid": "f4656510-6bd3-4fc9-9f74-5407be7406a3",
+    "context_uuid": "a777421c-f418-437d-b468-ed8ca5c941f0",
+    "uuid": "7947c795-713c-492c-99ba-49b1081e3782",
+    "frontend_context_uuid": "40f83f85-edee-4461-b627-3f7ea379a7b7",
+    "frontend_uuid": "7947c795-713c-492c-99ba-49b1081e3782",
+    "text": [
+      {
+        "step_type": "INITIAL_QUERY",
+        "content": {
+          "query": "Explain quantum computing simply"
+        },
+        "uuid": ""
+      },
+      {
+        "step_type": "SEARCH_WEB",
+        "content": {
+          "goal_id": "0",
+          "queries": [
+            {
+              "engine": "web",
+              "query": "Explain quantum computing simply",
+              "limit": 8
+            }
+          ]
+        },
+        "uuid": "be14094a-9f01-4071-8952-6ad3d99e17aa"
+      },
+      {
+        "step_type": "SEARCH_RESULTS",
+        "content": {
+          "goal_id": "0",
+          "web_results": [
+            {
+              "name": "What is Quantum Computing?",
+              "url": "https://aws.amazon.com/what-is/quantum-computing/",
+              "snippet": "Quantum computing is a multidisciplinary field comprising aspects of computer science, physics, and mathematics that utilizes quantum mechanics to solve ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "aws.amazon",
+                "suffix": "com",
+                "domain_name": "Amazon Web Services, Inc.",
+                "description": "Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing",
+                "published_date": "2025-09-29T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What is quantum computing? How it works and examples",
+              "url": "https://www.techtarget.com/whatis/definition/quantum-computing",
+              "snippet": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "techtarget",
+                "suffix": "com",
+                "domain_name": "TechTarget",
+                "description": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+                "published_date": "2025-04-25T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Quantum computing",
+              "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+              "snippet": "A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "wikipedia",
+                "suffix": "org",
+                "domain_name": "Wikimedia Foundation, Inc.",
+                "published_date": "2001-10-21T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Quantum Computing Explained: Definition, Uses, and ...",
+              "url": "https://www.investopedia.com/terms/q/quantum-computing.asp",
+              "snippet": "Quantum computing uses qubits, which can exist in multiple states simultaneously, enabling faster and more complex calculations compared to classical computing.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "investopedia",
+                "suffix": "com",
+                "domain_name": "Investopedia",
+                "description": "A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.",
+                "published_date": "2024-04-05T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Explaining the Concepts of Quantum Computing",
+              "url": "https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-quantum-computing",
+              "snippet": "Quantum computing is a new technology that employs quantum physics to solve problems that standard computers are unable to answer.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "simplilearn",
+                "suffix": "com",
+                "domain_name": "Simplilearn",
+                "description": "Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!",
+                "published_date": "2025-06-09T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What Is Quantum Computing? | IBM",
+              "url": "https://www.ibm.com/think/topics/quantum-computing",
+              "snippet": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "ibm",
+                "suffix": "com",
+                "domain_name": "ibm.com",
+                "description": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+                "published_date": "2025-06-10T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "How Quantum Computing Works",
+              "url": "https://www.youtube.com/watch?v=B3U1NDUiwSA",
+              "snippet": "Quantum Computing is the ability to predict the outcome of all possible paths simultaneously and choosing the best path to achieve the desired goal.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "youtube",
+                "suffix": "com",
+                "domain_name": "youtube",
+                "description": "Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the state of one qubit can depend on the state of another, no matter how far apart they are. This correlation can be used to perform complex calculations more efficiently. Quantum computers could break widely used encryption methods (like RSA) due to their ability to factor large numbers quickly. This has led to the development of quantum-resistant encryption algorithms. They can simulate molecular interactions at a quantum level, significantly speeding up the drug discovery process by predicting how different compounds will behave. In this video, we have explained quantum computing in simple words and explained how quantum computers work.\n\n#QuantumComputing #FutureOfTech #QuantumSupremacy\n\nVideo link:\n\nQuantum entanglement explained: https://youtu.be/fkAAbXPEAtU?si=l5jUh0cCxj6jXDfE\n\nReferences:\nhttps://www.nature.com/articles/d41586-023-01692-9\nhttps://penntoday.upenn.edu/news/googles-claims-quantum-supremacy-groundbreaking-overhyped-or-both\nhttps://news.ucsb.edu/2019/019682/achieving-quantum-supremacy\nhttps://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now\n\nIf you wish to buy/license this video, please write to us at admin@scienceabc.com.\n\nVoice Over Artist: John Staughton ( https://www.fiverr.com/jswildwood )\n\nSUBSCRIBE to get more such science videos! \nhttps://www.youtube.com/channel/UCcN3IuIAR6Fn74FWMQf6lFA?sub_confirmation=1\n\nFollow us on Twitter! \nhttps://twitter.com/abc_science\n\nFollow us on Facebook!\nhttps://facebook.com/sciabc\n\nFollow us on Instagram!\nhttps://www.instagram.com/scienceabcofficial/ \n\nFollow us on LinkedIn!\nhttps://www.linkedin.com/company/scienceabc\n\nFollow our Website!\nhttps://www.scienceabc.com",
+                "published_date": "2024-09-23T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What Is Quantum Computing? A Super-Easy Explanation ...",
+              "url": "https://www.forbes.com/sites/bernardmarr/2017/07/04/what-is-quantum-computing-a-super-easy-explanation-for-anyone/",
+              "snippet": "Quantum computers are not intended to replace classical computers, they are expected to be a different tool we will use to solve complex problems.\nDescription: In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "trending",
+                "citation_domain_name": "forbes",
+                "suffix": "com",
+                "description": "In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+                "published_date": "2017-07-04T04:30:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Explain it like I'm 5? : r/QuantumComputing",
+              "url": "https://www.reddit.com/r/QuantumComputing/comments/yjnvwh/explain_it_like_im_5/",
+              "snippet": "Quantum Computers work by using the laws of Quantum Physics which enable it to perform selected applications at a faster rate.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "reddit",
+                "suffix": "com",
+                "domain_name": "reddit",
+                "description": "Explain it like I’m 5?",
+                "published_date": "2022-11-01T22:45:45"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "The WIRED Guide to Quantum Computing",
+              "url": "https://www.wired.com/story/wired-guide-to-quantum-computing/",
+              "snippet": "A quantum computer can use a collection of qubits in superpositions to play with different possible paths through a calculation. If done ...\nDescription: Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "trending",
+                "citation_domain_name": "wired",
+                "suffix": "com",
+                "description": "Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+                "published_date": "2018-08-22T10:00:00"
+              },
+              "sitelinks": null
+            }
+          ]
+        },
+        "uuid": "5f2563f0-773c-482b-af87-6dd1d8db7620"
+      },
+      {
+        "step_type": "FINAL",
+        "content": {
+          "answer": "{\"answer\": \"Quantum computing is a type of computing that uses principles from quantum physics to solve problems that classical computers find very hard or impossible. Unlike classical bits, which can be either 0 or 1, quantum bits called *qubits* can be in multiple states at once, thanks to a property called *superposition*. Another key principle is *entanglement*, where qubits become linked so that the state of one instantly influences the other, no matter the distance. These features let quantum computers perform many calculations simultaneously, potentially making them much faster for certain tasks.\\n\\nBefore we dive deeper, let me ask: how familiar are you with these ideas already? This will help me explain the concepts at the right level.\", \"web_results\": [{\"name\": \"What is Quantum Computing?\", \"snippet\": \"Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing\", \"timestamp\": \"2025-09-29T00:00:00\", \"url\": \"https://aws.amazon.com/what-is/quantum-computing/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"aws.amazon\", \"suffix\": \"com\", \"domain_name\": \"Amazon Web Services, Inc.\", \"description\": \"Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing\", \"images\": [], \"published_date\": \"2025-09-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is quantum computing? How it works and examples\", \"snippet\": \"Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.\", \"timestamp\": \"2025-04-25T00:00:00\", \"url\": \"https://www.techtarget.com/whatis/definition/quantum-computing\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"techtarget\", \"suffix\": \"com\", \"domain_name\": \"TechTarget\", \"description\": \"Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.\", \"images\": [\"https://www.techtarget.com/ITKE/images/logos/TTlogo-379x201.png\"], \"published_date\": \"2025-04-25T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Quantum computing\", \"snippet\": \"A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled states, and the intrinsically non-deterministic outcomes of quantum measurements, as features of its computation. Quantum computers can be viewed as sampling from quantum systems that evolve in ways classically described as operating on an enormous number of possibilities simultaneously, though still subject to strict computational constraints....\", \"timestamp\": \"2001-10-21T00:00:00\", \"url\": \"https://en.wikipedia.org/wiki/Quantum_computing\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"wikipedia\", \"suffix\": \"org\", \"domain_name\": \"Wikimedia Foundation, Inc.\", \"description\": null, \"images\": [\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1133px-Bloch_sphere.svg.png\"], \"published_date\": \"2001-10-21T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Quantum Computing Explained: Definition, Uses, and ...\", \"snippet\": \"A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.\", \"timestamp\": \"2024-04-05T00:00:00\", \"url\": \"https://www.investopedia.com/terms/q/quantum-computing.asp\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"investopedia\", \"suffix\": \"com\", \"domain_name\": \"Investopedia\", \"description\": \"A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.\", \"images\": [], \"published_date\": \"2024-04-05T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Explaining the Concepts of Quantum Computing\", \"snippet\": \"Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!\", \"timestamp\": \"2025-06-09T00:00:00\", \"url\": \"https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-quantum-computing\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"simplilearn\", \"suffix\": \"com\", \"domain_name\": \"Simplilearn\", \"description\": \"Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!\", \"images\": [\"https://www.simplilearn.com/logo.png\"], \"published_date\": \"2025-06-09T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What Is Quantum Computing? | IBM\", \"snippet\": \"Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.\", \"timestamp\": \"2025-06-10T00:00:00\", \"url\": \"https://www.ibm.com/think/topics/quantum-computing\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"ibm\", \"suffix\": \"com\", \"domain_name\": \"ibm.com\", \"description\": \"Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.\", \"images\": [\"https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/90/03/000019957987_XXXLarge.jpg/_jcr_content/renditions/cq5dam.thumbnail.1280.1280.png\"], \"published_date\": \"2025-06-10T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"How Quantum Computing Works\", \"snippet\": \"Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the...\", \"timestamp\": \"2024-09-23T00:00:00\", \"url\": \"https://www.youtube.com/watch?v=B3U1NDUiwSA\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"youtube\", \"suffix\": \"com\", \"domain_name\": \"youtube\", \"description\": \"Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the state of one qubit can depend on the state of another, no matter how far apart they are. This correlation can be used to perform complex calculations more efficiently. Quantum computers could break widely used encryption methods (like RSA) due to their ability to factor large numbers quickly. This has led to the development of quantum-resistant encryption algorithms. They can simulate molecular interactions at a quantum level, significantly speeding up the drug discovery process by predicting how different compounds will behave. In this video, we have explained quantum computing in simple words and explained how quantum computers work.\\n\\n#QuantumComputing #FutureOfTech #QuantumSupremacy\\n\\nVideo link:\\n\\nQuantum entanglement explained: https://youtu.be/fkAAbXPEAtU?si=l5jUh0cCxj6jXDfE\\n\\nReferences:\\nhttps://www.nature.com/articles/d41586-023-01692-9\\nhttps://penntoday.upenn.edu/news/googles-claims-quantum-supremacy-groundbreaking-overhyped-or-both\\nhttps://news.ucsb.edu/2019/019682/achieving-quantum-supremacy\\nhttps://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now\\n\\nIf you wish to buy/license this video, please write to us at admin@scienceabc.com.\\n\\nVoice Over Artist: John Staughton ( https://www.fiverr.com/jswildwood )\\n\\nSUBSCRIBE to get more such science videos! \\nhttps://www.youtube.com/channel/UCcN3IuIAR6Fn74FWMQf6lFA?sub_confirmation=1\\n\\nFollow us on Twitter! \\nhttps://twitter.com/abc_science\\n\\nFollow us on Facebook!\\nhttps://facebook.com/sciabc\\n\\nFollow us on Instagram!\\nhttps://www.instagram.com/scienceabcofficial/ \\n\\nFollow us on LinkedIn!\\nhttps://www.linkedin.com/company/scienceabc\\n\\nFollow our Website!\\nhttps://www.scienceabc.com\", \"images\": [], \"published_date\": \"2024-09-23T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What Is Quantum Computing? A Super-Easy Explanation ...\", \"snippet\": \"In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how\\u2026\", \"timestamp\": \"2017-07-04T04:30:00\", \"url\": \"https://www.forbes.com/sites/bernardmarr/2017/07/04/what-is-quantum-computing-a-super-easy-explanation-for-anyone/\", \"meta_data\": {\"client\": \"trending\", \"date\": null, \"citation_domain_name\": \"forbes\", \"suffix\": \"com\", \"domain_name\": null, \"description\": \"In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how\\u2026\", \"images\": [\"https://imageio.forbes.com/specials-images/imageserve/550712995/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds\"], \"published_date\": \"2017-07-04T04:30:00\", \"authors\": [\"Bernard Marr\"]}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Explain it like I'm 5? : r/QuantumComputing\", \"snippet\": \"Explain it like I\\u2019m 5?\", \"timestamp\": \"2022-11-01T22:45:45\", \"url\": \"https://www.reddit.com/r/QuantumComputing/comments/yjnvwh/explain_it_like_im_5/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"reddit\", \"suffix\": \"com\", \"domain_name\": \"reddit\", \"description\": \"Explain it like I\\u2019m 5?\", \"images\": [], \"published_date\": \"2022-11-01T22:45:45\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"The WIRED Guide to Quantum Computing\", \"snippet\": \"Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.\", \"timestamp\": \"2018-08-22T10:00:00\", \"url\": \"https://www.wired.com/story/wired-guide-to-quantum-computing/\", \"meta_data\": {\"client\": \"trending\", \"date\": null, \"citation_domain_name\": \"wired\", \"suffix\": \"com\", \"domain_name\": null, \"description\": \"Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.\", \"images\": [\"https://media.wired.com/photos/5b78fefcbf43583fad135df8/191:100/w_1280,c_limit/Quantum%20Computing.png\"], \"published_date\": \"2018-08-22T10:00:00\", \"authors\": [\"Tom Simonite\"]}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}], \"chunks\": [\"Quantum computing\", \" is a type of\", \" computing that\", \" uses principles\", \" from quantum\", \" physics to solve\", \" problems that\", \" classical computers\", \" find very hard\", \" or impossible\", \". Unlike classical\", \" bits, which can\", \" be either 0 or\", \" 1, quantum bits\", \" called *qubits\", \"* can be in multiple\", \" states at once\", \", thanks to a\", \" property called\", \" *superposition\", \"*. Another key\", \" principle is\", \" *entanglement\", \"*, where qubits\", \" become linked\", \" so that the state\", \" of one instantly\", \" influences the\", \" other, no matter\", \" the distance\", \". These features\", \" let quantum computers\", \" perform many\", \" calculations\", \" simultaneously\", \", potentially\", \" making them much\", \" faster for certain\", \" tasks.\\n\\nBefore we\", \" dive deeper,\", \" let me ask: how\", \" familiar are\", \" you with these\", \" ideas already\", \"? This will help\", \" me explain the\", \" concepts at the\", \" right level.\"], \"extra_web_results\": [], \"structured_answer\": [{\"type\": \"markdown\", \"text\": \"Quantum computing is a type of computing that uses principles from quantum physics to solve problems that classical computers find very hard or impossible. Unlike classical bits, which can be either 0 or 1, quantum bits called *qubits* can be in multiple states at once, thanks to a property called *superposition*. Another key principle is *entanglement*, where qubits become linked so that the state of one instantly influences the other, no matter the distance. These features let quantum computers perform many calculations simultaneously, potentially making them much faster for certain tasks.\\n\\nBefore we dive deeper, let me ask: how familiar are you with these ideas already? This will help me explain the concepts at the right level.\", \"chunks\": [\"Quantum computing\", \" is a type of\", \" computing that\", \" uses principles\", \" from quantum\", \" physics to solve\", \" problems that\", \" classical computers\", \" find very hard\", \" or impossible\", \". Unlike classical\", \" bits, which can\", \" be either 0 or\", \" 1, quantum bits\", \" called *qubits\", \"* can be in multiple\", \" states at once\", \", thanks to a\", \" property called\", \" *superposition\", \"*. Another key\", \" principle is\", \" *entanglement\", \"*, where qubits\", \" become linked\", \" so that the state\", \" of one instantly\", \" influences the\", \" other, no matter\", \" the distance\", \". These features\", \" let quantum computers\", \" perform many\", \" calculations\", \" simultaneously\", \", potentially\", \" making them much\", \" faster for certain\", \" tasks.\\n\\nBefore we\", \" dive deeper,\", \" let me ask: how\", \" familiar are\", \" you with these\", \" ideas already\", \"? This will help\", \" me explain the\", \" concepts at the\", \" right level.\"], \"images\": [], \"inline_token_annotations\": []}, {\"type\": \"gauge_familiarity_card\", \"question\": \"Where are you in your quantum computing journey?\", \"levels\": [\"Just hearing about it\", \"Know some basic terms\", \"Studied concepts like superposition\", \"Working on quantum projects\"], \"level_descriptions\": [\"I've only heard the name\", \"I understand bits vs qubits\", \"I grasp superposition and entanglement\", \"I can write or test quantum code\"]}]}"
+        },
+        "uuid": ""
+      }
+    ],
+    "thread_title": "Explain quantum computing simply",
+    "related_queries": [],
+    "display_model": "turbo",
+    "user_selected_model": "turbo",
+    "personalized": true,
+    "mode": "COPILOT",
+    "query_str": "Explain quantum computing simply",
+    "search_focus": "internet",
+    "source": "default",
+    "attachments": [],
+    "updated_datetime": "2025-10-12T20:30:48.233156",
+    "read_write_token": "baddfb88-15c8-4f09-a22d-ddae82c09e7b",
+    "is_pro_reasoning_mode": false,
+    "step_type": "FINAL",
+    "bookmark_state": "NOT_BOOKMARKED",
+    "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+    "thread_access": 2,
+    "thread_url_slug": "explain-quantum-computing-simp-9GVlEGvTT8mfdFQHvnQGow",
+    "media_items": [
+      {
+        "medium": "video",
+        "image": "https://img.youtube.com/vi/B3U1NDUiwSA/maxresdefault.jpg",
+        "image_width": 1280,
+        "image_height": 720,
+        "url": "https://www.youtube.com/watch?v=B3U1NDUiwSA",
+        "name": "How Quantum Computing Works",
+        "source": "youtube",
+        "thumbnail": "https://img.youtube.com/vi/B3U1NDUiwSA/hqdefault.jpg",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480
+      }
+    ],
+    "expect_search_results": "true",
+    "plan": {
+      "goals": [
+        {
+          "id": "0",
+          "description": "Searching the web",
+          "final": true,
+          "todo_task_status": "INCOMPLETE"
+        }
+      ],
+      "final": true
+    },
+    "privacy_state": "NONE",
+    "gpt4": false,
+    "sources": {
+      "sources": [
+        "web"
+      ]
+    },
+    "text_completed": true,
+    "expect_sponsored_results": false,
+    "entry_updated_datetime": "2025-10-12T20:31:10.006562+00:00",
+    "blocks": [
+      {
+        "intended_usage": "plan",
+        "plan_block": {
+          "progress": "DONE",
+          "goals": [
+            {
+              "id": "0",
+              "description": "Searching the web",
+              "final": true,
+              "todo_task_status": "INCOMPLETE"
+            }
+          ],
+          "final": true
+        }
+      },
+      {
+        "intended_usage": "pro_search_steps",
+        "plan_block": {
+          "progress": "DONE",
+          "goals": [],
+          "steps": [
+            {
+              "uuid": "",
+              "step_type": "INITIAL_QUERY",
+              "initial_query_content": {
+                "query": "Explain quantum computing simply"
+              }
+            },
+            {
+              "uuid": "be14094a-9f01-4071-8952-6ad3d99e17aa",
+              "step_type": "SEARCH_WEB",
+              "search_web_content": {
+                "goal_id": "0",
+                "queries": [
+                  {
+                    "engine": "web",
+                    "query": "Explain quantum computing simply",
+                    "limit": 8
+                  }
+                ]
+              }
+            },
+            {
+              "uuid": "5f2563f0-773c-482b-af87-6dd1d8db7620",
+              "step_type": "SEARCH_RESULTS",
+              "web_results_content": {
+                "goal_id": "0",
+                "web_results": [
+                  {
+                    "name": "What is Quantum Computing?",
+                    "url": "https://aws.amazon.com/what-is/quantum-computing/",
+                    "snippet": "Quantum computing is a multidisciplinary field comprising aspects of computer science, physics, and mathematics that utilizes quantum mechanics to solve ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "aws.amazon",
+                      "suffix": "com",
+                      "domain_name": "Amazon Web Services, Inc.",
+                      "description": "Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing",
+                      "published_date": "2025-09-29T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What is quantum computing? How it works and examples",
+                    "url": "https://www.techtarget.com/whatis/definition/quantum-computing",
+                    "snippet": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "techtarget",
+                      "suffix": "com",
+                      "domain_name": "TechTarget",
+                      "description": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+                      "published_date": "2025-04-25T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Quantum computing",
+                    "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+                    "snippet": "A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "wikipedia",
+                      "suffix": "org",
+                      "domain_name": "Wikimedia Foundation, Inc.",
+                      "published_date": "2001-10-21T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Quantum Computing Explained: Definition, Uses, and ...",
+                    "url": "https://www.investopedia.com/terms/q/quantum-computing.asp",
+                    "snippet": "Quantum computing uses qubits, which can exist in multiple states simultaneously, enabling faster and more complex calculations compared to classical computing.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "investopedia",
+                      "suffix": "com",
+                      "domain_name": "Investopedia",
+                      "description": "A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.",
+                      "published_date": "2024-04-05T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Explaining the Concepts of Quantum Computing",
+                    "url": "https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-quantum-computing",
+                    "snippet": "Quantum computing is a new technology that employs quantum physics to solve problems that standard computers are unable to answer.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "simplilearn",
+                      "suffix": "com",
+                      "domain_name": "Simplilearn",
+                      "description": "Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!",
+                      "published_date": "2025-06-09T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What Is Quantum Computing? | IBM",
+                    "url": "https://www.ibm.com/think/topics/quantum-computing",
+                    "snippet": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "ibm",
+                      "suffix": "com",
+                      "domain_name": "ibm.com",
+                      "description": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+                      "published_date": "2025-06-10T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "How Quantum Computing Works",
+                    "url": "https://www.youtube.com/watch?v=B3U1NDUiwSA",
+                    "snippet": "Quantum Computing is the ability to predict the outcome of all possible paths simultaneously and choosing the best path to achieve the desired goal.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "youtube",
+                      "suffix": "com",
+                      "domain_name": "youtube",
+                      "description": "Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the state of one qubit can depend on the state of another, no matter how far apart they are. This correlation can be used to perform complex calculations more efficiently. Quantum computers could break widely used encryption methods (like RSA) due to their ability to factor large numbers quickly. This has led to the development of quantum-resistant encryption algorithms. They can simulate molecular interactions at a quantum level, significantly speeding up the drug discovery process by predicting how different compounds will behave. In this video, we have explained quantum computing in simple words and explained how quantum computers work.\n\n#QuantumComputing #FutureOfTech #QuantumSupremacy\n\nVideo link:\n\nQuantum entanglement explained: https://youtu.be/fkAAbXPEAtU?si=l5jUh0cCxj6jXDfE\n\nReferences:\nhttps://www.nature.com/articles/d41586-023-01692-9\nhttps://penntoday.upenn.edu/news/googles-claims-quantum-supremacy-groundbreaking-overhyped-or-both\nhttps://news.ucsb.edu/2019/019682/achieving-quantum-supremacy\nhttps://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now\n\nIf you wish to buy/license this video, please write to us at admin@scienceabc.com.\n\nVoice Over Artist: John Staughton ( https://www.fiverr.com/jswildwood )\n\nSUBSCRIBE to get more such science videos! \nhttps://www.youtube.com/channel/UCcN3IuIAR6Fn74FWMQf6lFA?sub_confirmation=1\n\nFollow us on Twitter! \nhttps://twitter.com/abc_science\n\nFollow us on Facebook!\nhttps://facebook.com/sciabc\n\nFollow us on Instagram!\nhttps://www.instagram.com/scienceabcofficial/ \n\nFollow us on LinkedIn!\nhttps://www.linkedin.com/company/scienceabc\n\nFollow our Website!\nhttps://www.scienceabc.com",
+                      "published_date": "2024-09-23T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What Is Quantum Computing? A Super-Easy Explanation ...",
+                    "url": "https://www.forbes.com/sites/bernardmarr/2017/07/04/what-is-quantum-computing-a-super-easy-explanation-for-anyone/",
+                    "snippet": "Quantum computers are not intended to replace classical computers, they are expected to be a different tool we will use to solve complex problems.\nDescription: In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "trending",
+                      "citation_domain_name": "forbes",
+                      "suffix": "com",
+                      "description": "In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+                      "published_date": "2017-07-04T04:30:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Explain it like I'm 5? : r/QuantumComputing",
+                    "url": "https://www.reddit.com/r/QuantumComputing/comments/yjnvwh/explain_it_like_im_5/",
+                    "snippet": "Quantum Computers work by using the laws of Quantum Physics which enable it to perform selected applications at a faster rate.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "reddit",
+                      "suffix": "com",
+                      "domain_name": "reddit",
+                      "description": "Explain it like I’m 5?",
+                      "published_date": "2022-11-01T22:45:45"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "The WIRED Guide to Quantum Computing",
+                    "url": "https://www.wired.com/story/wired-guide-to-quantum-computing/",
+                    "snippet": "A quantum computer can use a collection of qubits in superpositions to play with different possible paths through a calculation. If done ...\nDescription: Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "trending",
+                      "citation_domain_name": "wired",
+                      "suffix": "com",
+                      "description": "Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+                      "published_date": "2018-08-22T10:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  }
+                ]
+              }
+            }
+          ],
+          "final": true
+        }
+      },
+      {
+        "intended_usage": "ask_text_0_markdown",
+        "markdown_block": {
+          "progress": "DONE",
+          "chunks": [
+            "Quantum computing",
+            " is a type of",
+            " computing that",
+            " uses principles",
+            " from quantum",
+            " physics to solve",
+            " problems that",
+            " classical computers",
+            " find very hard",
+            " or impossible",
+            ". Unlike classical",
+            " bits, which can",
+            " be either 0 or",
+            " 1, quantum bits",
+            " called *qubits",
+            "* can be in multiple",
+            " states at once",
+            ", thanks to a",
+            " property called",
+            " *superposition",
+            "*. Another key",
+            " principle is",
+            " *entanglement",
+            "*, where qubits",
+            " become linked",
+            " so that the state",
+            " of one instantly",
+            " influences the",
+            " other, no matter",
+            " the distance",
+            ". These features",
+            " let quantum computers",
+            " perform many",
+            " calculations",
+            " simultaneously",
+            ", potentially",
+            " making them much",
+            " faster for certain",
+            " tasks.\n\nBefore we",
+            " dive deeper,",
+            " let me ask: how",
+            " familiar are",
+            " you with these",
+            " ideas already",
+            "? This will help",
+            " me explain the",
+            " concepts at the",
+            " right level."
+          ],
+          "chunk_starting_offset": 0,
+          "answer": "Quantum computing is a type of computing that uses principles from quantum physics to solve problems that classical computers find very hard or impossible. Unlike classical bits, which can be either 0 or 1, quantum bits called *qubits* can be in multiple states at once, thanks to a property called *superposition*. Another key principle is *entanglement*, where qubits become linked so that the state of one instantly influences the other, no matter the distance. These features let quantum computers perform many calculations simultaneously, potentially making them much faster for certain tasks.\n\nBefore we dive deeper, let me ask: how familiar are you with these ideas already? This will help me explain the concepts at the right level.",
+          "inline_token_annotations": []
+        }
+      },
+      {
+        "intended_usage": "ask_text_1_gauge_familiarity_card",
+        "inline_entity_block": {
+          "gauge_familiarity_card_block": {
+            "question": "Where are you in your quantum computing journey?",
+            "levels": [
+              "Just hearing about it",
+              "Know some basic terms",
+              "Studied concepts like superposition",
+              "Working on quantum projects"
+            ],
+            "level_descriptions": [
+              "I've only heard the name",
+              "I understand bits vs qubits",
+              "I grasp superposition and entanglement",
+              "I can write or test quantum code"
+            ]
+          }
+        }
+      },
+      {
+        "intended_usage": "ask_text",
+        "markdown_block": {
+          "progress": "DONE",
+          "chunks": [
+            "Quantum computing",
+            " is a type of",
+            " computing that",
+            " uses principles",
+            " from quantum",
+            " physics to solve",
+            " problems that",
+            " classical computers",
+            " find very hard",
+            " or impossible",
+            ". Unlike classical",
+            " bits, which can",
+            " be either 0 or",
+            " 1, quantum bits",
+            " called *qubits",
+            "* can be in multiple",
+            " states at once",
+            ", thanks to a",
+            " property called",
+            " *superposition",
+            "*. Another key",
+            " principle is",
+            " *entanglement",
+            "*, where qubits",
+            " become linked",
+            " so that the state",
+            " of one instantly",
+            " influences the",
+            " other, no matter",
+            " the distance",
+            ". These features",
+            " let quantum computers",
+            " perform many",
+            " calculations",
+            " simultaneously",
+            ", potentially",
+            " making them much",
+            " faster for certain",
+            " tasks.\n\nBefore we",
+            " dive deeper,",
+            " let me ask: how",
+            " familiar are",
+            " you with these",
+            " ideas already",
+            "? This will help",
+            " me explain the",
+            " concepts at the",
+            " right level."
+          ],
+          "chunk_starting_offset": 0,
+          "answer": "Quantum computing is a type of computing that uses principles from quantum physics to solve problems that classical computers find very hard or impossible. Unlike classical bits, which can be either 0 or 1, quantum bits called *qubits* can be in multiple states at once, thanks to a property called *superposition*. Another key principle is *entanglement*, where qubits become linked so that the state of one instantly influences the other, no matter the distance. These features let quantum computers perform many calculations simultaneously, potentially making them much faster for certain tasks.\n\nBefore we dive deeper, let me ask: how familiar are you with these ideas already? This will help me explain the concepts at the right level."
+        }
+      },
+      {
+        "intended_usage": "web_results",
+        "web_result_block": {
+          "progress": "DONE",
+          "web_results": [
+            {
+              "name": "What is Quantum Computing?",
+              "snippet": "Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing",
+              "timestamp": "2025-09-29T00:00:00",
+              "url": "https://aws.amazon.com/what-is/quantum-computing/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "aws.amazon",
+                "suffix": "com",
+                "domain_name": "Amazon Web Services, Inc.",
+                "description": "Find out what is Quantum Computing and how to use Amazon Web Services for Quantum Computing",
+                "images": [],
+                "published_date": "2025-09-29T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What is quantum computing? How it works and examples",
+              "snippet": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+              "timestamp": "2025-04-25T00:00:00",
+              "url": "https://www.techtarget.com/whatis/definition/quantum-computing",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "techtarget",
+                "suffix": "com",
+                "domain_name": "TechTarget",
+                "description": "Quantum computing uses quantum mechanics to solve complex problems. Learn how it compares to classical computers and their use cases.",
+                "images": [
+                  "https://www.techtarget.com/ITKE/images/logos/TTlogo-379x201.png"
+                ],
+                "published_date": "2025-04-25T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Quantum computing",
+              "snippet": "A quantum computer is a (real or theoretical) computer that uses quantum mechanical phenomena in an essential way: it exploits superposed and entangled states, and the intrinsically non-deterministic outcomes of quantum measurements, as features of its computation. Quantum computers can be viewed as sampling from quantum systems that evolve in ways classically described as operating on an enormous number of possibilities simultaneously, though still subject to strict computational constraints....",
+              "timestamp": "2001-10-21T00:00:00",
+              "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "wikipedia",
+                "suffix": "org",
+                "domain_name": "Wikimedia Foundation, Inc.",
+                "description": null,
+                "images": [
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bloch_sphere.svg/1133px-Bloch_sphere.svg.png"
+                ],
+                "published_date": "2001-10-21T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Quantum Computing Explained: Definition, Uses, and ...",
+              "snippet": "A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.",
+              "timestamp": "2024-04-05T00:00:00",
+              "url": "https://www.investopedia.com/terms/q/quantum-computing.asp",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "investopedia",
+                "suffix": "com",
+                "domain_name": "Investopedia",
+                "description": "A quantum computer, unlike a classical computer, uses quantum bits or qubits. Learn about quantum computers and which companies are building them.",
+                "images": [],
+                "published_date": "2024-04-05T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Explaining the Concepts of Quantum Computing",
+              "snippet": "Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!",
+              "timestamp": "2025-06-09T00:00:00",
+              "url": "https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-quantum-computing",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "simplilearn",
+                "suffix": "com",
+                "domain_name": "Simplilearn",
+                "description": "Find out What is Quantum Computing, What is Qubit, Quantum vs Classic Computer, Working of Quantum Computers, Types of Quantum Computers & much more. Read Now!",
+                "images": [
+                  "https://www.simplilearn.com/logo.png"
+                ],
+                "published_date": "2025-06-09T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What Is Quantum Computing? | IBM",
+              "snippet": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+              "timestamp": "2025-06-10T00:00:00",
+              "url": "https://www.ibm.com/think/topics/quantum-computing",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "ibm",
+                "suffix": "com",
+                "domain_name": "ibm.com",
+                "description": "Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers.",
+                "images": [
+                  "https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/90/03/000019957987_XXXLarge.jpg/_jcr_content/renditions/cq5dam.thumbnail.1280.1280.png"
+                ],
+                "published_date": "2025-06-10T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "How Quantum Computing Works",
+              "snippet": "Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the...",
+              "timestamp": "2024-09-23T00:00:00",
+              "url": "https://www.youtube.com/watch?v=B3U1NDUiwSA",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "youtube",
+                "suffix": "com",
+                "domain_name": "youtube",
+                "description": "Quantum computers use the principles of quantum mechanics to process information in ways that classical computers can't. They rely on qubits, which can exist in multiple states simultaneously, allowing for more complex computations and parallel processing. Unlike classical bits, which are either 0 or 1, qubits can be in a state of 0, 1, or both simultaneously (superposition). This allows quantum computers to process a vast amount of information at once. Qubits can be entangled, meaning the state of one qubit can depend on the state of another, no matter how far apart they are. This correlation can be used to perform complex calculations more efficiently. Quantum computers could break widely used encryption methods (like RSA) due to their ability to factor large numbers quickly. This has led to the development of quantum-resistant encryption algorithms. They can simulate molecular interactions at a quantum level, significantly speeding up the drug discovery process by predicting how different compounds will behave. In this video, we have explained quantum computing in simple words and explained how quantum computers work.\n\n#QuantumComputing #FutureOfTech #QuantumSupremacy\n\nVideo link:\n\nQuantum entanglement explained: https://youtu.be/fkAAbXPEAtU?si=l5jUh0cCxj6jXDfE\n\nReferences:\nhttps://www.nature.com/articles/d41586-023-01692-9\nhttps://penntoday.upenn.edu/news/googles-claims-quantum-supremacy-groundbreaking-overhyped-or-both\nhttps://news.ucsb.edu/2019/019682/achieving-quantum-supremacy\nhttps://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now\n\nIf you wish to buy/license this video, please write to us at admin@scienceabc.com.\n\nVoice Over Artist: John Staughton ( https://www.fiverr.com/jswildwood )\n\nSUBSCRIBE to get more such science videos! \nhttps://www.youtube.com/channel/UCcN3IuIAR6Fn74FWMQf6lFA?sub_confirmation=1\n\nFollow us on Twitter! \nhttps://twitter.com/abc_science\n\nFollow us on Facebook!\nhttps://facebook.com/sciabc\n\nFollow us on Instagram!\nhttps://www.instagram.com/scienceabcofficial/ \n\nFollow us on LinkedIn!\nhttps://www.linkedin.com/company/scienceabc\n\nFollow our Website!\nhttps://www.scienceabc.com",
+                "images": [],
+                "published_date": "2024-09-23T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What Is Quantum Computing? A Super-Easy Explanation ...",
+              "snippet": "In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+              "timestamp": "2017-07-04T04:30:00",
+              "url": "https://www.forbes.com/sites/bernardmarr/2017/07/04/what-is-quantum-computing-a-super-easy-explanation-for-anyone/",
+              "meta_data": {
+                "client": "trending",
+                "date": null,
+                "citation_domain_name": "forbes",
+                "suffix": "com",
+                "domain_name": null,
+                "description": "In the tech and business world there is a lot of hype about quantum computing. Here we provide a very simple explanation of what quantum computing is, the key promises of quantum computers and how…",
+                "images": [
+                  "https://imageio.forbes.com/specials-images/imageserve/550712995/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+                ],
+                "published_date": "2017-07-04T04:30:00",
+                "authors": [
+                  "Bernard Marr"
+                ]
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Explain it like I'm 5? : r/QuantumComputing",
+              "snippet": "Explain it like I’m 5?",
+              "timestamp": "2022-11-01T22:45:45",
+              "url": "https://www.reddit.com/r/QuantumComputing/comments/yjnvwh/explain_it_like_im_5/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "reddit",
+                "suffix": "com",
+                "domain_name": "reddit",
+                "description": "Explain it like I’m 5?",
+                "images": [],
+                "published_date": "2022-11-01T22:45:45"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "The WIRED Guide to Quantum Computing",
+              "snippet": "Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+              "timestamp": "2018-08-22T10:00:00",
+              "url": "https://www.wired.com/story/wired-guide-to-quantum-computing/",
+              "meta_data": {
+                "client": "trending",
+                "date": null,
+                "citation_domain_name": "wired",
+                "suffix": "com",
+                "domain_name": null,
+                "description": "Everything you ever wanted to know about qubits, superpositioning, and spooky action at a distance.",
+                "images": [
+                  "https://media.wired.com/photos/5b78fefcbf43583fad135df8/191:100/w_1280,c_limit/Quantum%20Computing.png"
+                ],
+                "published_date": "2018-08-22T10:00:00",
+                "authors": [
+                  "Tom Simonite"
+                ]
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            }
+          ]
+        }
+      }
+    ],
+    "message_mode": "FULL",
+    "access_level": "PUBLIC_READ",
+    "answer_modes": [
+      {
+        "answer_mode_type": "SOURCES"
+      }
+    ],
+    "structured_answer_block_usages": [
+      "ask_text_0_markdown",
+      "ask_text_1_gauge_familiarity_card"
+    ],
+    "reconnectable": false,
+    "image_completions": [],
+    "cursor": "068ec100-e20b-78cb-8000-52a1cb8018e8",
+    "classifier_results": {
+      "personal_search": false,
+      "skip_search": false,
+      "widget_type": "GENERAL",
+      "hide_nav": false,
+      "hide_sources": false,
+      "image_generation": false,
+      "time_widget": false,
+      "mhe_predictions": {
+        "skip_search": false,
+        "image_generation_intent": false,
+        "time_widget": false,
+        "sports_intent": false,
+        "places_search_intent": false,
+        "shopping_intent": false,
+        "movie_lists_intent": false,
+        "image_preview": false,
+        "video_preview": false,
+        "nav_intent": false,
+        "study_intent": true,
+        "personal_search": false,
+        "weather_widget": false,
+        "finance_widget_gating": false,
+        "calculator_widget": false
+      }
+    },
+    "search_implementation_mode": "fast",
+    "telemetry_data": {
+      "has_displayed_search_results": true,
+      "has_first_output_token": true,
+      "has_first_token": true,
+      "country": "IN",
+      "is_followup": false,
+      "source": "default",
+      "engine_mode": "auto",
+      "search_implementation_mode": "fast",
+      "has_widget_data": false,
+      "search_duration_seconds": 0.8699069023132324,
+      "has_useful_renderable_content": true
+    },
+    "has_expired_attachments": false,
+    "status": "COMPLETED",
+    "final": true,
+    "_extras": {
+      "next": null,
+      "country": "IN",
+      "subdomain": null,
+      "pro_search_mode": "auto",
+      "core_elapsed": 21.94091618899256
+    },
+    "final_sse_message": true
+  }
+}

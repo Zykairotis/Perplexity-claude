@@ -1,0 +1,3514 @@
+{
+  "chunks": [
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "expect_search_results": "false",
+      "gpt4": false,
+      "text_completed": false,
+      "blocks": [
+        {
+          "intended_usage": "pro_search_steps",
+          "plan_block": {
+            "progress": "IN_PROGRESS",
+            "goals": [],
+            "steps": [
+              {
+                "uuid": "",
+                "step_type": "INITIAL_QUERY",
+                "initial_query_content": {
+                  "query": "What is artificial intelligence?"
+                }
+              }
+            ],
+            "final": false
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-e64c-773e-8000-841870486798",
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "message_mode": "STREAMING",
+      "answer_modes": [],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-e7ee-7cb5-8000-2e9baa04b665",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": false,
+        "has_first_output_token": false,
+        "has_first_token": false,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "has_useful_renderable_content": false
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "expect_search_results": "false",
+      "gpt4": false,
+      "text_completed": false,
+      "message_mode": "STREAMING",
+      "answer_modes": [],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-e802-79da-8000-776961cb92b9",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": false,
+        "has_first_output_token": false,
+        "has_first_token": false,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "has_useful_renderable_content": false
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "blocks": [
+        {
+          "intended_usage": "web_results",
+          "web_result_block": {
+            "progress": "IN_PROGRESS",
+            "web_results": [
+              {
+                "name": "What is Artificial Intelligence? | AI in Business",
+                "snippet": "Artificial intelligence is the ability of machines to learn and perform tasks like humans to successfully achieving goals. Learn how AI is used in business.",
+                "timestamp": "2025-10-11T00:00:00",
+                "url": "https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "sap",
+                  "suffix": "com",
+                  "domain_name": "SAP SE",
+                  "description": "Artificial intelligence is the ability of machines to learn and perform tasks like humans to successfully achieving goals. Learn how AI is used in business.",
+                  "images": [
+                    "http://www.sap.com/dam/application/shared/logos/sap_logo_rgb_onwhite_0300_0300.png.adapt.png/1656382976488.png"
+                  ],
+                  "published_date": "2025-10-11T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What is Artificial Intelligence (AI)",
+                "snippet": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                "timestamp": "2017-09-08T00:00:00",
+                "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai/",
+                "meta_data": {
+                  "client": "web",
+                  "date": "2025-10-06",
+                  "citation_domain_name": "geeksforgeeks",
+                  "suffix": "org",
+                  "domain_name": "GeeksforGeeks",
+                  "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                  "images": [
+                    "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png"
+                  ],
+                  "published_date": "2017-09-08T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What Is Artificial Intelligence (AI)?",
+                "snippet": "Artificial intelligence is a technology that allows you to generate, classify, and perform tasks like image analysis and speech recognition.",
+                "timestamp": "2025-10-10T00:00:00",
+                "url": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "cloud.google",
+                  "suffix": "com",
+                  "domain_name": "Google Cloud",
+                  "description": "Artificial intelligence is a technology that allows you to generate, classify, and perform tasks like image analysis and speech recognition.",
+                  "images": [
+                    "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
+                  ],
+                  "published_date": "2025-10-10T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "Artificial intelligence",
+                "snippet": "Part of a series on Artificial intelligence (AI) Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making. It is a field of research in computer science that develops and studies methods and software that enable machines to perceive their environment and use learning and intelligence to take actions that maximize their chances of achieving...",
+                "timestamp": "2001-10-08T00:00:00",
+                "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "wikipedia",
+                  "suffix": "org",
+                  "domain_name": "Wikimedia Foundation, Inc.",
+                  "description": null,
+                  "images": [],
+                  "published_date": "2001-10-08T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "Artificial intelligence: What it is, how it works and why ...",
+                "snippet": "While not always obvious, artificial intelligence has been a fixture of day-to-day life for millions of people for years. Virtual assistants like Siri and Alexa are prime examples of how AI can support humans in a variety of ways – if only by making things more convenient. Yet when generative AI like ChatGPT burst onto the scene, its uncanny ability to mimic human response and ready availability to everyone with a computer suddenly pushed discussions about machine learning and ethics into the...",
+                "timestamp": "2024-01-31T00:00:00",
+                "url": "https://www.iso.org/artificial-intelligence",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "iso",
+                  "suffix": "org",
+                  "domain_name": "ISO",
+                  "description": null,
+                  "images": [
+                    "https://www.iso.org/files/live/sites/isoorg/files/news/insights/ai/AI_Evergreen_banners_1020x440-v2-PILLAR.png/thumbnails/1200x600"
+                  ],
+                  "published_date": "2024-01-31T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What is Artificial Intelligence?",
+                "snippet": "Artificial intelligence refers to computer systems that can perform complex tasks normally done by human-reasoning, decision making, creating, etc.",
+                "timestamp": "2024-05-13T00:00:00",
+                "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "nasa",
+                  "suffix": "gov",
+                  "domain_name": "NASA",
+                  "description": "Artificial intelligence refers to computer systems that can perform complex tasks normally done by human-reasoning, decision making, creating, etc.",
+                  "images": [
+                    "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png"
+                  ],
+                  "published_date": "2024-05-13T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What is Artificial intelligence (AI)?",
+                "snippet": "Artificial intelligence (AI) encompasses the fields of computer and data science focused on building machines with human intelligence to perform tasks like learning, reasoning, problem-solving, perception, and language understanding. Instead of relying on explicit instructions from a programmer, AI systems learn from data that enables them to handle complex problems and simple repetitive tasks, improving how they respond over time.",
+                "timestamp": "2025-08-28T00:00:00",
+                "url": "https://www.mtu.edu/computing/ai/",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "mtu",
+                  "suffix": "edu",
+                  "domain_name": "Michigan Technological University",
+                  "description": "Artificial intelligence (AI) encompasses the fields of computer and data science focused on building machines with human intelligence to perform tasks like learning, reasoning, problem-solving, perception, and language understanding. Instead of relying on explicit instructions from a programmer, AI systems learn from data that enables them to handle complex problems and simple repetitive tasks, improving how they respond over time.",
+                  "images": [
+                    "https://www.mtu.edu/computing/ai/images/network-storage-1018-banner2400.jpg"
+                  ],
+                  "published_date": "2025-08-28T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What Is Artificial Intelligence (AI)?",
+                "snippet": "Artificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy.",
+                "timestamp": "2024-08-09T00:00:00",
+                "url": "https://www.ibm.com/think/topics/artificial-intelligence",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "ibm",
+                  "suffix": "com",
+                  "domain_name": "ibm.com",
+                  "description": "Artificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy.",
+                  "images": [
+                    "https://www.ibm.com/content/dam/adobe-cms/firefly-generated-assets/2025/05/603d0fd3-151f-4256-9dcd-b8ad78899aef.jpeg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+                  ],
+                  "published_date": "2024-08-09T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What Is AI? | Learn all about artificial intelligence",
+                "snippet": "What exactly is artificial intelligence? Did you know there are different levels? This video for kids discusses how people use AI and outlines some of the the pros and cons of using it. If you have used Siri or Google Assistant, or asked a question to Alexa, then you are using a form of artificial intelligence. These all use voice recognition and machine learning to answer questions and respond to requests. If you have ever contacted customer service online to get help, then more than likely,...",
+                "timestamp": "2024-12-05T00:00:00",
+                "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+                "meta_data": {
+                  "client": "web",
+                  "date": "2024-12-16",
+                  "citation_domain_name": "youtube",
+                  "suffix": "com",
+                  "domain_name": "youtube",
+                  "description": "What exactly is artificial intelligence? Did you know there are different levels? This video for kids discusses how people use AI and outlines some of the the pros and cons of using it. \n\nIf you have used Siri or Google Assistant, or asked a question to Alexa, then you are using a form of artificial intelligence. These all use voice recognition and machine learning to answer questions and respond to requests. If you have ever contacted customer service online to get help, then more than likely, your conversation began with a chatbot, a computer-designed program that simulates human conversation. Chatbots were not always considered AI because they could not learn or adapt. However, chatbots have recently become more sophisticated and are increasingly using the power of AI learning.\n\nThere are several beneficial uses for AI, and even more when you pair AI with robotics. For example, we are automating tasks that are unsafe for humans, like mixing toxic chemicals. Many of the products we use today incorporate some form of AI in making the products. But AI is expensive, it can be weaponized, and it can result in the loss of jobs for humans, among other things. While none of us can predict the future, AI is here. What we cannot do is overestimate the power of good or underestimate the potential for disaster. Do the pros outweigh the cons? You'll have to decide!\n\nWe hope you and your student(s) enjoyed learning about artificial intelligence! If you want to learn even more, head over to our website and download one of our many lesson plans, full of activities, worksheets, and more!\n\nhttps://learnbright.org/lessons/science/artificial-intelligence/\n\nThank you for watching and learning with us! We’re constantly releasing new content and videos, so click that “Subscribe” button and you’ll get notified.\n\nWhat you will learn in What Is AI?:\n0:00 Introduction\n0:26 What is artificial intelligence?\n1:11 ANI, AGI, and ASI\n2:06 Pros of using AI\n3:11 Cons of using AI\n4:08 Review of the facts\n\nFind and Follow Us Online:\nFacebook: https://www.facebook.com/LearnBright/\nInstagram: https://instagram.com/LearnBrightEducation\nPinterest: https://pinterest.com/LearnBrightEducation\nYouTube: @LearnBright\nWebsite: https://learnbright.org/\n\n*Teachers and Parents! Did you know? In addition to these great videos, we have also created a library of high-quality and engaging lessons for your elementary aged student(s). Visit us, sign up for a free account, and instantly you'll have access to thousands of lesson plans, learning materials, teaching instructions, activities, and assignments that your kids will really enjoy! We hope to see you soon!\n\nBrowse our entire collection of Science lesson plans: https://learnbright.org/lessons/?filter_subject=science\n\n#ai\n#artificialintelligence\n#aiforkids",
+                  "images": [],
+                  "published_date": "2024-12-05T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              },
+              {
+                "name": "What is AI (artificial intelligence)?",
+                "snippet": "In this McKinsey Explainer, we define what AI is, and look at how rapid advances in Artificial Intelligence are reshaping almost every aspect of global society.",
+                "timestamp": "2024-04-03T00:00:00",
+                "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-ai",
+                "meta_data": {
+                  "client": "web",
+                  "date": null,
+                  "citation_domain_name": "mckinsey",
+                  "suffix": "com",
+                  "domain_name": "McKinsey & Company",
+                  "description": "In this McKinsey Explainer, we define what AI is, and look at how rapid advances in Artificial Intelligence are reshaping almost every aspect of global society.",
+                  "images": [
+                    "https://www.mckinsey.com/~/media/mckinsey/featured%20insights/mckinsey%20explainers/what%20is%20ai/what-is-ai-1270595233-standard-1536x1536-april-2024.jpg"
+                  ],
+                  "published_date": "2024-04-03T00:00:00"
+                },
+                "is_attachment": false,
+                "is_image": false,
+                "is_code_interpreter": false,
+                "is_knowledge_card": false,
+                "is_navigational": false,
+                "is_widget": false,
+                "is_focused_web": false,
+                "is_client_context": false,
+                "is_memory": false,
+                "is_conversation_history": false
+              }
+            ]
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f0c3-7818-8000-b38250ad9c39",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": false,
+        "has_first_token": false,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "blocks": [
+        {
+          "intended_usage": "answer_media_items",
+          "inline_entity_block": {
+            "media_block": {
+              "media_items": [],
+              "progress": "IN_PROGRESS"
+            }
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f0e5-734d-8000-72f3da683441",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": false,
+        "has_first_token": false,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "blocks": [
+        {
+          "intended_usage": "plan",
+          "plan_block": {
+            "progress": "DONE",
+            "goals": [
+              {
+                "id": "0",
+                "description": "Searching the web",
+                "final": true,
+                "todo_task_status": "INCOMPLETE"
+              }
+            ],
+            "final": true
+          }
+        },
+        {
+          "intended_usage": "pro_search_steps",
+          "plan_block": {
+            "progress": "IN_PROGRESS",
+            "goals": [],
+            "steps": [
+              {
+                "uuid": "302ac178-7044-4e77-8a07-5c2551eadcbe",
+                "step_type": "SEARCH_WEB",
+                "search_web_content": {
+                  "goal_id": "0",
+                  "queries": [
+                    {
+                      "engine": "web",
+                      "query": "What is artificial intelligence?",
+                      "limit": 8
+                    }
+                  ]
+                }
+              },
+              {
+                "uuid": "5d897f7a-2e02-4603-a38d-81a284666d21",
+                "step_type": "SEARCH_RESULTS",
+                "web_results_content": {
+                  "goal_id": "0",
+                  "web_results": [
+                    {
+                      "name": "What is Artificial Intelligence? | AI in Business",
+                      "url": "https://www.sap.com/products/artificial-intelligence/what-is-artificial-intelligence.html",
+                      "snippet": "Artificial intelligence (AI) is technology that enables machines to demonstrate human-like reasoning and capabilities such as autonomous decision making.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "sap",
+                        "suffix": "com",
+                        "domain_name": "SAP SE",
+                        "description": "Artificial intelligence is the ability of machines to learn and perform tasks like humans to successfully achieving goals. Learn how AI is used in business.",
+                        "published_date": "2025-10-11T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What is Artificial Intelligence (AI)",
+                      "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-artificial-intelligence-ai/",
+                      "snippet": "Artificial Intelligence (AI) is a technology that enables machines and computers to perform tasks that typically require human intelligence.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "date": "2025-10-06",
+                        "citation_domain_name": "geeksforgeeks",
+                        "suffix": "org",
+                        "domain_name": "GeeksforGeeks",
+                        "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                        "published_date": "2017-09-08T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What Is Artificial Intelligence (AI)?",
+                      "url": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+                      "snippet": "Artificial intelligence is a technology that allows you to generate, classify, and perform tasks like image analysis and speech recognition.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "cloud.google",
+                        "suffix": "com",
+                        "domain_name": "Google Cloud",
+                        "description": "Artificial intelligence is a technology that allows you to generate, classify, and perform tasks like image analysis and speech recognition.",
+                        "published_date": "2025-10-10T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "Artificial intelligence",
+                      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+                      "snippet": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "wikipedia",
+                        "suffix": "org",
+                        "domain_name": "Wikimedia Foundation, Inc.",
+                        "published_date": "2001-10-08T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "Artificial intelligence: What it is, how it works and why ...",
+                      "url": "https://www.iso.org/artificial-intelligence",
+                      "snippet": "AI is a machine's ability to perform tasks requiring human intelligence, analyzing data, learning, and making smart decisions guided by human input.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "iso",
+                        "suffix": "org",
+                        "domain_name": "ISO",
+                        "published_date": "2024-01-31T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What is Artificial Intelligence?",
+                      "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+                      "snippet": "Artificial intelligence refers to computer systems that can perform complex tasks normally done by human-reasoning, decision making, creating, etc.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "nasa",
+                        "suffix": "gov",
+                        "domain_name": "NASA",
+                        "description": "Artificial intelligence refers to computer systems that can perform complex tasks normally done by human-reasoning, decision making, creating, etc.",
+                        "published_date": "2024-05-13T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What is Artificial intelligence (AI)?",
+                      "url": "https://www.mtu.edu/computing/ai/",
+                      "snippet": "Artificial intelligence (AI) encompasses the fields of computer and data science focused on building machines with human intelligence.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "mtu",
+                        "suffix": "edu",
+                        "domain_name": "Michigan Technological University",
+                        "description": "Artificial intelligence (AI) encompasses the fields of computer and data science focused on building machines with human intelligence to perform tasks like learning, reasoning, problem-solving, perception, and language understanding. Instead of relying on explicit instructions from a programmer, AI systems learn from data that enables them to handle complex problems and simple repetitive tasks, improving how they respond over time.",
+                        "published_date": "2025-08-28T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What Is Artificial Intelligence (AI)?",
+                      "url": "https://www.ibm.com/think/topics/artificial-intelligence",
+                      "snippet": "AI is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity and autonomy.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "ibm",
+                        "suffix": "com",
+                        "domain_name": "ibm.com",
+                        "description": "Artificial intelligence (AI) is technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision-making, creativity and autonomy.",
+                        "published_date": "2024-08-09T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What Is AI? | Learn all about artificial intelligence",
+                      "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+                      "snippet": "AI is that it combines computer science large sets of data or information and problem solving.",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "date": "2024-12-16",
+                        "citation_domain_name": "youtube",
+                        "suffix": "com",
+                        "domain_name": "youtube",
+                        "description": "What exactly is artificial intelligence? Did you know there are different levels? This video for kids discusses how people use AI and outlines some of the the pros and cons of using it. \n\nIf you have used Siri or Google Assistant, or asked a question to Alexa, then you are using a form of artificial intelligence. These all use voice recognition and machine learning to answer questions and respond to requests. If you have ever contacted customer service online to get help, then more than likely, your conversation began with a chatbot, a computer-designed program that simulates human conversation. Chatbots were not always considered AI because they could not learn or adapt. However, chatbots have recently become more sophisticated and are increasingly using the power of AI learning.\n\nThere are several beneficial uses for AI, and even more when you pair AI with robotics. For example, we are automating tasks that are unsafe for humans, like mixing toxic chemicals. Many of the products we use today incorporate some form of AI in making the products. But AI is expensive, it can be weaponized, and it can result in the loss of jobs for humans, among other things. While none of us can predict the future, AI is here. What we cannot do is overestimate the power of good or underestimate the potential for disaster. Do the pros outweigh the cons? You'll have to decide!\n\nWe hope you and your student(s) enjoyed learning about artificial intelligence! If you want to learn even more, head over to our website and download one of our many lesson plans, full of activities, worksheets, and more!\n\nhttps://learnbright.org/lessons/science/artificial-intelligence/\n\nThank you for watching and learning with us! We’re constantly releasing new content and videos, so click that “Subscribe” button and you’ll get notified.\n\nWhat you will learn in What Is AI?:\n0:00 Introduction\n0:26 What is artificial intelligence?\n1:11 ANI, AGI, and ASI\n2:06 Pros of using AI\n3:11 Cons of using AI\n4:08 Review of the facts\n\nFind and Follow Us Online:\nFacebook: https://www.facebook.com/LearnBright/\nInstagram: https://instagram.com/LearnBrightEducation\nPinterest: https://pinterest.com/LearnBrightEducation\nYouTube: @LearnBright\nWebsite: https://learnbright.org/\n\n*Teachers and Parents! Did you know? In addition to these great videos, we have also created a library of high-quality and engaging lessons for your elementary aged student(s). Visit us, sign up for a free account, and instantly you'll have access to thousands of lesson plans, learning materials, teaching instructions, activities, and assignments that your kids will really enjoy! We hope to see you soon!\n\nBrowse our entire collection of Science lesson plans: https://learnbright.org/lessons/?filter_subject=science\n\n#ai\n#artificialintelligence\n#aiforkids",
+                        "published_date": "2024-12-05T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    },
+                    {
+                      "name": "What is AI (artificial intelligence)?",
+                      "url": "https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-ai",
+                      "snippet": "AI is a machine's ability to perform the cognitive functions we associate with human minds, such as perceiving, reasoning, learning, interacting with the ...",
+                      "is_attachment": false,
+                      "meta_data": {
+                        "client": "web",
+                        "citation_domain_name": "mckinsey",
+                        "suffix": "com",
+                        "domain_name": "McKinsey & Company",
+                        "description": "In this McKinsey Explainer, we define what AI is, and look at how rapid advances in Artificial Intelligence are reshaping almost every aspect of global society.",
+                        "published_date": "2024-04-03T00:00:00"
+                      },
+                      "is_memory": false,
+                      "is_conversation_history": false,
+                      "is_navigational": false,
+                      "is_focused_web": false
+                    }
+                  ]
+                }
+              }
+            ],
+            "final": false
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f121-7941-8000-ae3751e35840",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": false,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f4c9-7951-8000-6c2e95a3712b",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": false,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f4d9-7248-8000-044ef0084ec7",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": false,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f59c-7a0e-8000-3ecc146ba23d",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": false,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              "Artificial intelligence"
+            ],
+            "chunk_starting_offset": 0,
+            "answer": "Artificial intelligence"
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f5b6-73c9-8000-ac8f7418c669",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " (AI) is technology"
+            ],
+            "chunk_starting_offset": 1
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f699-7804-8000-78badbf7b3be",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " that enables"
+            ],
+            "chunk_starting_offset": 2
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f728-734f-8000-ae10de5b0b34",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " machines and"
+            ],
+            "chunk_starting_offset": 3
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f762-74ed-8000-b84437be7496",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " computer systems"
+            ],
+            "chunk_starting_offset": 4
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f79c-742f-8000-cd8054b4b340",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " to perform tasks"
+            ],
+            "chunk_starting_offset": 5
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f913-7cd1-8000-fa0557f16295",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " that typically"
+            ],
+            "chunk_starting_offset": 6
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f958-7ec9-8000-7c3000b5dbd1",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " require human"
+            ],
+            "chunk_starting_offset": 7
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f97f-7863-8000-411579772ff0",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " intelligence"
+            ],
+            "chunk_starting_offset": 8
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f998-7d28-8000-7093c3cb12b4",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              ". These tasks"
+            ],
+            "chunk_starting_offset": 9
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-f9f2-7caf-8000-c7326e817401",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    },
+    {
+      "backend_uuid": "91cbb68b-8c84-4b1c-bc45-8dd9ff43c1c3",
+      "context_uuid": "51755b53-10c0-48ac-bd3c-12a445afb028",
+      "uuid": "abae51c4-4dfe-4e3b-8d2d-f7b2d41ced81",
+      "frontend_context_uuid": "ec5f8e62-aaf1-4b7d-8f4d-da2d73f4394f",
+      "display_model": "turbo",
+      "mode": "CONCISE",
+      "search_focus": "internet",
+      "source": "default",
+      "attachments": [],
+      "read_write_token": "411936fe-e56d-4e6b-ba12-074de7160a4d",
+      "is_pro_reasoning_mode": false,
+      "thread_url_slug": "what-is-artificial-intelligenc-kcu2i4yESxy8RY3Z_0PBww",
+      "media_items": [
+        {
+          "medium": "video",
+          "image": "https://img.youtube.com/vi/JcXKbUIebrU/maxresdefault.jpg",
+          "image_width": 1280,
+          "image_height": 720,
+          "url": "https://www.youtube.com/watch?v=JcXKbUIebrU",
+          "name": "What Is AI? | Learn all about artificial intelligence",
+          "source": "youtube",
+          "thumbnail": "https://img.youtube.com/vi/JcXKbUIebrU/hqdefault.jpg",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480
+        },
+        {
+          "medium": "image",
+          "image": "https://5cc2b83c.delivery.rocketcdn.me/app/uploads/what-is-artificial-intelligence.jpg",
+          "image_width": 1024,
+          "image_height": 683,
+          "url": "https://www.intotheminds.com/blog/en/what-is-artificial-intelligence-and-how-it-may-save-humanity/",
+          "name": "What is artificial intelligence and how it may save humanity",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/daedee08-89ac-5666-9e06-126d8203ce00/0135d3bf-59be-534b-be75-9cecfb0a67aa.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://aitech.edu.pk/wp-content/uploads/2025/06/ChatGPT-Image-Jun-1-2025-03_09_55-PM.png",
+          "image_width": 1200,
+          "image_height": 800,
+          "url": "https://aitech.edu.pk/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? A Beginner's Guide to AI in ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/104611f0-7ab6-5bfa-beea-2400994cb349/aa030463-2347-50d9-995e-41427bec9df2.jpg",
+          "thumbnail_height": 200,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.nasa.gov/wp-content/uploads/2024/05/ai-ml-dl-03.png",
+          "image_width": 1667,
+          "image_height": 1667,
+          "url": "https://www.nasa.gov/what-is-artificial-intelligence/",
+          "name": "What is Artificial Intelligence? - NASA",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/d370b098-2cd5-5b57-92a9-94858233c889/2b5a2665-e4df-51ab-b701-d0a0f2087db4.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240319155102/what-is-ai-artificial-intelligence.webp",
+          "image_width": 1000,
+          "image_height": 470,
+          "url": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-ai/",
+          "name": "What is AI? - GeeksforGeeks",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cf50bea9-1bee-5c4f-8f5f-0916b2a286b0/8ae81ef5-e94b-5660-bf9a-206df4c487a4.jpg",
+          "thumbnail_height": 141,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.investopedia.com/thmb/4K3hIci9bUF3521OUjC-cCG3NpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/terms_a_artificial-intelligence-ai_asp-FINAL-ddba8ac599f3438d8064350d2ee1ae5a.jpg",
+          "image_width": 1500,
+          "image_height": 1013,
+          "url": "https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp",
+          "name": "Artificial Intelligence (AI): What It Is, How It Works ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e39f60e2-0177-5f68-9908-1c3d8bbc381a/f42471c3-7c71-5461-b0b1-c9babd7c4d55.jpg",
+          "thumbnail_height": 203,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.codingdojo.com/blog/wp-content/uploads/ai-v2-img3.jpg",
+          "image_width": 1440,
+          "image_height": 1000,
+          "url": "https://www.aitimejournal.com/what-is-artificial-intelligence-ai/29625/",
+          "name": "What is Artificial Intelligence? (AI) - AI Time Journal ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/c12c1e2b-7bf0-53f3-8cc5-52a189572321/41772027-cc64-5b62-bafe-b71a8f600cb4.jpg",
+          "thumbnail_height": 208,
+          "thumbnail_width": 300
+        },
+        {
+          "medium": "image",
+          "image": "https://www.outsourceaccelerator.com/wp-content/uploads/2020/09/What-is-Artificial-Intelligence-1.png",
+          "image_width": 1080,
+          "image_height": 1080,
+          "url": "https://www.outsourceaccelerator.com/glossary/artificial-intelligence/",
+          "name": "Artificial Intelligence | Outsourcing Glossary | Outsource ...",
+          "source": "web",
+          "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/709162fa-5fd5-56ad-a0d1-794836b6bcd1/cc7c6b46-536d-57ce-b8e5-4494f9455852.jpg",
+          "thumbnail_height": 300,
+          "thumbnail_width": 300
+        }
+      ],
+      "expect_search_results": "true",
+      "gpt4": false,
+      "text_completed": false,
+      "expect_sponsored_results": false,
+      "blocks": [
+        {
+          "intended_usage": "ask_text",
+          "markdown_block": {
+            "progress": "IN_PROGRESS",
+            "chunks": [
+              " include learning"
+            ],
+            "chunk_starting_offset": 10
+          }
+        }
+      ],
+      "message_mode": "STREAMING",
+      "answer_modes": [
+        {
+          "answer_mode_type": "IMAGE",
+          "has_preview": true
+        },
+        {
+          "answer_mode_type": "SOURCES"
+        }
+      ],
+      "structured_answer_block_usages": [
+        "answer_media_items",
+        "ask_text"
+      ],
+      "reconnectable": true,
+      "image_completions": [],
+      "cursor": "068ec106-fa2b-7af7-8000-60588aed4800",
+      "classifier_results": {
+        "personal_search": false,
+        "skip_search": false,
+        "widget_type": "GENERAL",
+        "hide_nav": false,
+        "hide_sources": false,
+        "image_generation": false,
+        "time_widget": false,
+        "mhe_predictions": {
+          "skip_search": false,
+          "image_generation_intent": false,
+          "time_widget": false,
+          "sports_intent": false,
+          "places_search_intent": false,
+          "shopping_intent": false,
+          "movie_lists_intent": false,
+          "image_preview": true,
+          "video_preview": false,
+          "nav_intent": false,
+          "study_intent": false,
+          "personal_search": false,
+          "weather_widget": false,
+          "finance_widget_gating": false,
+          "calculator_widget": false
+        }
+      },
+      "search_implementation_mode": "fast",
+      "telemetry_data": {
+        "has_displayed_search_results": true,
+        "has_first_output_token": true,
+        "has_first_token": true,
+        "country": "IN",
+        "is_followup": false,
+        "source": "default",
+        "engine_mode": "auto",
+        "search_implementation_mode": "fast",
+        "has_widget_data": false,
+        "search_duration_seconds": 0.5892884731292725,
+        "has_useful_renderable_content": true
+      },
+      "status": "PENDING",
+      "final_sse_message": false
+    }
+  ],
+  "total_chunks": 20
+}

@@ -1,0 +1,21 @@
+{
+    "name": "perplexity",
+    "version": "1.0.0",
+    "log_level": "INFO",
+    "perplexity_timeout": 120,
+    "default_mode": "pro",
+    "default_sources": ["web"],
+    "required_model": true,
+    "required_profile": true,
+    "max_results_default": 5,
+    "max_file_size": 10485760,
+    "validation": {
+        "strict_mode": true,
+        "sanitize_inputs": true
+    },
+    "performance": {
+        "cache_enabled": false,
+        "request_timeout": 60,
+        "max_concurrent_requests": 5
+    }
+}

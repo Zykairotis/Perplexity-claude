@@ -1,0 +1,1655 @@
+{
+  "backend_uuid": "a3f9a35c-5b28-4e70-adce-99370df23791",
+  "context_uuid": "aa753664-ca8b-46cd-8311-b09809403ca3",
+  "uuid": "e7f9c0ff-9e61-405f-81a3-bddd66e20969",
+  "frontend_context_uuid": "9c34409b-4f67-426a-9969-c349333bb3d2",
+  "frontend_uuid": "e7f9c0ff-9e61-405f-81a3-bddd66e20969",
+  "text": [
+    {
+      "step_type": "INITIAL_QUERY",
+      "content": {
+        "query": "climate change"
+      },
+      "uuid": ""
+    },
+    {
+      "step_type": "SEARCH_WEB",
+      "content": {
+        "goal_id": "0",
+        "queries": [
+          {
+            "engine": "web",
+            "query": "climate change",
+            "limit": 8
+          }
+        ]
+      },
+      "uuid": "d4e1bc72-b184-46b0-b144-40c845a4cf56"
+    },
+    {
+      "step_type": "SEARCH_RESULTS",
+      "content": {
+        "goal_id": "0",
+        "web_results": [
+          {
+            "name": "Goal 13: Climate Change",
+            "url": "https://www.un.org/sustainabledevelopment/climate-change/",
+            "snippet": "Currently, our planet is already about 1.2°C warmer than it was in the late 1800s, and emissions continue to rise. To keep global warming to no more than 1.5°C ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "un",
+              "suffix": "org",
+              "domain_name": "United Nations: Sustainable Development Goals",
+              "description": "Every person, in every country in every continent is impacted in some shape or form by climate change. Climate change is caused by human activities - primarily the burning of fossil fuels like oil, coal and gas - and threatens life on Earth as",
+              "published_date": "2025-09-10T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate change",
+            "url": "https://en.wikipedia.org/wiki/Climate_change",
+            "snippet": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "wikipedia",
+              "suffix": "org",
+              "domain_name": "Wikimedia Foundation, Inc.",
+              "published_date": "2001-10-30T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "What Is Climate Change?",
+            "url": "https://science.nasa.gov/climate-change/what-is-climate-change/",
+            "snippet": "Climate change is a long-term change in the average weather patterns that have come to define Earth's local, regional and global climates.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "science.nasa",
+              "suffix": "gov",
+              "domain_name": "NASA Science",
+              "description": "Climate change is a long-term change in the average weather patterns that have come to define Earth’s local, regional and global climates. These changes have",
+              "published_date": "2024-10-21T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate Change",
+            "url": "https://science.nasa.gov/climate-change/",
+            "snippet": "How Do We Know Climate Change is Real? There is unequivocal evidence that Earth is warming at an unprecedented rate. Human activity is the principal cause.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "science.nasa",
+              "suffix": "gov",
+              "domain_name": "NASA Science",
+              "description": "NASA is a global leader in studying Earth’s changing climate.",
+              "published_date": "2025-09-26T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate change: evidence and causes",
+            "url": "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/",
+            "snippet": "Greenhouse gases emitted by human activities alter Earth's energy balance and thus its climate. Humans also affect climate by changing the nature of the land ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "royalsociety",
+              "suffix": "org",
+              "domain_name": "Royalsociety",
+              "description": "Supplementary information for the project 'Climate Change: Evidence and causes'.",
+              "published_date": "2015-07-15T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "What Is Climate Change?",
+            "url": "https://www.un.org/en/climatechange/what-is-climate-change",
+            "snippet": "Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun's activity or large ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "un",
+              "suffix": "org",
+              "domain_name": "United Nations",
+              "description": "Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun’s activity or large volcanic eruptions. But since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil and gas.",
+              "published_date": "2021-04-01T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "IPCC — Intergovernmental Panel on Climate Change",
+            "url": "https://www.ipcc.ch",
+            "snippet": "The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body for assessing the science related to climate change.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "ipcc",
+              "suffix": "ch",
+              "domain_name": "IPCC",
+              "published_date": "2023-03-23T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate change",
+            "url": "https://www.who.int/health-topics/climate-change",
+            "snippet": "Climate change is impacting human lives and health in a variety of ways. It threatens the essential ingredients of good health – clean air, safe drinking water.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "who",
+              "suffix": "int",
+              "domain_name": "World Health Organization: WHO",
+              "description": "The evidence is clear that climate change is already having a serious impact on human lives and health. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.",
+              "published_date": "2019-08-09T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "UNFCCC",
+            "url": "https://unfccc.int",
+            "snippet": "Get the latest climate change news. See all · UNGA 2025 UNSG. 25 Sep 2025. Momentum Gathers Towards COP30 as Close to 100 Countries Signal New Climate Targets.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "unfccc",
+              "suffix": "int",
+              "domain_name": "unfccc.int",
+              "published_date": "2025-08-01T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate Change 2021 – The Physical Science Basis",
+            "url": "https://www.cambridge.org/core/product/identifier/9781009157896/type/book",
+            "snippet": "The Working Group I contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the physical science basis of climate change. It considers in situ and remote observations; paleoclimate information; understanding of climate drivers and physical, chemical, and biological processes and feedbacks; global and regional climate modelling; advances in methods of analyses; and insights from climate services. It assesses the current state of the climate; human influence on climate in all regions; future climate change including sea level rise; global warming effects including extremes; climate information for risk assessment and regional adaptation; limiting climate change by reaching net zero carbon dioxide emissions and reducing other greenhouse gas emissions; and benefits for air quality. The report serves policymakers, decision makers, stakeholders, and all interested parties with the latest policy-relevant information on climate change. Available as Open Access on Cambridge Core.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2023-06-29",
+              "citation_domain_name": "cambridge",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+            "url": "https://www.cambridge.org/core/product/identifier/9781009325844/type/book",
+            "snippet": "The Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the scientific literature relevant to climate change impacts, adaptation and vulnerability. The report recognizes the interactions of climate, ecosystems and biodiversity, and human societies, and integrates across the natural, ecological, social and economic sciences. It emphasizes how efforts in adaptation and in reducing greenhouse gas emissions can come together in a process called climate resilient development, which enables a liveable future for biodiversity and humankind. The IPCC is the leading body for assessing climate change science. IPCC reports are produced in comprehensive, objective and transparent ways, ensuring they reflect the full range of views in the scientific literature. Novel elements include focused topical assessments, and an atlas presenting observed climate change impacts and future risks from global to regional scales. Available as Open Access on Cambridge Core.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2023-06-22",
+              "citation_domain_name": "cambridge",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate Change 2014 - Synthesis Report",
+            "url": "https://www.ipcc.ch/report/ar5/syr/",
+            "snippet": "The Synthesis Report (SYR) distils and integrates the findings of the three Working Group contributions to the Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change (IPCC), the most comprehensive assessment of climate change undertaken thus far by the IPCC: Climate Change 2013: The Physical Science Basis; Climate Change 2014: Impacts, Adaptation, and Vulnerability; and Climate Change 2014: Mitigation of Climate Change. The SYR also incorporates the findings of two Special Reports on Renewable Energy Sources and Climate Change Mitigation (2011) and on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (2011).",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2015-04-30",
+              "citation_domain_name": "ipcc",
+              "suffix": "ch"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Impacts of Climate Change",
+            "url": "https://primarysources.brillonline.com/browse/climate-change-and-law-collection/impacts-of-climate-change;cccc002920150029001",
+            "snippet": "Climate change is already affecting the environment and people around the world. We have seen changes in the air, in water, and in plants and animals. These impacts include things like warmer temperatures, sea-level rise, heavy rainfall and more intense storms. Hundreds of plants and animals on the land and in the ocean have been lost because of very hot temperatures. Climate change has also made it more difficult for many people to access food or water, and has caused some people to lose their ways of earning a living. Unfortunately, people who have contributed the least to climate change are experiencing the worst effects. This shows that the effects of climate change are not fair and that there are uneven impacts on different people and places. It is important for us to understand the impacts of climate change on the environment and people so that we can find ways to solve these problems.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2024-08-27",
+              "citation_domain_name": "primarysources.brillonline",
+              "suffix": "com"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate Change 2013: The Physical Science Basis",
+            "url": "https://www.semanticscholar.org/paper/10aa6b29ca7077ac5656c9df7f2efc8cab158851",
+            "snippet": "",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "semanticscholar",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate change 2007: the physical science basis",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/03736245.2010.480842",
+            "snippet": "",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2010-06-01",
+              "citation_domain_name": "tandfonline",
+              "suffix": "com"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate change 2014 : mitigation of climate change",
+            "url": "https://www.semanticscholar.org/paper/985278f5e83a838f22410b28363e12c6e395392a",
+            "snippet": "",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "semanticscholar",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate Change 2013: The Physical Science Basis",
+            "url": "https://www.semanticscholar.org/paper/55c53808708363870a5dc01820ac4e7dbd183549",
+            "snippet": "",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "semanticscholar",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Climate change 2001 : the scientific basis",
+            "url": "https://www.jstor.org/stable/10.2307/20033020?origin=crossref",
+            "snippet": "",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "jstor",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Ecological responses to recent climate change",
+            "url": "https://www.nature.com/articles/416389a",
+            "snippet": "",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "2002-03-28",
+              "citation_domain_name": "nature",
+              "suffix": "com"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "The Reality of Climate Change: Evidence, Impacts and Engineering\n  Solutions",
+            "url": "http://arxiv.org/pdf/2410.12412.pdf",
+            "snippet": "Climate change is one of the most significant global challenges, yet\nmisconceptions persist regarding its causes and impact. This report addresses\ncommon myths surrounding climate change...melting ice sheets,\nrising sea levels, and extreme weather patterns in regions like New South\nWales. The analysis demonstrates the human-driven nature of climate change,\nprimarily caused by increased carbon emissions. Engineering solutions,\nincluding renewable energy technologies, green buildings, and carbon capture\nmethods...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "date": "Wed, 16 Oct 2024 09:55:31 GMT",
+              "citation_domain_name": "arxiv",
+              "suffix": "org"
+            },
+            "sitelinks": null
+          }
+        ]
+      },
+      "uuid": "83400ec5-caf6-43ea-af66-6334629bf1b2"
+    },
+    {
+      "step_type": "FINAL",
+      "content": {
+        "answer": "{\"answer\": \"Climate change refers to the long-term shifts and alterations in temperature and weather patterns on Earth. It is primarily caused by human activities, especially the burning of fossil fuels like coal, oil, and gas, which increases greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat, causing Earth's average surface temperature to rise, leading to global warming. Since the late 1800s, the planet has warmed by about 1.2\\u00b0C, with the hottest years on record occurring recently.\\n\\nThe impacts of climate change are significant and widespread, including more frequent extreme weather events (such as droughts, floods, and storms), rising sea levels, melting glaciers and ice sheets, expanding deserts, and changes in ecosystems that threaten biodiversity. It also poses serious risks to human health, food and water security, economic stability, and can exacerbate conflicts and migration.\\n\\nEfforts to address climate change focus on reducing greenhouse gas emissions drastically by transitioning to renewable energy sources, enhancing energy efficiency, protecting and restoring forests, and developing carbon removal technologies. The international community aims to limit global warming to well below 2\\u00b0C, ideally 1.5\\u00b0C, above pre-industrial levels to mitigate the worst effects.\\n\\nIn summary, climate change is a critical global challenge driven mainly by human activities causing global warming, with far-reaching environmental, social, and economic consequences that require urgent and comprehensive action worldwide.[1][2][3][4][5][13]\", \"web_results\": [{\"name\": \"Goal 13: Climate Change\", \"snippet\": \"Every person, in every country in every continent is impacted in some shape or form by climate change. Climate change is caused by human activities - primarily the burning of fossil fuels like oil, coal and gas - and threatens life on Earth as\", \"timestamp\": \"2025-09-10T00:00:00\", \"url\": \"https://www.un.org/sustainabledevelopment/climate-change/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"un\", \"suffix\": \"org\", \"domain_name\": \"United Nations: Sustainable Development Goals\", \"description\": \"Every person, in every country in every continent is impacted in some shape or form by climate change. Climate change is caused by human activities - primarily the burning of fossil fuels like oil, coal and gas - and threatens life on Earth as\", \"images\": [\"https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E_SDG_logo_UN_emblem_square_trans_WEB.png\"], \"published_date\": \"2025-09-10T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate change\", \"snippet\": \"Changes in surface air temperature over the past 50 years. The Arctic has warmed the most, and temperatures on land have generally increased more than sea surface temperatures. Earth's average surface air temperature has increased almost 1.5 \\u00b0C (about 2.5 \\u00b0F) since the Industrial Revolution. Natural forces cause some variability, but the 20-year average shows the progressive influence of human activity. Present-day climate change includes both global warming\\u2014the ongoing increase in global...\", \"timestamp\": \"2001-10-30T00:00:00\", \"url\": \"https://en.wikipedia.org/wiki/Climate_change\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"wikipedia\", \"suffix\": \"org\", \"domain_name\": \"Wikimedia Foundation, Inc.\", \"description\": null, \"images\": [\"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/1200px-Change_in_Average_Temperature_With_Fahrenheit.svg.png\"], \"published_date\": \"2001-10-30T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What Is Climate Change?\", \"snippet\": \"Climate change is a long-term change in the average weather patterns that have come to define Earth\\u2019s local, regional and global climates. These changes have\", \"timestamp\": \"2024-10-21T00:00:00\", \"url\": \"https://science.nasa.gov/climate-change/what-is-climate-change/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"science.nasa\", \"suffix\": \"gov\", \"domain_name\": \"NASA Science\", \"description\": \"Climate change is a long-term change in the average weather patterns that have come to define Earth\\u2019s local, regional and global climates. These changes have\", \"images\": [\"https://assets.science.nasa.gov/dynamicimage/assets/science/esd/climate/internal_resources/2722/OMGglacierimage-1920.jpeg\"], \"published_date\": \"2024-10-21T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate Change\", \"snippet\": \"NASA is a global leader in studying Earth\\u2019s changing climate.\", \"timestamp\": \"2025-09-26T00:00:00\", \"url\": \"https://science.nasa.gov/climate-change/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"science.nasa\", \"suffix\": \"gov\", \"domain_name\": \"NASA Science\", \"description\": \"NASA is a global leader in studying Earth\\u2019s changing climate.\", \"images\": [\"https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp\"], \"published_date\": \"2025-09-26T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate change: evidence and causes\", \"snippet\": \"Supplementary information for the project 'Climate Change: Evidence and causes'.\", \"timestamp\": \"2015-07-15T00:00:00\", \"url\": \"https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"royalsociety\", \"suffix\": \"org\", \"domain_name\": \"Royalsociety\", \"description\": \"Supplementary information for the project 'Climate Change: Evidence and causes'.\", \"images\": [], \"published_date\": \"2015-07-15T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What Is Climate Change?\", \"snippet\": \"Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun\\u2019s activity or large volcanic eruptions. But since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil and gas.\", \"timestamp\": \"2021-04-01T00:00:00\", \"url\": \"https://www.un.org/en/climatechange/what-is-climate-change\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"un\", \"suffix\": \"org\", \"domain_name\": \"United Nations\", \"description\": \"Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun\\u2019s activity or large volcanic eruptions. But since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil and gas.\", \"images\": [\"https://www.un.org/sites/un2.un.org/files/2021/04/utf-8green_planet.jpg\"], \"published_date\": \"2021-04-01T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"IPCC \\u2014 Intergovernmental Panel on Climate Change\", \"snippet\": \"\", \"timestamp\": \"2023-03-23T00:00:00\", \"url\": \"https://www.ipcc.ch\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"ipcc\", \"suffix\": \"ch\", \"domain_name\": \"IPCC\", \"description\": null, \"images\": [], \"published_date\": \"2023-03-23T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate change\", \"snippet\": \"The evidence is clear that climate change is already having a serious impact on human lives and health. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.\", \"timestamp\": \"2019-08-09T00:00:00\", \"url\": \"https://www.who.int/health-topics/climate-change\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"who\", \"suffix\": \"int\", \"domain_name\": \"World Health Organization: WHO\", \"description\": \"The evidence is clear that climate change is already having a serious impact on human lives and health. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.\", \"images\": [], \"published_date\": \"2019-08-09T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"UNFCCC\", \"snippet\": \"\", \"timestamp\": \"2025-08-01T00:00:00\", \"url\": \"https://unfccc.int\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"unfccc\", \"suffix\": \"int\", \"domain_name\": \"unfccc.int\", \"description\": null, \"images\": [], \"published_date\": \"2025-08-01T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate Change 2021 \\u2013 The Physical Science Basis\", \"snippet\": \"\", \"timestamp\": \"2023-06-29\", \"url\": \"https://www.cambridge.org/core/product/identifier/9781009157896/type/book\", \"meta_data\": {\"client\": \"web\", \"date\": \"2023-06-29\", \"citation_domain_name\": \"cambridge\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate Change 2022 \\u2013 Impacts, Adaptation and Vulnerability\", \"snippet\": \"\", \"timestamp\": \"2023-06-22\", \"url\": \"https://www.cambridge.org/core/product/identifier/9781009325844/type/book\", \"meta_data\": {\"client\": \"web\", \"date\": \"2023-06-22\", \"citation_domain_name\": \"cambridge\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate Change 2014 - Synthesis Report\", \"snippet\": \"\", \"timestamp\": \"2015-04-30\", \"url\": \"https://www.ipcc.ch/report/ar5/syr/\", \"meta_data\": {\"client\": \"web\", \"date\": \"2015-04-30\", \"citation_domain_name\": \"ipcc\", \"suffix\": \"ch\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Impacts of Climate Change\", \"snippet\": \"\", \"timestamp\": \"2024-08-27\", \"url\": \"https://primarysources.brillonline.com/browse/climate-change-and-law-collection/impacts-of-climate-change;cccc002920150029001\", \"meta_data\": {\"client\": \"web\", \"date\": \"2024-08-27\", \"citation_domain_name\": \"primarysources.brillonline\", \"suffix\": \"com\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate Change 2013: The Physical Science Basis\", \"snippet\": \"\", \"timestamp\": \"\", \"url\": \"https://www.semanticscholar.org/paper/10aa6b29ca7077ac5656c9df7f2efc8cab158851\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"semanticscholar\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate change 2007: the physical science basis\", \"snippet\": \"\", \"timestamp\": \"2010-06-01\", \"url\": \"https://www.tandfonline.com/doi/full/10.1080/03736245.2010.480842\", \"meta_data\": {\"client\": \"web\", \"date\": \"2010-06-01\", \"citation_domain_name\": \"tandfonline\", \"suffix\": \"com\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate change 2014 : mitigation of climate change\", \"snippet\": \"\", \"timestamp\": \"\", \"url\": \"https://www.semanticscholar.org/paper/985278f5e83a838f22410b28363e12c6e395392a\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"semanticscholar\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate Change 2013: The Physical Science Basis\", \"snippet\": \"\", \"timestamp\": \"\", \"url\": \"https://www.semanticscholar.org/paper/55c53808708363870a5dc01820ac4e7dbd183549\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"semanticscholar\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Climate change 2001 : the scientific basis\", \"snippet\": \"\", \"timestamp\": \"\", \"url\": \"https://www.jstor.org/stable/10.2307/20033020?origin=crossref\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"jstor\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Ecological responses to recent climate change\", \"snippet\": \"\", \"timestamp\": \"2002-03-28\", \"url\": \"https://www.nature.com/articles/416389a\", \"meta_data\": {\"client\": \"web\", \"date\": \"2002-03-28\", \"citation_domain_name\": \"nature\", \"suffix\": \"com\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"The Reality of Climate Change: Evidence, Impacts and Engineering\\n  Solutions\", \"snippet\": \"\", \"timestamp\": \"Wed, 16 Oct 2024 09:55:31 GMT\", \"url\": \"http://arxiv.org/pdf/2410.12412.pdf\", \"meta_data\": {\"client\": \"web\", \"date\": \"Wed, 16 Oct 2024 09:55:31 GMT\", \"citation_domain_name\": \"arxiv\", \"suffix\": \"org\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}], \"chunks\": [\"Climate change\", \" refers to the\", \" long-term shifts\", \" and alterations\", \" in temperature\", \" and weather patterns\", \" on Earth. It\", \" is primarily\", \" caused by human\", \" activities, especially\", \" the burning of\", \" fossil fuels\", \" like coal, oil\", \", and gas, which\", \" increases greenhouse\", \" gases such as\", \" carbon dioxide\", \" in the atmosphere\", \". These gases\", \" trap heat, causing\", \" Earth's average\", \" surface temperature\", \" to rise, leading\", \" to global warming\", \". Since the late\", \" 1800s, the planet\", \" has warmed by\", \" about 1.2\\u00b0C,\", \" with the hottest\", \" years on record\", \" occurring recently\", \".\\n\\nThe impacts\", \" of climate change\", \" are significant\", \" and widespread\", \", including more\", \" frequent extreme\", \" weather events\", \" (such as drought\", \"s, floods, and\", \" storms), rising\", \" sea levels, melting\", \" glaciers and\", \" ice sheets, expanding\", \" deserts, and\", \" changes in ecosystems\", \" that threaten\", \" biodiversity\", \". It also poses\", \" serious risks\", \" to human health\", \", food and water\", \" security, economic\", \" stability, and\", \" can exacerbate\", \" conflicts and\", \" migration.\", \"\\n\\nEfforts to address\", \" climate change\", \" focus on reducing\", \" greenhouse gas\", \" emissions drastically\", \" by transitioning\", \" to renewable\", \" energy sources\", \", enhancing energy\", \" efficiency, protecting\", \" and restoring\", \" forests, and\", \" developing carbon\", \" removal technologies\", \". The international\", \" community aims\", \" to limit global\", \" warming to well\", \" below 2\\u00b0C, ideally\", \" 1.5\\u00b0C, above\", \" pre-industrial\", \" levels to mitigate\", \" the worst effects\", \".\\n\\nIn summary\", \", climate change\", \" is a critical\", \" global challenge\", \" driven mainly\", \" by human activities\", \" causing global\", \" warming, with\", \" far-reaching\", \" environmental\", \", social, and\", \" economic consequences\", \" that require\", \" urgent and comprehensive\", \" action worldwide\", \".\", \"[1][2][3][4][5][13]\"], \"extra_web_results\": [], \"structured_answer\": []}"
+      },
+      "uuid": ""
+    }
+  ],
+  "thread_title": "climate change",
+  "related_queries": [
+    "Key drivers of recent global temperature rise",
+    "Most urgent impacts of 1.5°C vs 2°C warming",
+    "Effective individual actions to cut my carbon footprint",
+    "Policies that successfully reduced emissions in countries",
+    "How climate change affects food and water security"
+  ],
+  "display_model": "turbo",
+  "user_selected_model": "turbo",
+  "personalized": true,
+  "mode": "COPILOT",
+  "query_str": "climate change",
+  "search_focus": "internet",
+  "source": "default",
+  "attachments": [],
+  "updated_datetime": "2025-10-12T20:32:38.883597",
+  "read_write_token": "e8e9ecdc-1f5b-4b4e-aee8-b63c059d31f4",
+  "is_pro_reasoning_mode": false,
+  "step_type": "FINAL",
+  "bookmark_state": "NOT_BOOKMARKED",
+  "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+  "thread_access": 2,
+  "thread_url_slug": "climate-change-o_mjXFsoTnCtzpk3DfI3kQ",
+  "media_items": [
+    {
+      "medium": "image",
+      "image": "https://cdn.mos.cms.futurecdn.net/TY6SwtikwK9QzrrmuZcfoj.jpg",
+      "image_width": 800,
+      "image_height": 454,
+      "url": "https://www.livescience.com/planet-earth/climate-change",
+      "name": "Climate change: News, features and articles | Live Science",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/594ef6f2-d762-5b8e-987e-57ad0bfb752c/aec8f940-3469-5597-816f-0dd903b3407c.jpg",
+      "thumbnail_height": 170,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://i.natgeofe.com/k/6d6ee5ff-e749-47dd-80c2-ed1158aa259c/climatechange-polarbear_4x3.jpg",
+      "image_width": 3072,
+      "image_height": 2304,
+      "url": "https://kids.nationalgeographic.com/science/article/climate-change",
+      "name": "Climate change | National Geographic Kids",
+      "source": "web",
+      "thumbnail": "https://i.natgeofe.com/k/6d6ee5ff-e749-47dd-80c2-ed1158aa259c/climatechange-polarbear_4x3.jpg",
+      "thumbnail_height": 2304,
+      "thumbnail_width": 3072
+    },
+    {
+      "medium": "image",
+      "image": "https://media.tehrantimes.com/d/t/2022/08/01/4/4231951.jpg?ts=1659354544474",
+      "image_width": 1000,
+      "image_height": 789,
+      "url": "https://www.tehrantimes.com/news/475265/The-key-role-of-nature-based-solutions-in-adapting-to-climate",
+      "name": "The key role of nature-based solutions in adapting to ...",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/39dd7340-9688-5b20-ab79-4006edc740b4/817cc9cb-397c-596a-9943-1eeae89b5507.jpg",
+      "thumbnail_height": 237,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://www.iberdrola.com/documents/20125/40258/Infographic_Impact_Climate_Change.jpg/1cd099b9-d7e5-0506-6b1a-28aaad1ec0ed?t=1708336291651",
+      "image_width": 3508,
+      "image_height": 2479,
+      "url": "https://www.iberdrola.com/sustainability/impacts-of-climate-change",
+      "name": "Impacts of Climate Change on the Economy and Society - Iberdrola",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/8ce9502c-2e7f-52c9-933b-c89271c7aa0c/ef0223d7-6a7b-5845-902a-fc6bb2432460.jpg",
+      "thumbnail_height": 212,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://static.toiimg.com/thumb/msid-121859006,width-1280,height-720,resizemode-4/121859006.jpg",
+      "image_width": 1280,
+      "image_height": 720,
+      "url": "https://timesofindia.indiatimes.com/science/global-warming-vs-climate-change-know-what-is-the-real-difference-causes-and-steps-for-controlling/articleshow/121858935.cms",
+      "name": "Global Warming vs. Climate Change: Know what is the real ...",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/716d849d-6f4b-5b58-864b-dad6d3f99d4c/30a33c1c-655c-58f2-a983-d4fcd217ebb2.jpg",
+      "thumbnail_height": 169,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://www.amu.apus.edu/images/site/amu/effects-of-climate-change-on-environment.jpg",
+      "image_width": 768,
+      "image_height": 512,
+      "url": "https://www.amu.apus.edu/area-of-study/science/resources/effects-of-climate-change-on-the-environment/",
+      "name": "Effects of Climate Change on the Environment: A Global ...",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/5b575cb4-ce97-5af9-ac74-94ea4545ff6a/2b3c86eb-c442-5c35-8d0d-f8037b813d08.jpg",
+      "thumbnail_height": 200,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://www.acs.org/content/acs/en/education/chemmatters/articles/what-is-the-story-with-climate-change/_jcr_content/mainContent/image_copy_copy_copy.img.jpg/1679271255741.jpg",
+      "image_width": 825,
+      "image_height": 412,
+      "url": "https://www.acs.org/education/chemmatters/articles/what-is-the-story-with-climate-change.html",
+      "name": "What is the Story With Climate Change? - American Chemical ...",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9b6ed4e9-5f9c-5b16-b1ad-f122f3caa386/85293c80-9384-5e1f-b91c-3c0924aeac65.jpg",
+      "thumbnail_height": 150,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://shopequo.com/cdn/shop/articles/What_Is_Climate_Change_Causes_Impact_on_Humans_and_Animals.png?v=1698979509&width=1600",
+      "image_width": 1004,
+      "image_height": 590,
+      "url": "https://shopequo.com/blogs/blog/what-is-climate-change",
+      "name": "What Is Climate Change: Causes, Impact on Humans and Animals ...",
+      "source": "web",
+      "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/0d0de225-3eeb-5f86-bf67-724342e85b9d/ecdcee3d-e64f-5931-8fcf-c78f9aa73922.jpg",
+      "thumbnail_height": 176,
+      "thumbnail_width": 300
+    },
+    {
+      "medium": "image",
+      "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/climate/internal_resources/2710/Effects_page_triptych.jpeg?w=2963&h=1459&fit=clip&crop=faces%2Cfocalpoint",
+      "image_width": 2963,
+      "image_height": 1458,
+      "url": "https://science.nasa.gov/climate-change/effects/",
+      "name": "Effects - NASA Science",
+      "source": "web",
+      "thumbnail": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/climate/internal_resources/2710/Effects_page_triptych.jpeg?w=2963&h=1459&fit=clip&crop=faces%2Cfocalpoint",
+      "thumbnail_height": 1458,
+      "thumbnail_width": 2963
+    }
+  ],
+  "expect_search_results": "true",
+  "plan": {
+    "goals": [
+      {
+        "id": "0",
+        "description": "Searching the web",
+        "final": true,
+        "todo_task_status": "INCOMPLETE"
+      }
+    ],
+    "final": true
+  },
+  "privacy_state": "NONE",
+  "gpt4": false,
+  "sources": {
+    "sources": [
+      "scholar",
+      "web",
+      "social"
+    ]
+  },
+  "text_completed": true,
+  "expect_sponsored_results": false,
+  "entry_updated_datetime": "2025-10-12T20:32:45.631060+00:00",
+  "blocks": [
+    {
+      "intended_usage": "plan",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [
+          {
+            "id": "0",
+            "description": "Searching the web",
+            "final": true,
+            "todo_task_status": "INCOMPLETE"
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "pro_search_steps",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [],
+        "steps": [
+          {
+            "uuid": "",
+            "step_type": "INITIAL_QUERY",
+            "initial_query_content": {
+              "query": "climate change"
+            }
+          },
+          {
+            "uuid": "d4e1bc72-b184-46b0-b144-40c845a4cf56",
+            "step_type": "SEARCH_WEB",
+            "search_web_content": {
+              "goal_id": "0",
+              "queries": [
+                {
+                  "engine": "web",
+                  "query": "climate change",
+                  "limit": 8
+                }
+              ]
+            }
+          },
+          {
+            "uuid": "83400ec5-caf6-43ea-af66-6334629bf1b2",
+            "step_type": "SEARCH_RESULTS",
+            "web_results_content": {
+              "goal_id": "0",
+              "web_results": [
+                {
+                  "name": "Goal 13: Climate Change",
+                  "url": "https://www.un.org/sustainabledevelopment/climate-change/",
+                  "snippet": "Currently, our planet is already about 1.2°C warmer than it was in the late 1800s, and emissions continue to rise. To keep global warming to no more than 1.5°C ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "un",
+                    "suffix": "org",
+                    "domain_name": "United Nations: Sustainable Development Goals",
+                    "description": "Every person, in every country in every continent is impacted in some shape or form by climate change. Climate change is caused by human activities - primarily the burning of fossil fuels like oil, coal and gas - and threatens life on Earth as",
+                    "published_date": "2025-09-10T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate change",
+                  "url": "https://en.wikipedia.org/wiki/Climate_change",
+                  "snippet": "Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "wikipedia",
+                    "suffix": "org",
+                    "domain_name": "Wikimedia Foundation, Inc.",
+                    "published_date": "2001-10-30T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "What Is Climate Change?",
+                  "url": "https://science.nasa.gov/climate-change/what-is-climate-change/",
+                  "snippet": "Climate change is a long-term change in the average weather patterns that have come to define Earth's local, regional and global climates.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "science.nasa",
+                    "suffix": "gov",
+                    "domain_name": "NASA Science",
+                    "description": "Climate change is a long-term change in the average weather patterns that have come to define Earth’s local, regional and global climates. These changes have",
+                    "published_date": "2024-10-21T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate Change",
+                  "url": "https://science.nasa.gov/climate-change/",
+                  "snippet": "How Do We Know Climate Change is Real? There is unequivocal evidence that Earth is warming at an unprecedented rate. Human activity is the principal cause.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "science.nasa",
+                    "suffix": "gov",
+                    "domain_name": "NASA Science",
+                    "description": "NASA is a global leader in studying Earth’s changing climate.",
+                    "published_date": "2025-09-26T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate change: evidence and causes",
+                  "url": "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/",
+                  "snippet": "Greenhouse gases emitted by human activities alter Earth's energy balance and thus its climate. Humans also affect climate by changing the nature of the land ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "royalsociety",
+                    "suffix": "org",
+                    "domain_name": "Royalsociety",
+                    "description": "Supplementary information for the project 'Climate Change: Evidence and causes'.",
+                    "published_date": "2015-07-15T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "What Is Climate Change?",
+                  "url": "https://www.un.org/en/climatechange/what-is-climate-change",
+                  "snippet": "Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun's activity or large ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "un",
+                    "suffix": "org",
+                    "domain_name": "United Nations",
+                    "description": "Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun’s activity or large volcanic eruptions. But since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil and gas.",
+                    "published_date": "2021-04-01T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "IPCC — Intergovernmental Panel on Climate Change",
+                  "url": "https://www.ipcc.ch",
+                  "snippet": "The Intergovernmental Panel on Climate Change (IPCC) is the United Nations body for assessing the science related to climate change.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "ipcc",
+                    "suffix": "ch",
+                    "domain_name": "IPCC",
+                    "published_date": "2023-03-23T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate change",
+                  "url": "https://www.who.int/health-topics/climate-change",
+                  "snippet": "Climate change is impacting human lives and health in a variety of ways. It threatens the essential ingredients of good health – clean air, safe drinking water.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "who",
+                    "suffix": "int",
+                    "domain_name": "World Health Organization: WHO",
+                    "description": "The evidence is clear that climate change is already having a serious impact on human lives and health. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.",
+                    "published_date": "2019-08-09T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "UNFCCC",
+                  "url": "https://unfccc.int",
+                  "snippet": "Get the latest climate change news. See all · UNGA 2025 UNSG. 25 Sep 2025. Momentum Gathers Towards COP30 as Close to 100 Countries Signal New Climate Targets.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "unfccc",
+                    "suffix": "int",
+                    "domain_name": "unfccc.int",
+                    "published_date": "2025-08-01T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate Change 2021 – The Physical Science Basis",
+                  "url": "https://www.cambridge.org/core/product/identifier/9781009157896/type/book",
+                  "snippet": "The Working Group I contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the physical science basis of climate change. It considers in situ and remote observations; paleoclimate information; understanding of climate drivers and physical, chemical, and biological processes and feedbacks; global and regional climate modelling; advances in methods of analyses; and insights from climate services. It assesses the current state of the climate; human influence on climate in all regions; future climate change including sea level rise; global warming effects including extremes; climate information for risk assessment and regional adaptation; limiting climate change by reaching net zero carbon dioxide emissions and reducing other greenhouse gas emissions; and benefits for air quality. The report serves policymakers, decision makers, stakeholders, and all interested parties with the latest policy-relevant information on climate change. Available as Open Access on Cambridge Core.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2023-06-29",
+                    "citation_domain_name": "cambridge",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+                  "url": "https://www.cambridge.org/core/product/identifier/9781009325844/type/book",
+                  "snippet": "The Working Group II contribution to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC) provides a comprehensive assessment of the scientific literature relevant to climate change impacts, adaptation and vulnerability. The report recognizes the interactions of climate, ecosystems and biodiversity, and human societies, and integrates across the natural, ecological, social and economic sciences. It emphasizes how efforts in adaptation and in reducing greenhouse gas emissions can come together in a process called climate resilient development, which enables a liveable future for biodiversity and humankind. The IPCC is the leading body for assessing climate change science. IPCC reports are produced in comprehensive, objective and transparent ways, ensuring they reflect the full range of views in the scientific literature. Novel elements include focused topical assessments, and an atlas presenting observed climate change impacts and future risks from global to regional scales. Available as Open Access on Cambridge Core.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2023-06-22",
+                    "citation_domain_name": "cambridge",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate Change 2014 - Synthesis Report",
+                  "url": "https://www.ipcc.ch/report/ar5/syr/",
+                  "snippet": "The Synthesis Report (SYR) distils and integrates the findings of the three Working Group contributions to the Fifth Assessment Report (AR5) of the Intergovernmental Panel on Climate Change (IPCC), the most comprehensive assessment of climate change undertaken thus far by the IPCC: Climate Change 2013: The Physical Science Basis; Climate Change 2014: Impacts, Adaptation, and Vulnerability; and Climate Change 2014: Mitigation of Climate Change. The SYR also incorporates the findings of two Special Reports on Renewable Energy Sources and Climate Change Mitigation (2011) and on Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation (2011).",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2015-04-30",
+                    "citation_domain_name": "ipcc",
+                    "suffix": "ch"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Impacts of Climate Change",
+                  "url": "https://primarysources.brillonline.com/browse/climate-change-and-law-collection/impacts-of-climate-change;cccc002920150029001",
+                  "snippet": "Climate change is already affecting the environment and people around the world. We have seen changes in the air, in water, and in plants and animals. These impacts include things like warmer temperatures, sea-level rise, heavy rainfall and more intense storms. Hundreds of plants and animals on the land and in the ocean have been lost because of very hot temperatures. Climate change has also made it more difficult for many people to access food or water, and has caused some people to lose their ways of earning a living. Unfortunately, people who have contributed the least to climate change are experiencing the worst effects. This shows that the effects of climate change are not fair and that there are uneven impacts on different people and places. It is important for us to understand the impacts of climate change on the environment and people so that we can find ways to solve these problems.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2024-08-27",
+                    "citation_domain_name": "primarysources.brillonline",
+                    "suffix": "com"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate Change 2013: The Physical Science Basis",
+                  "url": "https://www.semanticscholar.org/paper/10aa6b29ca7077ac5656c9df7f2efc8cab158851",
+                  "snippet": "",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "semanticscholar",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate change 2007: the physical science basis",
+                  "url": "https://www.tandfonline.com/doi/full/10.1080/03736245.2010.480842",
+                  "snippet": "",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2010-06-01",
+                    "citation_domain_name": "tandfonline",
+                    "suffix": "com"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate change 2014 : mitigation of climate change",
+                  "url": "https://www.semanticscholar.org/paper/985278f5e83a838f22410b28363e12c6e395392a",
+                  "snippet": "",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "semanticscholar",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate Change 2013: The Physical Science Basis",
+                  "url": "https://www.semanticscholar.org/paper/55c53808708363870a5dc01820ac4e7dbd183549",
+                  "snippet": "",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "semanticscholar",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Climate change 2001 : the scientific basis",
+                  "url": "https://www.jstor.org/stable/10.2307/20033020?origin=crossref",
+                  "snippet": "",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "jstor",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Ecological responses to recent climate change",
+                  "url": "https://www.nature.com/articles/416389a",
+                  "snippet": "",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "2002-03-28",
+                    "citation_domain_name": "nature",
+                    "suffix": "com"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "The Reality of Climate Change: Evidence, Impacts and Engineering\n  Solutions",
+                  "url": "http://arxiv.org/pdf/2410.12412.pdf",
+                  "snippet": "Climate change is one of the most significant global challenges, yet\nmisconceptions persist regarding its causes and impact. This report addresses\ncommon myths surrounding climate change...melting ice sheets,\nrising sea levels, and extreme weather patterns in regions like New South\nWales. The analysis demonstrates the human-driven nature of climate change,\nprimarily caused by increased carbon emissions. Engineering solutions,\nincluding renewable energy technologies, green buildings, and carbon capture\nmethods...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "date": "Wed, 16 Oct 2024 09:55:31 GMT",
+                    "citation_domain_name": "arxiv",
+                    "suffix": "org"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                }
+              ]
+            }
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "ask_text",
+      "markdown_block": {
+        "progress": "DONE",
+        "chunks": [
+          "Climate change",
+          " refers to the",
+          " long-term shifts",
+          " and alterations",
+          " in temperature",
+          " and weather patterns",
+          " on Earth. It",
+          " is primarily",
+          " caused by human",
+          " activities, especially",
+          " the burning of",
+          " fossil fuels",
+          " like coal, oil",
+          ", and gas, which",
+          " increases greenhouse",
+          " gases such as",
+          " carbon dioxide",
+          " in the atmosphere",
+          ". These gases",
+          " trap heat, causing",
+          " Earth's average",
+          " surface temperature",
+          " to rise, leading",
+          " to global warming",
+          ". Since the late",
+          " 1800s, the planet",
+          " has warmed by",
+          " about 1.2°C,",
+          " with the hottest",
+          " years on record",
+          " occurring recently",
+          ".\n\nThe impacts",
+          " of climate change",
+          " are significant",
+          " and widespread",
+          ", including more",
+          " frequent extreme",
+          " weather events",
+          " (such as drought",
+          "s, floods, and",
+          " storms), rising",
+          " sea levels, melting",
+          " glaciers and",
+          " ice sheets, expanding",
+          " deserts, and",
+          " changes in ecosystems",
+          " that threaten",
+          " biodiversity",
+          ". It also poses",
+          " serious risks",
+          " to human health",
+          ", food and water",
+          " security, economic",
+          " stability, and",
+          " can exacerbate",
+          " conflicts and",
+          " migration.",
+          "\n\nEfforts to address",
+          " climate change",
+          " focus on reducing",
+          " greenhouse gas",
+          " emissions drastically",
+          " by transitioning",
+          " to renewable",
+          " energy sources",
+          ", enhancing energy",
+          " efficiency, protecting",
+          " and restoring",
+          " forests, and",
+          " developing carbon",
+          " removal technologies",
+          ". The international",
+          " community aims",
+          " to limit global",
+          " warming to well",
+          " below 2°C, ideally",
+          " 1.5°C, above",
+          " pre-industrial",
+          " levels to mitigate",
+          " the worst effects",
+          ".\n\nIn summary",
+          ", climate change",
+          " is a critical",
+          " global challenge",
+          " driven mainly",
+          " by human activities",
+          " causing global",
+          " warming, with",
+          " far-reaching",
+          " environmental",
+          ", social, and",
+          " economic consequences",
+          " that require",
+          " urgent and comprehensive",
+          " action worldwide",
+          ".",
+          "[1][2][3][4][5][13]"
+        ],
+        "chunk_starting_offset": 0,
+        "answer": "Climate change refers to the long-term shifts and alterations in temperature and weather patterns on Earth. It is primarily caused by human activities, especially the burning of fossil fuels like coal, oil, and gas, which increases greenhouse gases such as carbon dioxide in the atmosphere. These gases trap heat, causing Earth's average surface temperature to rise, leading to global warming. Since the late 1800s, the planet has warmed by about 1.2°C, with the hottest years on record occurring recently.\n\nThe impacts of climate change are significant and widespread, including more frequent extreme weather events (such as droughts, floods, and storms), rising sea levels, melting glaciers and ice sheets, expanding deserts, and changes in ecosystems that threaten biodiversity. It also poses serious risks to human health, food and water security, economic stability, and can exacerbate conflicts and migration.\n\nEfforts to address climate change focus on reducing greenhouse gas emissions drastically by transitioning to renewable energy sources, enhancing energy efficiency, protecting and restoring forests, and developing carbon removal technologies. The international community aims to limit global warming to well below 2°C, ideally 1.5°C, above pre-industrial levels to mitigate the worst effects.\n\nIn summary, climate change is a critical global challenge driven mainly by human activities causing global warming, with far-reaching environmental, social, and economic consequences that require urgent and comprehensive action worldwide.[1][2][3][4][5][13]"
+      }
+    },
+    {
+      "intended_usage": "web_results",
+      "web_result_block": {
+        "progress": "DONE",
+        "web_results": [
+          {
+            "name": "Goal 13: Climate Change",
+            "snippet": "Every person, in every country in every continent is impacted in some shape or form by climate change. Climate change is caused by human activities - primarily the burning of fossil fuels like oil, coal and gas - and threatens life on Earth as",
+            "timestamp": "2025-09-10T00:00:00",
+            "url": "https://www.un.org/sustainabledevelopment/climate-change/",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "un",
+              "suffix": "org",
+              "domain_name": "United Nations: Sustainable Development Goals",
+              "description": "Every person, in every country in every continent is impacted in some shape or form by climate change. Climate change is caused by human activities - primarily the burning of fossil fuels like oil, coal and gas - and threatens life on Earth as",
+              "images": [
+                "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/08/E_SDG_logo_UN_emblem_square_trans_WEB.png"
+              ],
+              "published_date": "2025-09-10T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate change",
+            "snippet": "Changes in surface air temperature over the past 50 years. The Arctic has warmed the most, and temperatures on land have generally increased more than sea surface temperatures. Earth's average surface air temperature has increased almost 1.5 °C (about 2.5 °F) since the Industrial Revolution. Natural forces cause some variability, but the 20-year average shows the progressive influence of human activity. Present-day climate change includes both global warming—the ongoing increase in global...",
+            "timestamp": "2001-10-30T00:00:00",
+            "url": "https://en.wikipedia.org/wiki/Climate_change",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "wikipedia",
+              "suffix": "org",
+              "domain_name": "Wikimedia Foundation, Inc.",
+              "description": null,
+              "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/1200px-Change_in_Average_Temperature_With_Fahrenheit.svg.png"
+              ],
+              "published_date": "2001-10-30T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "What Is Climate Change?",
+            "snippet": "Climate change is a long-term change in the average weather patterns that have come to define Earth’s local, regional and global climates. These changes have",
+            "timestamp": "2024-10-21T00:00:00",
+            "url": "https://science.nasa.gov/climate-change/what-is-climate-change/",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "science.nasa",
+              "suffix": "gov",
+              "domain_name": "NASA Science",
+              "description": "Climate change is a long-term change in the average weather patterns that have come to define Earth’s local, regional and global climates. These changes have",
+              "images": [
+                "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/climate/internal_resources/2722/OMGglacierimage-1920.jpeg"
+              ],
+              "published_date": "2024-10-21T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate Change",
+            "snippet": "NASA is a global leader in studying Earth’s changing climate.",
+            "timestamp": "2025-09-26T00:00:00",
+            "url": "https://science.nasa.gov/climate-change/",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "science.nasa",
+              "suffix": "gov",
+              "domain_name": "NASA Science",
+              "description": "NASA is a global leader in studying Earth’s changing climate.",
+              "images": [
+                "https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp"
+              ],
+              "published_date": "2025-09-26T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate change: evidence and causes",
+            "snippet": "Supplementary information for the project 'Climate Change: Evidence and causes'.",
+            "timestamp": "2015-07-15T00:00:00",
+            "url": "https://royalsociety.org/news-resources/projects/climate-change-evidence-causes/basics-of-climate-change/",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "royalsociety",
+              "suffix": "org",
+              "domain_name": "Royalsociety",
+              "description": "Supplementary information for the project 'Climate Change: Evidence and causes'.",
+              "images": [],
+              "published_date": "2015-07-15T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "What Is Climate Change?",
+            "snippet": "Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun’s activity or large volcanic eruptions. But since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil and gas.",
+            "timestamp": "2021-04-01T00:00:00",
+            "url": "https://www.un.org/en/climatechange/what-is-climate-change",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "un",
+              "suffix": "org",
+              "domain_name": "United Nations",
+              "description": "Climate change refers to long-term shifts in temperatures and weather patterns. Such shifts can be natural, due to changes in the sun’s activity or large volcanic eruptions. But since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil and gas.",
+              "images": [
+                "https://www.un.org/sites/un2.un.org/files/2021/04/utf-8green_planet.jpg"
+              ],
+              "published_date": "2021-04-01T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "IPCC — Intergovernmental Panel on Climate Change",
+            "snippet": "",
+            "timestamp": "2023-03-23T00:00:00",
+            "url": "https://www.ipcc.ch",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "ipcc",
+              "suffix": "ch",
+              "domain_name": "IPCC",
+              "description": null,
+              "images": [],
+              "published_date": "2023-03-23T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate change",
+            "snippet": "The evidence is clear that climate change is already having a serious impact on human lives and health. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.",
+            "timestamp": "2019-08-09T00:00:00",
+            "url": "https://www.who.int/health-topics/climate-change",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "who",
+              "suffix": "int",
+              "domain_name": "World Health Organization: WHO",
+              "description": "The evidence is clear that climate change is already having a serious impact on human lives and health. It threatens the essential ingredients of good health - clean air, safe drinking water, nutritious food supply, and safe shelter - and has the potential to undermine decades of progress in global health.",
+              "images": [],
+              "published_date": "2019-08-09T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "UNFCCC",
+            "snippet": "",
+            "timestamp": "2025-08-01T00:00:00",
+            "url": "https://unfccc.int",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "unfccc",
+              "suffix": "int",
+              "domain_name": "unfccc.int",
+              "description": null,
+              "images": [],
+              "published_date": "2025-08-01T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate Change 2021 – The Physical Science Basis",
+            "snippet": "",
+            "timestamp": "2023-06-29",
+            "url": "https://www.cambridge.org/core/product/identifier/9781009157896/type/book",
+            "meta_data": {
+              "client": "web",
+              "date": "2023-06-29",
+              "citation_domain_name": "cambridge",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate Change 2022 – Impacts, Adaptation and Vulnerability",
+            "snippet": "",
+            "timestamp": "2023-06-22",
+            "url": "https://www.cambridge.org/core/product/identifier/9781009325844/type/book",
+            "meta_data": {
+              "client": "web",
+              "date": "2023-06-22",
+              "citation_domain_name": "cambridge",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate Change 2014 - Synthesis Report",
+            "snippet": "",
+            "timestamp": "2015-04-30",
+            "url": "https://www.ipcc.ch/report/ar5/syr/",
+            "meta_data": {
+              "client": "web",
+              "date": "2015-04-30",
+              "citation_domain_name": "ipcc",
+              "suffix": "ch"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Impacts of Climate Change",
+            "snippet": "",
+            "timestamp": "2024-08-27",
+            "url": "https://primarysources.brillonline.com/browse/climate-change-and-law-collection/impacts-of-climate-change;cccc002920150029001",
+            "meta_data": {
+              "client": "web",
+              "date": "2024-08-27",
+              "citation_domain_name": "primarysources.brillonline",
+              "suffix": "com"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate Change 2013: The Physical Science Basis",
+            "snippet": "",
+            "timestamp": "",
+            "url": "https://www.semanticscholar.org/paper/10aa6b29ca7077ac5656c9df7f2efc8cab158851",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "semanticscholar",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate change 2007: the physical science basis",
+            "snippet": "",
+            "timestamp": "2010-06-01",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/03736245.2010.480842",
+            "meta_data": {
+              "client": "web",
+              "date": "2010-06-01",
+              "citation_domain_name": "tandfonline",
+              "suffix": "com"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate change 2014 : mitigation of climate change",
+            "snippet": "",
+            "timestamp": "",
+            "url": "https://www.semanticscholar.org/paper/985278f5e83a838f22410b28363e12c6e395392a",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "semanticscholar",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate Change 2013: The Physical Science Basis",
+            "snippet": "",
+            "timestamp": "",
+            "url": "https://www.semanticscholar.org/paper/55c53808708363870a5dc01820ac4e7dbd183549",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "semanticscholar",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Climate change 2001 : the scientific basis",
+            "snippet": "",
+            "timestamp": "",
+            "url": "https://www.jstor.org/stable/10.2307/20033020?origin=crossref",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "jstor",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Ecological responses to recent climate change",
+            "snippet": "",
+            "timestamp": "2002-03-28",
+            "url": "https://www.nature.com/articles/416389a",
+            "meta_data": {
+              "client": "web",
+              "date": "2002-03-28",
+              "citation_domain_name": "nature",
+              "suffix": "com"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "The Reality of Climate Change: Evidence, Impacts and Engineering\n  Solutions",
+            "snippet": "",
+            "timestamp": "Wed, 16 Oct 2024 09:55:31 GMT",
+            "url": "http://arxiv.org/pdf/2410.12412.pdf",
+            "meta_data": {
+              "client": "web",
+              "date": "Wed, 16 Oct 2024 09:55:31 GMT",
+              "citation_domain_name": "arxiv",
+              "suffix": "org"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          }
+        ]
+      }
+    }
+  ],
+  "message_mode": "FULL",
+  "related_query_items": [
+    {
+      "text": "Key drivers of recent global temperature rise",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Most urgent impacts of 1.5°C vs 2°C warming",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Effective individual actions to cut my carbon footprint",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "Policies that successfully reduced emissions in countries",
+      "type": "DEFAULT"
+    },
+    {
+      "text": "How climate change affects food and water security",
+      "type": "DEFAULT"
+    }
+  ],
+  "access_level": "PUBLIC_READ",
+  "answer_modes": [
+    {
+      "answer_mode_type": "IMAGE",
+      "has_preview": true
+    },
+    {
+      "answer_mode_type": "SOURCES"
+    }
+  ],
+  "structured_answer_block_usages": [
+    "answer_media_items",
+    "ask_text"
+  ],
+  "reconnectable": false,
+  "image_completions": [],
+  "cursor": "068ec106-dcef-7598-8000-b9706422a67a",
+  "classifier_results": {
+    "personal_search": false,
+    "skip_search": false,
+    "widget_type": "GENERAL",
+    "hide_nav": false,
+    "hide_sources": false,
+    "image_generation": false,
+    "time_widget": false,
+    "mhe_predictions": {
+      "skip_search": false,
+      "image_generation_intent": false,
+      "time_widget": false,
+      "sports_intent": false,
+      "places_search_intent": false,
+      "shopping_intent": false,
+      "movie_lists_intent": false,
+      "image_preview": true,
+      "video_preview": false,
+      "nav_intent": false,
+      "study_intent": false,
+      "personal_search": false,
+      "weather_widget": false,
+      "finance_widget_gating": false,
+      "calculator_widget": false
+    }
+  },
+  "search_implementation_mode": "fast",
+  "telemetry_data": {
+    "has_displayed_search_results": true,
+    "has_first_output_token": true,
+    "has_first_token": true,
+    "country": "IN",
+    "is_followup": false,
+    "source": "default",
+    "engine_mode": "auto",
+    "search_implementation_mode": "fast",
+    "has_widget_data": false,
+    "search_duration_seconds": 1.3761072158813477,
+    "has_useful_renderable_content": true
+  },
+  "has_expired_attachments": false,
+  "status": "COMPLETED",
+  "final": true,
+  "_extras": {
+    "next": null,
+    "country": "IN",
+    "subdomain": null,
+    "pro_search_mode": "auto",
+    "core_elapsed": 6.955934557132423
+  },
+  "final_sse_message": true
+}

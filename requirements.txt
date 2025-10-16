@@ -1,0 +1,29 @@
+# Core MCP server dependencies
+mcp>=1.0.0
+fastmcp>=2.3.0
+
+# HTTP client
+httpx>=0.24.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Web framework for API servers
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+respx>=0.20.0
+
+# CLI interface dependencies
+prompt_toolkit>=3.0.0
+
+# Existing project dependencies
+# (These should already be installed but listed for completeness)
+aiohttp>=3.8.0
+browser-cookie3>=0.19.0
+curl_cffi>=0.5.0
+rich>=13.0.0
+litellm>=1.0.0

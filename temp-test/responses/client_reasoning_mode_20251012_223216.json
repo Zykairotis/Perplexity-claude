@@ -1,0 +1,149 @@
+{
+  "backend_uuid": "db2cb1a6-aa26-49fd-b269-5fc2d120390c",
+  "context_uuid": "bfb10c59-a3b9-43f8-8310-f003ac57a882",
+  "uuid": "4fff9da4-18f9-42e1-868a-59bb685a87f0",
+  "frontend_context_uuid": "756c68a7-8b7c-4ef7-920d-d01c4efe7180",
+  "frontend_uuid": "4fff9da4-18f9-42e1-868a-59bb685a87f0",
+  "text": [
+    {
+      "step_type": "INITIAL_QUERY",
+      "content": {
+        "query": "Solve this math problem: 2+2"
+      },
+      "uuid": ""
+    },
+    {
+      "step_type": "FINAL",
+      "content": {
+        "answer": "{\"answer\": \"The solution to the math problem $$2 + 2$$ is $$4$$.\", \"web_results\": [], \"chunks\": [\"The solution to\", \" the math problem\", \" $$2 + 2$$ is $$4$$.\"], \"extra_web_results\": [], \"structured_answer\": []}"
+      },
+      "uuid": ""
+    }
+  ],
+  "thread_title": "Solve this math problem: 2+2",
+  "related_queries": [],
+  "display_model": "turbo",
+  "user_selected_model": "turbo",
+  "personalized": true,
+  "mode": "COPILOT",
+  "query_str": "Solve this math problem: 2+2",
+  "search_focus": "internet",
+  "source": "default",
+  "attachments": [],
+  "updated_datetime": "2025-10-12T20:32:15.070322",
+  "read_write_token": "2db03bce-8c31-4d55-a042-86a7e6a6bb0e",
+  "is_pro_reasoning_mode": false,
+  "step_type": "FINAL",
+  "bookmark_state": "NOT_BOOKMARKED",
+  "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+  "thread_access": 2,
+  "thread_url_slug": "solve-this-math-problem-2-2-2yyxpqomSf2yaV_C0SA5DA",
+  "expect_search_results": "false",
+  "plan": {
+    "goals": [],
+    "final": true
+  },
+  "privacy_state": "NONE",
+  "gpt4": false,
+  "sources": {
+    "sources": [
+      "web"
+    ]
+  },
+  "text_completed": true,
+  "expect_sponsored_results": false,
+  "entry_updated_datetime": "2025-10-12T20:32:16.203788+00:00",
+  "blocks": [
+    {
+      "intended_usage": "pro_search_steps",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [],
+        "steps": [
+          {
+            "uuid": "",
+            "step_type": "INITIAL_QUERY",
+            "initial_query_content": {
+              "query": "Solve this math problem: 2+2"
+            }
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "ask_text",
+      "markdown_block": {
+        "progress": "DONE",
+        "chunks": [
+          "The solution to",
+          " the math problem",
+          " $$2 + 2$$ is $$4$$."
+        ],
+        "chunk_starting_offset": 0,
+        "answer": "The solution to the math problem $$2 + 2$$ is $$4$$."
+      }
+    }
+  ],
+  "message_mode": "FULL",
+  "access_level": "PUBLIC_READ",
+  "answer_modes": [
+    {
+      "answer_mode_type": "SEARCH",
+      "has_preview": false
+    }
+  ],
+  "reconnectable": false,
+  "image_completions": [],
+  "cursor": "068ec105-04d4-706c-8000-6f063e899d58",
+  "classifier_results": {
+    "personal_search": false,
+    "skip_search": true,
+    "widget_type": "GENERAL",
+    "hide_nav": true,
+    "hide_sources": false,
+    "image_generation": false,
+    "time_widget": false,
+    "mhe_predictions": {
+      "skip_search": true,
+      "image_generation_intent": false,
+      "time_widget": false,
+      "sports_intent": false,
+      "places_search_intent": false,
+      "shopping_intent": false,
+      "movie_lists_intent": false,
+      "image_preview": false,
+      "video_preview": false,
+      "nav_intent": false,
+      "study_intent": false,
+      "personal_search": false,
+      "weather_widget": false,
+      "finance_widget_gating": false,
+      "calculator_widget": true
+    }
+  },
+  "search_implementation_mode": "fast",
+  "telemetry_data": {
+    "has_displayed_search_results": false,
+    "has_first_output_token": true,
+    "has_first_token": true,
+    "country": "IN",
+    "is_followup": false,
+    "source": "default",
+    "engine_mode": "auto",
+    "search_implementation_mode": "fast",
+    "has_widget_data": false,
+    "has_useful_renderable_content": true
+  },
+  "has_expired_attachments": false,
+  "status": "COMPLETED",
+  "final": true,
+  "_extras": {
+    "next": null,
+    "country": "IN",
+    "subdomain": null,
+    "pro_search_mode": "auto",
+    "core_elapsed": 1.2626125421375036
+  },
+  "final_sse_message": true
+}

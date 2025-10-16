@@ -1,0 +1,927 @@
+{
+  "backend_uuid": "852bf046-ea39-4897-baaa-f15477a458ac",
+  "context_uuid": "90538ffb-ddaf-4932-ae8e-70311faa535c",
+  "uuid": "4855295a-73b7-4fdc-9769-87b2cdc09869",
+  "frontend_context_uuid": "04ecbf6e-5f5f-4b09-aa0b-b53fdd2272f9",
+  "frontend_uuid": "4855295a-73b7-4fdc-9769-87b2cdc09869",
+  "text": [
+    {
+      "step_type": "INITIAL_QUERY",
+      "content": {
+        "query": "Explain machine learning"
+      },
+      "uuid": ""
+    },
+    {
+      "step_type": "SEARCH_WEB",
+      "content": {
+        "goal_id": "0",
+        "queries": [
+          {
+            "engine": "web",
+            "query": "Explain machine learning",
+            "limit": 8
+          }
+        ]
+      },
+      "uuid": "482799e2-5484-4a33-910a-4c1946fc86fc"
+    },
+    {
+      "step_type": "SEARCH_RESULTS",
+      "content": {
+        "goal_id": "0",
+        "web_results": [
+          {
+            "name": "What is Machine Learning? - ML Technology Explained",
+            "url": "https://aws.amazon.com/what-is/machine-learning/",
+            "snippet": "Machine learning is a type of artificial intelligence that performs data analysis tasks without explicit instructions. Machine learning technology can ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "aws.amazon",
+              "suffix": "com",
+              "domain_name": "Amazon Web Services, Inc.",
+              "description": "Find out what machine learning is, how and why businesses use ML, and how to use machine learning with AWS.",
+              "published_date": "2025-09-29T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "What is Machine Learning (ML)",
+            "url": "https://www.ibm.com/think/topics/machine-learning",
+            "snippet": "Machine learning is the subset of AI focused on algorithms that analyze and “learn” the patterns of training data in order to make accurate inferences about ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "ibm",
+              "suffix": "com",
+              "domain_name": "ibm.com",
+              "description": "Machine learning is the subset of AI focused on algorithms that analyze and “learn” the patterns of training data in order to make accurate inferences about new data.",
+              "published_date": "2025-08-18T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "What is Machine Learning?",
+            "url": "https://www.geeksforgeeks.org/machine-learning/ml-machine-learning/",
+            "snippet": "Machine learning is a branch of artificial intelligence that enables algorithms to uncover hidden patterns within datasets.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "geeksforgeeks",
+              "suffix": "org",
+              "domain_name": "GeeksforGeeks",
+              "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+              "published_date": "2018-05-01T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Machine learning, explained",
+            "url": "https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained",
+            "snippet": "Machine learning is a subfield of artificial intelligence that gives computers the ability to learn without explicitly being programmed.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "mitsloan.mit",
+              "suffix": "edu",
+              "domain_name": "MIT Sloan",
+              "description": "Machine learning is a powerful form of artificial intelligence that is affecting every industry. Here’s what you need to know about its potential and limitations and how it’s being used.",
+              "published_date": "2021-03-26T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "What is Machine Learning? Types and uses",
+            "url": "https://cloud.google.com/learn/what-is-machine-learning",
+            "snippet": "Machine learning is a subset of artificial intelligence that enables a system to autonomously learn and improve using neural networks and deep learning.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "cloud.google",
+              "suffix": "com",
+              "domain_name": "Google Cloud",
+              "description": "Machine learning is a subset of AI that enables neural networks and autonomous deep learning. Learn how machine learning works and how it can be used.",
+              "published_date": "2025-10-10T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Machine learning",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "snippet": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "wikipedia",
+              "suffix": "org",
+              "domain_name": "Wikimedia Foundation, Inc.",
+              "published_date": "2003-05-25T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "What Is Machine Learning? Definition, Types, and Examples",
+            "url": "https://www.coursera.org/articles/what-is-machine-learning",
+            "snippet": "Machine learning is a subfield of artificial intelligence (AI) that uses algorithms trained on data sets to create self-learning models.",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "coursera",
+              "suffix": "org",
+              "domain_name": "Coursera",
+              "description": "Machine learning is a common type of artificial intelligence. Learn more about this exciting technology, how it works, and the major types powering the services and applications we rely on every day.",
+              "published_date": "2025-08-14T00:00:00"
+            },
+            "sitelinks": null
+          },
+          {
+            "name": "Machine Learning Explained in 100 Seconds",
+            "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+            "snippet": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with ...",
+            "is_attachment": false,
+            "is_navigational": false,
+            "is_focused_web": false,
+            "is_memory": false,
+            "is_conversation_history": false,
+            "tab_id": null,
+            "meta_data": {
+              "client": "web",
+              "citation_domain_name": "youtube",
+              "suffix": "com",
+              "domain_name": "youtube",
+              "description": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with large amounts of data to gradually improve predictive performance. \n\n#ai #python #100SecondsOfCode\n\n🔗 Resources\n\nMachine Learning  Tutorials https://fireship.io/tags/machine-learning/\nWhat is ML https://www.ibm.com/cloud/learn/machine-learning\nNeural Networks https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8\nML Wiki https://en.wikipedia.org/wiki/Machine_learning\n\n🔥 Watch more with Fireship PRO\n\nUpgrade to Fireship PRO at https://fireship.io/pro\nUse code lORhwXd2 for 25% off your first payment. \n\n🎨 My Editor Settings\n\n- Atom One Dark \n- vscode-icons\n- Fira Code Font\n\nTopics Covered\n\n- Convolutional Neural Networks\n- Machine Learning Basics\n- How Data Science Works\n- Big Data and Feature Engineering\n- Artificial Intelligence History\n- Supervised Machine Learning",
+              "published_date": "2021-09-09T00:00:00"
+            },
+            "sitelinks": null
+          }
+        ]
+      },
+      "uuid": "01ecd07a-c446-4d2d-9fd1-90495cf859d1"
+    },
+    {
+      "step_type": "FINAL",
+      "content": {
+        "answer": "{\"answer\": \"Let's explore the world of **machine learning (ML)**! Machine learning is a branch of artificial intelligence that enables computers to learn from data and improve their performance at tasks without being explicitly programmed for each step. Simply put, ML finds hidden patterns in data and uses them to make predictions or decisions on new, unseen data.\\n\\nML works by feeding algorithms lots of examples (called training data), so they can identify mathematical relationships between inputs and outputs. After training, the model can predict or classify new data based on what it has learned.\\n\\nThere are several types of machine learning, including:\\n\\n- **Supervised learning**: Learning from labeled data to predict outcomes.\\n- **Unsupervised learning**: Finding hidden patterns in unlabeled data.\\n- **Reinforcement learning**: Learning to make decisions via trial and error to maximize rewards.\\n\\nBefore diving deeper, I\\u2019d love to know: What\\u2019s your current experience with machine learning? Are you just getting started, somewhat familiar, or ready to tackle advanced concepts?\", \"web_results\": [{\"name\": \"What is Machine Learning? - ML Technology Explained\", \"snippet\": \"Find out what machine learning is, how and why businesses use ML, and how to use machine learning with AWS.\", \"timestamp\": \"2025-09-29T00:00:00\", \"url\": \"https://aws.amazon.com/what-is/machine-learning/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"aws.amazon\", \"suffix\": \"com\", \"domain_name\": \"Amazon Web Services, Inc.\", \"description\": \"Find out what machine learning is, how and why businesses use ML, and how to use machine learning with AWS.\", \"images\": [], \"published_date\": \"2025-09-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Machine Learning (ML)\", \"snippet\": \"Machine learning is the subset of AI focused on algorithms that analyze and \\u201clearn\\u201d the patterns of training data in order to make accurate inferences about new data.\", \"timestamp\": \"2025-08-18T00:00:00\", \"url\": \"https://www.ibm.com/think/topics/machine-learning\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"ibm\", \"suffix\": \"com\", \"domain_name\": \"ibm.com\", \"description\": \"Machine learning is the subset of AI focused on algorithms that analyze and \\u201clearn\\u201d the patterns of training data in order to make accurate inferences about new data.\", \"images\": [\"https://www.ibm.com/content/dam/worldwide-content/creative-assets/s-migr/ul/g/aa/22/deep-neural-network-diagram.png/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg\"], \"published_date\": \"2025-08-18T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Machine Learning?\", \"snippet\": \"Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.\", \"timestamp\": \"2018-05-01T00:00:00\", \"url\": \"https://www.geeksforgeeks.org/machine-learning/ml-machine-learning/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"geeksforgeeks\", \"suffix\": \"org\", \"domain_name\": \"GeeksforGeeks\", \"description\": \"Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.\", \"images\": [\"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png\"], \"published_date\": \"2018-05-01T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Machine learning, explained\", \"snippet\": \"Machine learning is a powerful form of artificial intelligence that is affecting every industry. Here\\u2019s what you need to know about its potential and limitations and how it\\u2019s being used.\", \"timestamp\": \"2021-03-26T00:00:00\", \"url\": \"https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"mitsloan.mit\", \"suffix\": \"edu\", \"domain_name\": \"MIT Sloan\", \"description\": \"Machine learning is a powerful form of artificial intelligence that is affecting every industry. Here\\u2019s what you need to know about its potential and limitations and how it\\u2019s being used.\", \"images\": [\"https://mitsloan.mit.edu/sites/default/files/styles/og_image/public/2021-04/machine-learning_6.jpg?h=fcf9bc07&itok=tsDKovSV\"], \"published_date\": \"2021-03-26T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Machine Learning? Types and uses\", \"snippet\": \"Machine learning is a subset of AI that enables neural networks and autonomous deep learning. Learn how machine learning works and how it can be used.\", \"timestamp\": \"2025-10-10T00:00:00\", \"url\": \"https://cloud.google.com/learn/what-is-machine-learning\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"cloud.google\", \"suffix\": \"com\", \"domain_name\": \"Google Cloud\", \"description\": \"Machine learning is a subset of AI that enables neural networks and autonomous deep learning. Learn how machine learning works and how it can be used.\", \"images\": [\"https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png\"], \"published_date\": \"2025-10-10T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Machine learning\", \"snippet\": \"Several learning algorithms aim at discovering better representations of the inputs provided during training. Classic examples include principal component analysis and cluster analysis. Feature learning algorithms, also called representation learning algorithms, often attempt to preserve the information in their input but also transform it in a way that makes it useful, often as a pre-processing step before performing classification or predictions. This technique allows reconstruction of the...\", \"timestamp\": \"2003-05-25T00:00:00\", \"url\": \"https://en.wikipedia.org/wiki/Machine_learning\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"wikipedia\", \"suffix\": \"org\", \"domain_name\": \"Wikimedia Foundation, Inc.\", \"description\": null, \"images\": [], \"published_date\": \"2003-05-25T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What Is Machine Learning? Definition, Types, and Examples\", \"snippet\": \"Machine learning is a common type of artificial intelligence. Learn more about this exciting technology, how it works, and the major types powering the services and applications we rely on every day.\", \"timestamp\": \"2025-08-14T00:00:00\", \"url\": \"https://www.coursera.org/articles/what-is-machine-learning\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"coursera\", \"suffix\": \"org\", \"domain_name\": \"Coursera\", \"description\": \"Machine learning is a common type of artificial intelligence. Learn more about this exciting technology, how it works, and the major types powering the services and applications we rely on every day.\", \"images\": [\"https://images.ctfassets.net/wp1lcwdav1p1/6FKRfGRZHgDcW6yvBeh1lF/3e8197c12e158d61998938349ede074b/GettyImages-1175946304.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive\"], \"published_date\": \"2025-08-14T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Machine Learning Explained in 100 Seconds\", \"snippet\": \"Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with large amounts of data to gradually improve predictive performance. #ai #python #100SecondsOfCode \\ud83d\\udd17 Resources Machine Learning Tutorials https://fireship.io/tags/machine-learning/ What is ML https://www.ibm.com/cloud/learn/machine-learning Neural Networks https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8...\", \"timestamp\": \"2021-09-09T00:00:00\", \"url\": \"https://www.youtube.com/watch?v=PeMlggyqz0Y\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"youtube\", \"suffix\": \"com\", \"domain_name\": \"youtube\", \"description\": \"Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with large amounts of data to gradually improve predictive performance. \\n\\n#ai #python #100SecondsOfCode\\n\\n\\ud83d\\udd17 Resources\\n\\nMachine Learning  Tutorials https://fireship.io/tags/machine-learning/\\nWhat is ML https://www.ibm.com/cloud/learn/machine-learning\\nNeural Networks https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8\\nML Wiki https://en.wikipedia.org/wiki/Machine_learning\\n\\n\\ud83d\\udd25 Watch more with Fireship PRO\\n\\nUpgrade to Fireship PRO at https://fireship.io/pro\\nUse code lORhwXd2 for 25% off your first payment. \\n\\n\\ud83c\\udfa8 My Editor Settings\\n\\n- Atom One Dark \\n- vscode-icons\\n- Fira Code Font\\n\\nTopics Covered\\n\\n- Convolutional Neural Networks\\n- Machine Learning Basics\\n- How Data Science Works\\n- Big Data and Feature Engineering\\n- Artificial Intelligence History\\n- Supervised Machine Learning\", \"images\": [], \"published_date\": \"2021-09-09T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}], \"chunks\": [\"Let's explore\", \" the world of\", \" **machine learning\", \" (ML)**! Machine\", \" learning is a\", \" branch of artificial\", \" intelligence\", \" that enables\", \" computers to\", \" learn from data\", \" and improve their\", \" performance at\", \" tasks without\", \" being explicitly\", \" programmed for\", \" each step. Simply\", \" put, ML finds\", \" hidden patterns\", \" in data and uses\", \" them to make\", \" predictions or\", \" decisions on\", \" new, unseen data\", \".\\n\\nML works\", \" by feeding algorithms\", \" lots of examples\", \" (called training\", \" data), so they\", \" can identify\", \" mathematical\", \" relationships\", \" between inputs\", \" and outputs.\", \" After training\", \", the model can\", \" predict or classify\", \" new data based\", \" on what it has\", \" learned.\\n\\nThere are\", \" several types\", \" of machine learning\", \", including:\\n\\n- **Super\", \"vised learning\", \"**: Learning from\", \" labeled data\", \" to predict outcomes\", \".\\n- **Unsuper\", \"vised learning\", \"**: Finding hidden\", \" patterns in unl\", \"abeled data.\\n- **Rein\", \"forcement learning\", \"**: Learning to\", \" make decisions\", \" via trial and\", \" error to maximize\", \" rewards.\\n\\nBefore diving\", \" deeper, I\\u2019d love\", \" to know: What\", \"\\u2019s your current\", \" experience with\", \" machine learning\", \"? Are you just\", \" getting started\", \", somewhat familiar\", \", or ready to\", \" tackle advanced\", \" concepts?\"], \"extra_web_results\": [], \"structured_answer\": [{\"type\": \"markdown\", \"text\": \"Let's explore the world of **machine learning (ML)**! Machine learning is a branch of artificial intelligence that enables computers to learn from data and improve their performance at tasks without being explicitly programmed for each step. Simply put, ML finds hidden patterns in data and uses them to make predictions or decisions on new, unseen data.\\n\\nML works by feeding algorithms lots of examples (called training data), so they can identify mathematical relationships between inputs and outputs. After training, the model can predict or classify new data based on what it has learned.\\n\\nThere are several types of machine learning, including:\\n\\n- **Supervised learning**: Learning from labeled data to predict outcomes.\\n- **Unsupervised learning**: Finding hidden patterns in unlabeled data.\\n- **Reinforcement learning**: Learning to make decisions via trial and error to maximize rewards.\\n\\nBefore diving deeper, I\\u2019d love to know: What\\u2019s your current experience with machine learning? Are you just getting started, somewhat familiar, or ready to tackle advanced concepts?\", \"chunks\": [\"Let's explore\", \" the world of\", \" **machine learning\", \" (ML)**! Machine\", \" learning is a\", \" branch of artificial\", \" intelligence\", \" that enables\", \" computers to\", \" learn from data\", \" and improve their\", \" performance at\", \" tasks without\", \" being explicitly\", \" programmed for\", \" each step. Simply\", \" put, ML finds\", \" hidden patterns\", \" in data and uses\", \" them to make\", \" predictions or\", \" decisions on\", \" new, unseen data\", \".\\n\\nML works\", \" by feeding algorithms\", \" lots of examples\", \" (called training\", \" data), so they\", \" can identify\", \" mathematical\", \" relationships\", \" between inputs\", \" and outputs.\", \" After training\", \", the model can\", \" predict or classify\", \" new data based\", \" on what it has\", \" learned.\\n\\nThere are\", \" several types\", \" of machine learning\", \", including:\\n\\n- **Super\", \"vised learning\", \"**: Learning from\", \" labeled data\", \" to predict outcomes\", \".\\n- **Unsuper\", \"vised learning\", \"**: Finding hidden\", \" patterns in unl\", \"abeled data.\\n- **Rein\", \"forcement learning\", \"**: Learning to\", \" make decisions\", \" via trial and\", \" error to maximize\", \" rewards.\\n\\nBefore diving\", \" deeper, I\\u2019d love\", \" to know: What\", \"\\u2019s your current\", \" experience with\", \" machine learning\", \"? Are you just\", \" getting started\", \", somewhat familiar\", \", or ready to\", \" tackle advanced\", \" concepts?\"], \"images\": [], \"inline_token_annotations\": []}, {\"type\": \"gauge_familiarity_card\", \"question\": \"How would you describe your experience with machine learning?\", \"levels\": [\"Just starting out\", \"Somewhat familiar\", \"Comfortable with basics\", \"Ready for advanced topics\"], \"level_descriptions\": [\"Heard of it but never used\", \"Understand basic concepts\", \"Built simple models or projects\", \"In-depth knowledge and applications\"]}]}"
+      },
+      "uuid": ""
+    }
+  ],
+  "thread_title": "Explain machine learning",
+  "related_queries": [],
+  "display_model": "turbo",
+  "user_selected_model": "turbo",
+  "personalized": true,
+  "mode": "COPILOT",
+  "query_str": "Explain machine learning",
+  "search_focus": "internet",
+  "source": "default",
+  "attachments": [],
+  "updated_datetime": "2025-10-12T20:32:06.456238",
+  "read_write_token": "8475e4b5-c479-4ed4-b6fe-ea52d7c38c2b",
+  "is_pro_reasoning_mode": false,
+  "step_type": "FINAL",
+  "bookmark_state": "NOT_BOOKMARKED",
+  "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+  "thread_access": 2,
+  "thread_url_slug": "explain-machine-learning-hSvwRuo5SJe6qvFUd6RYrA",
+  "media_items": [
+    {
+      "medium": "video",
+      "image": "https://img.youtube.com/vi/PeMlggyqz0Y/maxresdefault.jpg",
+      "image_width": 1280,
+      "image_height": 720,
+      "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+      "name": "Machine Learning Explained in 100 Seconds",
+      "source": "youtube",
+      "thumbnail": "https://img.youtube.com/vi/PeMlggyqz0Y/hqdefault.jpg",
+      "thumbnail_height": 360,
+      "thumbnail_width": 480
+    }
+  ],
+  "expect_search_results": "true",
+  "plan": {
+    "goals": [
+      {
+        "id": "0",
+        "description": "Searching the web",
+        "final": true,
+        "todo_task_status": "INCOMPLETE"
+      }
+    ],
+    "final": true
+  },
+  "privacy_state": "NONE",
+  "gpt4": false,
+  "sources": {
+    "sources": [
+      "web"
+    ]
+  },
+  "text_completed": true,
+  "expect_sponsored_results": false,
+  "entry_updated_datetime": "2025-10-12T20:32:14.476246+00:00",
+  "blocks": [
+    {
+      "intended_usage": "plan",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [
+          {
+            "id": "0",
+            "description": "Searching the web",
+            "final": true,
+            "todo_task_status": "INCOMPLETE"
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "pro_search_steps",
+      "plan_block": {
+        "progress": "DONE",
+        "goals": [],
+        "steps": [
+          {
+            "uuid": "",
+            "step_type": "INITIAL_QUERY",
+            "initial_query_content": {
+              "query": "Explain machine learning"
+            }
+          },
+          {
+            "uuid": "482799e2-5484-4a33-910a-4c1946fc86fc",
+            "step_type": "SEARCH_WEB",
+            "search_web_content": {
+              "goal_id": "0",
+              "queries": [
+                {
+                  "engine": "web",
+                  "query": "Explain machine learning",
+                  "limit": 8
+                }
+              ]
+            }
+          },
+          {
+            "uuid": "01ecd07a-c446-4d2d-9fd1-90495cf859d1",
+            "step_type": "SEARCH_RESULTS",
+            "web_results_content": {
+              "goal_id": "0",
+              "web_results": [
+                {
+                  "name": "What is Machine Learning? - ML Technology Explained",
+                  "url": "https://aws.amazon.com/what-is/machine-learning/",
+                  "snippet": "Machine learning is a type of artificial intelligence that performs data analysis tasks without explicit instructions. Machine learning technology can ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "aws.amazon",
+                    "suffix": "com",
+                    "domain_name": "Amazon Web Services, Inc.",
+                    "description": "Find out what machine learning is, how and why businesses use ML, and how to use machine learning with AWS.",
+                    "published_date": "2025-09-29T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "What is Machine Learning (ML)",
+                  "url": "https://www.ibm.com/think/topics/machine-learning",
+                  "snippet": "Machine learning is the subset of AI focused on algorithms that analyze and “learn” the patterns of training data in order to make accurate inferences about ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "ibm",
+                    "suffix": "com",
+                    "domain_name": "ibm.com",
+                    "description": "Machine learning is the subset of AI focused on algorithms that analyze and “learn” the patterns of training data in order to make accurate inferences about new data.",
+                    "published_date": "2025-08-18T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "What is Machine Learning?",
+                  "url": "https://www.geeksforgeeks.org/machine-learning/ml-machine-learning/",
+                  "snippet": "Machine learning is a branch of artificial intelligence that enables algorithms to uncover hidden patterns within datasets.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "geeksforgeeks",
+                    "suffix": "org",
+                    "domain_name": "GeeksforGeeks",
+                    "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                    "published_date": "2018-05-01T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Machine learning, explained",
+                  "url": "https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained",
+                  "snippet": "Machine learning is a subfield of artificial intelligence that gives computers the ability to learn without explicitly being programmed.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "mitsloan.mit",
+                    "suffix": "edu",
+                    "domain_name": "MIT Sloan",
+                    "description": "Machine learning is a powerful form of artificial intelligence that is affecting every industry. Here’s what you need to know about its potential and limitations and how it’s being used.",
+                    "published_date": "2021-03-26T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "What is Machine Learning? Types and uses",
+                  "url": "https://cloud.google.com/learn/what-is-machine-learning",
+                  "snippet": "Machine learning is a subset of artificial intelligence that enables a system to autonomously learn and improve using neural networks and deep learning.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "cloud.google",
+                    "suffix": "com",
+                    "domain_name": "Google Cloud",
+                    "description": "Machine learning is a subset of AI that enables neural networks and autonomous deep learning. Learn how machine learning works and how it can be used.",
+                    "published_date": "2025-10-10T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Machine learning",
+                  "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                  "snippet": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "wikipedia",
+                    "suffix": "org",
+                    "domain_name": "Wikimedia Foundation, Inc.",
+                    "published_date": "2003-05-25T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "What Is Machine Learning? Definition, Types, and Examples",
+                  "url": "https://www.coursera.org/articles/what-is-machine-learning",
+                  "snippet": "Machine learning is a subfield of artificial intelligence (AI) that uses algorithms trained on data sets to create self-learning models.",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "coursera",
+                    "suffix": "org",
+                    "domain_name": "Coursera",
+                    "description": "Machine learning is a common type of artificial intelligence. Learn more about this exciting technology, how it works, and the major types powering the services and applications we rely on every day.",
+                    "published_date": "2025-08-14T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                },
+                {
+                  "name": "Machine Learning Explained in 100 Seconds",
+                  "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+                  "snippet": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with ...",
+                  "is_attachment": false,
+                  "meta_data": {
+                    "client": "web",
+                    "citation_domain_name": "youtube",
+                    "suffix": "com",
+                    "domain_name": "youtube",
+                    "description": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with large amounts of data to gradually improve predictive performance. \n\n#ai #python #100SecondsOfCode\n\n🔗 Resources\n\nMachine Learning  Tutorials https://fireship.io/tags/machine-learning/\nWhat is ML https://www.ibm.com/cloud/learn/machine-learning\nNeural Networks https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8\nML Wiki https://en.wikipedia.org/wiki/Machine_learning\n\n🔥 Watch more with Fireship PRO\n\nUpgrade to Fireship PRO at https://fireship.io/pro\nUse code lORhwXd2 for 25% off your first payment. \n\n🎨 My Editor Settings\n\n- Atom One Dark \n- vscode-icons\n- Fira Code Font\n\nTopics Covered\n\n- Convolutional Neural Networks\n- Machine Learning Basics\n- How Data Science Works\n- Big Data and Feature Engineering\n- Artificial Intelligence History\n- Supervised Machine Learning",
+                    "published_date": "2021-09-09T00:00:00"
+                  },
+                  "is_memory": false,
+                  "is_conversation_history": false,
+                  "is_navigational": false,
+                  "is_focused_web": false
+                }
+              ]
+            }
+          }
+        ],
+        "final": true
+      }
+    },
+    {
+      "intended_usage": "ask_text_0_markdown",
+      "markdown_block": {
+        "progress": "DONE",
+        "chunks": [
+          "Let's explore",
+          " the world of",
+          " **machine learning",
+          " (ML)**! Machine",
+          " learning is a",
+          " branch of artificial",
+          " intelligence",
+          " that enables",
+          " computers to",
+          " learn from data",
+          " and improve their",
+          " performance at",
+          " tasks without",
+          " being explicitly",
+          " programmed for",
+          " each step. Simply",
+          " put, ML finds",
+          " hidden patterns",
+          " in data and uses",
+          " them to make",
+          " predictions or",
+          " decisions on",
+          " new, unseen data",
+          ".\n\nML works",
+          " by feeding algorithms",
+          " lots of examples",
+          " (called training",
+          " data), so they",
+          " can identify",
+          " mathematical",
+          " relationships",
+          " between inputs",
+          " and outputs.",
+          " After training",
+          ", the model can",
+          " predict or classify",
+          " new data based",
+          " on what it has",
+          " learned.\n\nThere are",
+          " several types",
+          " of machine learning",
+          ", including:\n\n- **Super",
+          "vised learning",
+          "**: Learning from",
+          " labeled data",
+          " to predict outcomes",
+          ".\n- **Unsuper",
+          "vised learning",
+          "**: Finding hidden",
+          " patterns in unl",
+          "abeled data.\n- **Rein",
+          "forcement learning",
+          "**: Learning to",
+          " make decisions",
+          " via trial and",
+          " error to maximize",
+          " rewards.\n\nBefore diving",
+          " deeper, I’d love",
+          " to know: What",
+          "’s your current",
+          " experience with",
+          " machine learning",
+          "? Are you just",
+          " getting started",
+          ", somewhat familiar",
+          ", or ready to",
+          " tackle advanced",
+          " concepts?"
+        ],
+        "chunk_starting_offset": 0,
+        "answer": "Let's explore the world of **machine learning (ML)**! Machine learning is a branch of artificial intelligence that enables computers to learn from data and improve their performance at tasks without being explicitly programmed for each step. Simply put, ML finds hidden patterns in data and uses them to make predictions or decisions on new, unseen data.\n\nML works by feeding algorithms lots of examples (called training data), so they can identify mathematical relationships between inputs and outputs. After training, the model can predict or classify new data based on what it has learned.\n\nThere are several types of machine learning, including:\n\n- **Supervised learning**: Learning from labeled data to predict outcomes.\n- **Unsupervised learning**: Finding hidden patterns in unlabeled data.\n- **Reinforcement learning**: Learning to make decisions via trial and error to maximize rewards.\n\nBefore diving deeper, I’d love to know: What’s your current experience with machine learning? Are you just getting started, somewhat familiar, or ready to tackle advanced concepts?",
+        "inline_token_annotations": []
+      }
+    },
+    {
+      "intended_usage": "ask_text_1_gauge_familiarity_card",
+      "inline_entity_block": {
+        "gauge_familiarity_card_block": {
+          "question": "How would you describe your experience with machine learning?",
+          "levels": [
+            "Just starting out",
+            "Somewhat familiar",
+            "Comfortable with basics",
+            "Ready for advanced topics"
+          ],
+          "level_descriptions": [
+            "Heard of it but never used",
+            "Understand basic concepts",
+            "Built simple models or projects",
+            "In-depth knowledge and applications"
+          ]
+        }
+      }
+    },
+    {
+      "intended_usage": "ask_text",
+      "markdown_block": {
+        "progress": "DONE",
+        "chunks": [
+          "Let's explore",
+          " the world of",
+          " **machine learning",
+          " (ML)**! Machine",
+          " learning is a",
+          " branch of artificial",
+          " intelligence",
+          " that enables",
+          " computers to",
+          " learn from data",
+          " and improve their",
+          " performance at",
+          " tasks without",
+          " being explicitly",
+          " programmed for",
+          " each step. Simply",
+          " put, ML finds",
+          " hidden patterns",
+          " in data and uses",
+          " them to make",
+          " predictions or",
+          " decisions on",
+          " new, unseen data",
+          ".\n\nML works",
+          " by feeding algorithms",
+          " lots of examples",
+          " (called training",
+          " data), so they",
+          " can identify",
+          " mathematical",
+          " relationships",
+          " between inputs",
+          " and outputs.",
+          " After training",
+          ", the model can",
+          " predict or classify",
+          " new data based",
+          " on what it has",
+          " learned.\n\nThere are",
+          " several types",
+          " of machine learning",
+          ", including:\n\n- **Super",
+          "vised learning",
+          "**: Learning from",
+          " labeled data",
+          " to predict outcomes",
+          ".\n- **Unsuper",
+          "vised learning",
+          "**: Finding hidden",
+          " patterns in unl",
+          "abeled data.\n- **Rein",
+          "forcement learning",
+          "**: Learning to",
+          " make decisions",
+          " via trial and",
+          " error to maximize",
+          " rewards.\n\nBefore diving",
+          " deeper, I’d love",
+          " to know: What",
+          "’s your current",
+          " experience with",
+          " machine learning",
+          "? Are you just",
+          " getting started",
+          ", somewhat familiar",
+          ", or ready to",
+          " tackle advanced",
+          " concepts?"
+        ],
+        "chunk_starting_offset": 0,
+        "answer": "Let's explore the world of **machine learning (ML)**! Machine learning is a branch of artificial intelligence that enables computers to learn from data and improve their performance at tasks without being explicitly programmed for each step. Simply put, ML finds hidden patterns in data and uses them to make predictions or decisions on new, unseen data.\n\nML works by feeding algorithms lots of examples (called training data), so they can identify mathematical relationships between inputs and outputs. After training, the model can predict or classify new data based on what it has learned.\n\nThere are several types of machine learning, including:\n\n- **Supervised learning**: Learning from labeled data to predict outcomes.\n- **Unsupervised learning**: Finding hidden patterns in unlabeled data.\n- **Reinforcement learning**: Learning to make decisions via trial and error to maximize rewards.\n\nBefore diving deeper, I’d love to know: What’s your current experience with machine learning? Are you just getting started, somewhat familiar, or ready to tackle advanced concepts?"
+      }
+    },
+    {
+      "intended_usage": "web_results",
+      "web_result_block": {
+        "progress": "DONE",
+        "web_results": [
+          {
+            "name": "What is Machine Learning? - ML Technology Explained",
+            "snippet": "Find out what machine learning is, how and why businesses use ML, and how to use machine learning with AWS.",
+            "timestamp": "2025-09-29T00:00:00",
+            "url": "https://aws.amazon.com/what-is/machine-learning/",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "aws.amazon",
+              "suffix": "com",
+              "domain_name": "Amazon Web Services, Inc.",
+              "description": "Find out what machine learning is, how and why businesses use ML, and how to use machine learning with AWS.",
+              "images": [],
+              "published_date": "2025-09-29T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "What is Machine Learning (ML)",
+            "snippet": "Machine learning is the subset of AI focused on algorithms that analyze and “learn” the patterns of training data in order to make accurate inferences about new data.",
+            "timestamp": "2025-08-18T00:00:00",
+            "url": "https://www.ibm.com/think/topics/machine-learning",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "ibm",
+              "suffix": "com",
+              "domain_name": "ibm.com",
+              "description": "Machine learning is the subset of AI focused on algorithms that analyze and “learn” the patterns of training data in order to make accurate inferences about new data.",
+              "images": [
+                "https://www.ibm.com/content/dam/worldwide-content/creative-assets/s-migr/ul/g/aa/22/deep-neural-network-diagram.png/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+              ],
+              "published_date": "2025-08-18T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "What is Machine Learning?",
+            "snippet": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+            "timestamp": "2018-05-01T00:00:00",
+            "url": "https://www.geeksforgeeks.org/machine-learning/ml-machine-learning/",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "geeksforgeeks",
+              "suffix": "org",
+              "domain_name": "GeeksforGeeks",
+              "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+              "images": [
+                "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png"
+              ],
+              "published_date": "2018-05-01T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Machine learning, explained",
+            "snippet": "Machine learning is a powerful form of artificial intelligence that is affecting every industry. Here’s what you need to know about its potential and limitations and how it’s being used.",
+            "timestamp": "2021-03-26T00:00:00",
+            "url": "https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "mitsloan.mit",
+              "suffix": "edu",
+              "domain_name": "MIT Sloan",
+              "description": "Machine learning is a powerful form of artificial intelligence that is affecting every industry. Here’s what you need to know about its potential and limitations and how it’s being used.",
+              "images": [
+                "https://mitsloan.mit.edu/sites/default/files/styles/og_image/public/2021-04/machine-learning_6.jpg?h=fcf9bc07&itok=tsDKovSV"
+              ],
+              "published_date": "2021-03-26T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "What is Machine Learning? Types and uses",
+            "snippet": "Machine learning is a subset of AI that enables neural networks and autonomous deep learning. Learn how machine learning works and how it can be used.",
+            "timestamp": "2025-10-10T00:00:00",
+            "url": "https://cloud.google.com/learn/what-is-machine-learning",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "cloud.google",
+              "suffix": "com",
+              "domain_name": "Google Cloud",
+              "description": "Machine learning is a subset of AI that enables neural networks and autonomous deep learning. Learn how machine learning works and how it can be used.",
+              "images": [
+                "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"
+              ],
+              "published_date": "2025-10-10T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Machine learning",
+            "snippet": "Several learning algorithms aim at discovering better representations of the inputs provided during training. Classic examples include principal component analysis and cluster analysis. Feature learning algorithms, also called representation learning algorithms, often attempt to preserve the information in their input but also transform it in a way that makes it useful, often as a pre-processing step before performing classification or predictions. This technique allows reconstruction of the...",
+            "timestamp": "2003-05-25T00:00:00",
+            "url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "wikipedia",
+              "suffix": "org",
+              "domain_name": "Wikimedia Foundation, Inc.",
+              "description": null,
+              "images": [],
+              "published_date": "2003-05-25T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "What Is Machine Learning? Definition, Types, and Examples",
+            "snippet": "Machine learning is a common type of artificial intelligence. Learn more about this exciting technology, how it works, and the major types powering the services and applications we rely on every day.",
+            "timestamp": "2025-08-14T00:00:00",
+            "url": "https://www.coursera.org/articles/what-is-machine-learning",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "coursera",
+              "suffix": "org",
+              "domain_name": "Coursera",
+              "description": "Machine learning is a common type of artificial intelligence. Learn more about this exciting technology, how it works, and the major types powering the services and applications we rely on every day.",
+              "images": [
+                "https://images.ctfassets.net/wp1lcwdav1p1/6FKRfGRZHgDcW6yvBeh1lF/3e8197c12e158d61998938349ede074b/GettyImages-1175946304.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive"
+              ],
+              "published_date": "2025-08-14T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          },
+          {
+            "name": "Machine Learning Explained in 100 Seconds",
+            "snippet": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with large amounts of data to gradually improve predictive performance. #ai #python #100SecondsOfCode 🔗 Resources Machine Learning Tutorials https://fireship.io/tags/machine-learning/ What is ML https://www.ibm.com/cloud/learn/machine-learning Neural Networks https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8...",
+            "timestamp": "2021-09-09T00:00:00",
+            "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+            "meta_data": {
+              "client": "web",
+              "date": null,
+              "citation_domain_name": "youtube",
+              "suffix": "com",
+              "domain_name": "youtube",
+              "description": "Machine Learning is the process of teaching a computer how perform a task with out explicitly programming it. The process feeds algorithms with large amounts of data to gradually improve predictive performance. \n\n#ai #python #100SecondsOfCode\n\n🔗 Resources\n\nMachine Learning  Tutorials https://fireship.io/tags/machine-learning/\nWhat is ML https://www.ibm.com/cloud/learn/machine-learning\nNeural Networks https://towardsdatascience.com/a-beginners-guide-to-convolutional-neural-networks-cnns-14649dbddce8\nML Wiki https://en.wikipedia.org/wiki/Machine_learning\n\n🔥 Watch more with Fireship PRO\n\nUpgrade to Fireship PRO at https://fireship.io/pro\nUse code lORhwXd2 for 25% off your first payment. \n\n🎨 My Editor Settings\n\n- Atom One Dark \n- vscode-icons\n- Fira Code Font\n\nTopics Covered\n\n- Convolutional Neural Networks\n- Machine Learning Basics\n- How Data Science Works\n- Big Data and Feature Engineering\n- Artificial Intelligence History\n- Supervised Machine Learning",
+              "images": [],
+              "published_date": "2021-09-09T00:00:00"
+            },
+            "is_attachment": false,
+            "is_image": false,
+            "is_code_interpreter": false,
+            "is_knowledge_card": false,
+            "is_navigational": false,
+            "is_widget": false,
+            "is_focused_web": false,
+            "is_client_context": false,
+            "is_memory": false,
+            "is_conversation_history": false
+          }
+        ]
+      }
+    }
+  ],
+  "message_mode": "FULL",
+  "access_level": "PUBLIC_READ",
+  "answer_modes": [
+    {
+      "answer_mode_type": "SOURCES"
+    }
+  ],
+  "structured_answer_block_usages": [
+    "ask_text_0_markdown",
+    "ask_text_1_gauge_familiarity_card"
+  ],
+  "reconnectable": false,
+  "image_completions": [],
+  "cursor": "068ec104-eb82-7dea-8000-19a2316a1c15",
+  "classifier_results": {
+    "personal_search": false,
+    "skip_search": false,
+    "widget_type": "GENERAL",
+    "hide_nav": false,
+    "hide_sources": false,
+    "image_generation": false,
+    "time_widget": false,
+    "mhe_predictions": {
+      "skip_search": false,
+      "image_generation_intent": false,
+      "time_widget": false,
+      "sports_intent": false,
+      "places_search_intent": false,
+      "shopping_intent": false,
+      "movie_lists_intent": false,
+      "image_preview": false,
+      "video_preview": false,
+      "nav_intent": false,
+      "study_intent": true,
+      "personal_search": false,
+      "weather_widget": false,
+      "finance_widget_gating": false,
+      "calculator_widget": false
+    }
+  },
+  "search_implementation_mode": "fast",
+  "telemetry_data": {
+    "has_displayed_search_results": true,
+    "has_first_output_token": true,
+    "has_first_token": true,
+    "country": "IN",
+    "is_followup": false,
+    "source": "default",
+    "engine_mode": "auto",
+    "search_implementation_mode": "fast",
+    "has_widget_data": false,
+    "search_duration_seconds": 0.6316978931427002,
+    "has_useful_renderable_content": true
+  },
+  "has_expired_attachments": false,
+  "status": "COMPLETED",
+  "final": true,
+  "_extras": {
+    "next": null,
+    "country": "IN",
+    "subdomain": null,
+    "pro_search_mode": "auto",
+    "core_elapsed": 8.31140167900594
+  },
+  "final_sse_message": true
+}

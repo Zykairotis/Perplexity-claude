@@ -1,0 +1,2037 @@
+{
+  "initial_result": {
+    "backend_uuid": "1e7f5820-f1cb-4fd6-9f4c-b0361b4451cd",
+    "context_uuid": "c5364ace-815d-447e-8b64-c34934de1745",
+    "uuid": "1fb74fe5-80b4-42a9-bcdb-621b7eaa833e",
+    "frontend_context_uuid": "3d17e481-c573-4370-b8a5-d10bf24590b2",
+    "frontend_uuid": "1fb74fe5-80b4-42a9-bcdb-621b7eaa833e",
+    "text": [
+      {
+        "step_type": "INITIAL_QUERY",
+        "content": {
+          "query": "What is Python?"
+        },
+        "uuid": ""
+      },
+      {
+        "step_type": "SEARCH_WEB",
+        "content": {
+          "goal_id": "0",
+          "queries": [
+            {
+              "engine": "web",
+              "query": "What is Python?",
+              "limit": 8
+            }
+          ]
+        },
+        "uuid": "76f0ea55-f297-400a-b230-fd16b3346742"
+      },
+      {
+        "step_type": "SEARCH_RESULTS",
+        "content": {
+          "goal_id": "0",
+          "web_results": [
+            {
+              "name": "What is Python?",
+              "url": "https://www.teradata.com/glossary/what-is-python",
+              "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "teradata",
+                "suffix": "com",
+                "domain_name": "Teradata",
+                "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.",
+                "published_date": "2023-10-12T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Introduction to Python",
+              "url": "https://www.w3schools.com/python/python_intro.asp",
+              "snippet": "What is Python? Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. It is used for:.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "w3schools",
+                "suffix": "com",
+                "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+                "published_date": "2025-09-09T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What is Python? Executive Summary",
+              "url": "https://www.python.org/doc/essays/blurb/",
+              "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "python",
+                "suffix": "org",
+                "domain_name": "Python.org",
+                "description": "The official home of the Python Programming Language"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What is Python?",
+              "url": "https://opensource.com/resources/python",
+              "snippet": "Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "opensource",
+                "suffix": "com",
+                "domain_name": "Opensource.com",
+                "description": "Python is a popular general-purpose programming language that can be used for a wide variety of applications.",
+                "published_date": "2018-09-01T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Python (programming language)",
+              "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+              "snippet": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "wikipedia",
+                "suffix": "org",
+                "domain_name": "Wikimedia Foundation, Inc.",
+                "published_date": "2001-10-29T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What is Python? - Python Language Explained",
+              "url": "https://aws.amazon.com/what-is/python/",
+              "snippet": "Python is a programming language that is widely used in web applications, software development, data science, and machine learning (ML).",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "aws.amazon",
+                "suffix": "com",
+                "domain_name": "Amazon Web Services, Inc.",
+                "description": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+                "published_date": "2025-09-29T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What is Python?",
+              "url": "https://www.oracle.com/in/developer/what-is-python-for-developers/",
+              "snippet": "Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax. Ideal for prototyping and ad-hoc tasks, Python has ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "oracle",
+                "suffix": "com",
+                "domain_name": "oracle.com",
+                "description": "Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax.",
+                "published_date": "2024-06-10T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Welcome to Python.org",
+              "url": "https://www.python.org",
+              "snippet": "Python is a programming language that lets you work quickly and integrate systems more effectively. Learn More",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "python",
+                "suffix": "org",
+                "domain_name": "Python.org",
+                "description": "The official home of the Python Programming Language",
+                "published_date": "2025-10-01T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What Is Python Used For? A Beginner's Guide",
+              "url": "https://www.coursera.org/in/articles/what-is-python-used-for-a-beginners-guide-to-using-python",
+              "snippet": "Python is a computer programming language often used to build websites and software, automate tasks, and analyse data. Python is a general- ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "coursera",
+                "suffix": "org",
+                "domain_name": "Coursera",
+                "description": "Python has become one of the most popular programming languages in recent years. It's been used in everything from machine learning to building websites and software testing. Developers and non-developers alike find it useful.",
+                "published_date": "2025-07-15T00:00:00"
+              },
+              "sitelinks": null
+            }
+          ]
+        },
+        "uuid": "a79be579-6249-43be-9f4b-99c43622fba9"
+      },
+      {
+        "step_type": "FINAL",
+        "content": {
+          "answer": "{\"answer\": \"Python is an interpreted, high-level, object-oriented programming language with dynamic semantics, created by Guido van Rossum and first released in 1991. It is known for its easy-to-read syntax that resembles the English language, making it beginner-friendly and allowing developers to write programs with fewer lines of code than many other languages. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.\\n\\nPython is widely used for server-side web development, software development, scientific computing, data analysis, artificial intelligence, machine learning, system scripting, automation, and more. It runs on various platforms like Windows, Mac, Linux, and others. Its interpreter system enables fast prototyping as code can be executed immediately. Python also offers extensive standard libraries, modular programming support through modules and packages, and a large supportive community.\\n\\nImportantly, Python emphasizes readability using indentation instead of curly brackets to define code blocks, and it dynamically types variables at runtime, adding flexibility for developers. It is open source and continually enhanced by a broad community of developers.[1][2][3][4][5][6][7]\", \"web_results\": [{\"name\": \"What is Python?\", \"snippet\": \"Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.\", \"timestamp\": \"2023-10-12T00:00:00\", \"url\": \"https://www.teradata.com/glossary/what-is-python\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"teradata\", \"suffix\": \"com\", \"domain_name\": \"Teradata\", \"description\": \"Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.\", \"images\": [\"https://www.teradata.com/Content/Assets/default/teradata-logo-social.png\"], \"published_date\": \"2023-10-12T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Introduction to Python\", \"snippet\": \"W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.\", \"timestamp\": \"2025-09-09T00:00:00\", \"url\": \"https://www.w3schools.com/python/python_intro.asp\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"w3schools\", \"suffix\": \"com\", \"domain_name\": null, \"description\": \"W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.\", \"images\": [\"https://www.w3schools.com/images/w3schools_logo_436_2.png\"], \"published_date\": \"2025-09-09T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Python? Executive Summary\", \"snippet\": \"The official home of the Python Programming Language\", \"timestamp\": \"\", \"url\": \"https://www.python.org/doc/essays/blurb/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"python\", \"suffix\": \"org\", \"domain_name\": \"Python.org\", \"description\": \"The official home of the Python Programming Language\", \"images\": [\"https://www.python.org/static/opengraph-icon-200x200.png\"], \"published_date\": null}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Python?\", \"snippet\": \"Python is a popular general-purpose programming language that can be used for a wide variety of applications.\", \"timestamp\": \"2018-09-01T00:00:00\", \"url\": \"https://opensource.com/resources/python\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"opensource\", \"suffix\": \"com\", \"domain_name\": \"Opensource.com\", \"description\": \"Python is a popular general-purpose programming language that can be used for a wide variety of applications.\", \"images\": [\"https://opensource.com/sites/default/files/lead-images/python_snake_file_box.jpg\"], \"published_date\": \"2018-09-01T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Python (programming language)\", \"snippet\": \"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically type-checked and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language. Python 3.0, released in 2008, was a major...\", \"timestamp\": \"2001-10-29T00:00:00\", \"url\": \"https://en.wikipedia.org/wiki/Python_(programming_language)\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"wikipedia\", \"suffix\": \"org\", \"domain_name\": \"Wikimedia Foundation, Inc.\", \"description\": null, \"images\": [\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png\"], \"published_date\": \"2001-10-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Python? - Python Language Explained\", \"snippet\": \"Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.\", \"timestamp\": \"2025-09-29T00:00:00\", \"url\": \"https://aws.amazon.com/what-is/python/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"aws.amazon\", \"suffix\": \"com\", \"domain_name\": \"Amazon Web Services, Inc.\", \"description\": \"Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.\", \"images\": [], \"published_date\": \"2025-09-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Python?\", \"snippet\": \"Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax.\", \"timestamp\": \"2024-06-10T00:00:00\", \"url\": \"https://www.oracle.com/in/developer/what-is-python-for-developers/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"oracle\", \"suffix\": \"com\", \"domain_name\": \"oracle.com\", \"description\": \"Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax.\", \"images\": [], \"published_date\": \"2024-06-10T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Welcome to Python.org\", \"snippet\": \"The official home of the Python Programming Language\", \"timestamp\": \"2025-10-01T00:00:00\", \"url\": \"https://www.python.org\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"python\", \"suffix\": \"org\", \"domain_name\": \"Python.org\", \"description\": \"The official home of the Python Programming Language\", \"images\": [\"https://www.python.org/static/opengraph-icon-200x200.png\"], \"published_date\": \"2025-10-01T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What Is Python Used For? A Beginner's Guide\", \"snippet\": \"Python has become one of the most popular programming languages in recent years. It's been used in everything from machine learning to building websites and software testing. Developers and non-developers alike find it useful.\", \"timestamp\": \"2025-07-15T00:00:00\", \"url\": \"https://www.coursera.org/in/articles/what-is-python-used-for-a-beginners-guide-to-using-python\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"coursera\", \"suffix\": \"org\", \"domain_name\": \"Coursera\", \"description\": \"Python has become one of the most popular programming languages in recent years. It's been used in everything from machine learning to building websites and software testing. Developers and non-developers alike find it useful.\", \"images\": [\"https://images.ctfassets.net/wp1lcwdav1p1/4AgqC7a7PyJ1qbGzyRNNck/c243cd5826aa2c2552be9f5bda688e02/GettyImages-1175128257.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive\"], \"published_date\": \"2025-07-15T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}], \"chunks\": [\"Python is an interpreted\", \", high-level,\", \" object-oriented\", \" programming language\", \" with dynamic\", \" semantics, created\", \" by Guido van\", \" Rossum and first\", \" released in\", \" 1991. It is known\", \" for its easy\", \"-to-read syntax\", \" that resembles\", \" the English language\", \", making it beginner\", \"-friendly and\", \" allowing developers\", \" to write programs\", \" with fewer lines\", \" of code than\", \" many other languages\", \". Python supports\", \" multiple programming\", \" paradigms, including\", \" procedural, object\", \"-oriented, and\", \" functional programming\", \".\\n\\nPython is widely\", \" used for server\", \"-side web development\", \", software development\", \", scientific computing\", \", data analysis\", \", artificial intelligence\", \", machine learning\", \", system scripting\", \", automation,\", \" and more. It\", \" runs on various\", \" platforms like\", \" Windows, Mac\", \", Linux, and others\", \". Its interpreter\", \" system enables\", \" fast prototyping\", \" as code can be\", \" executed immediately\", \". Python also\", \" offers extensive\", \" standard libraries\", \", modular programming\", \" support through\", \" modules and packages\", \", and a large\", \" supportive community\", \".\\n\\nImportantly, Python\", \" emphasizes readability\", \" using indentation\", \" instead of curly\", \" brackets to define\", \" code blocks,\", \" and it dynamically\", \" types variables\", \" at runtime, adding\", \" flexibility for\", \" developers. It\", \" is open source\", \" and continually\", \" enhanced by a\", \" broad community\", \" of developers\", \".\", \"[1][2][3][4][5][6][7]\"], \"extra_web_results\": [], \"structured_answer\": []}"
+        },
+        "uuid": ""
+      }
+    ],
+    "thread_title": "What is Python?",
+    "related_queries": [
+      "How does Python differ from Java and C++",
+      "What are Python's main use cases in 2025",
+      "Which Python version should I learn first",
+      "What are the best beginner projects in Python",
+      "How do I set up Python and run my first script"
+    ],
+    "display_model": "turbo",
+    "user_selected_model": "turbo",
+    "personalized": true,
+    "mode": "COPILOT",
+    "query_str": "What is Python?",
+    "search_focus": "internet",
+    "source": "default",
+    "attachments": [],
+    "updated_datetime": "2025-10-12T20:32:49.031815",
+    "read_write_token": "14ba6bfe-383e-4fce-9025-8235b7313f97",
+    "is_pro_reasoning_mode": false,
+    "step_type": "FINAL",
+    "bookmark_state": "NOT_BOOKMARKED",
+    "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+    "thread_access": 2,
+    "thread_url_slug": "what-is-python-Hn9YIPHLT9afTLA2G0RRzQ",
+    "media_items": [
+      {
+        "medium": "video",
+        "image": "https://img.youtube.com/vi/Y8Tko2YC5hA/maxresdefault.jpg",
+        "image_width": 1280,
+        "image_height": 720,
+        "url": "https://www.youtube.com/watch?v=Y8Tko2YC5hA",
+        "name": "What is Python? Why Python is So Popular?",
+        "source": "youtube",
+        "thumbnail": "https://img.youtube.com/vi/Y8Tko2YC5hA/hqdefault.jpg",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480
+      },
+      {
+        "medium": "image",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        "image_width": 1200,
+        "image_height": 1200,
+        "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+        "name": "Python (programming language) - Wikipedia",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/b65288f3-dc8a-54fe-b032-f99bbe9d2ad2/01a84265-e09c-5682-92ce-681c89a1afe2.jpg",
+        "thumbnail_height": 300,
+        "thumbnail_width": 300
+      },
+      {
+        "medium": "image",
+        "image": "https://cdn.slidesharecdn.com/ss_thumbnails/what-is-python-presentation-230326123553-7e24f9d9-thumbnail.jpg?width=640&height=640&fit=bounds",
+        "image_width": 640,
+        "image_height": 360,
+        "url": "https://www.slideshare.net/slideshow/whatispythonpresentationpptx/256863978",
+        "name": "what-is-python-presentation.pptx",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/8e633df2-ac19-5b03-a0ba-6399a684266a/3fc5d663-2140-53de-93fd-6d8b165e72f2.jpg",
+        "thumbnail_height": 169,
+        "thumbnail_width": 300
+      },
+      {
+        "medium": "image",
+        "image": "https://www.codecademy.com/resources/blog/wp-content/uploads/2021/05/Lists-9.png?w=800",
+        "image_width": 800,
+        "image_height": 800,
+        "url": "https://www.codecademy.com/resources/blog/what-is-python-used-for",
+        "name": "What is Python 101 - Codecademy",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/f535b919-f147-5a9c-8764-20ae9136b9a1/4a2f90ce-d802-5d0b-82d4-df792a40e580.jpg",
+        "thumbnail_height": 300,
+        "thumbnail_width": 300
+      },
+      {
+        "medium": "image",
+        "image": "https://pythongeeks.org/wp-content/uploads/2021/05/Introduction-to-Python-1200x900.jpg",
+        "image_width": 1200,
+        "image_height": 900,
+        "url": "https://pythongeeks.org/what-is-python-programming-language/",
+        "name": "What is Python Programming Language? - Python Geeks",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/3720d420-98ae-5f3f-9311-fe163b136a69/aa9b985b-0c45-54fb-a2de-717feddb0af1.jpg",
+        "thumbnail_height": 225,
+        "thumbnail_width": 300
+      },
+      {
+        "medium": "image",
+        "image": "https://a.storyblok.com/f/223147/4032x3024/5f74550d27/what-is-python.jpeg",
+        "image_width": 4032,
+        "image_height": 3024,
+        "url": "https://www.tuple.nl/en/knowledge-base/python",
+        "name": "What is Python? – Tuple",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/258d756c-a438-52c8-af0b-6f30194ec37c/6fc170ee-a70a-5d6d-8606-cdbe55b10e47.jpg",
+        "thumbnail_height": 225,
+        "thumbnail_width": 300
+      },
+      {
+        "medium": "image",
+        "image": "https://jaro-website.s3.ap-south-1.amazonaws.com/2024/10/Python-Features.webp",
+        "image_width": 1055,
+        "image_height": 596,
+        "url": "https://www.jaroeducation.com/blog/reasons-why-to-use-python/",
+        "name": "Top 7 Compelling Reasons Why Python is So Popular With ...",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/63a86ea0-e4ce-5f42-a40c-2bf2d477613a/0f797891-67d2-50c3-8d66-4450d6ecd3af.jpg",
+        "thumbnail_height": 169,
+        "thumbnail_width": 300
+      },
+      {
+        "medium": "image",
+        "image": "https://www.devopsschool.com/blog/wp-content/uploads/2022/06/image-36.png",
+        "image_width": 750,
+        "image_height": 523,
+        "url": "https://www.devopsschool.com/blog/top-26-free-and-popular-tools-written-in-python/",
+        "name": "Top 26 Free and Popular tools written in Python ...",
+        "source": "web",
+        "thumbnail": "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/ede0f936-deac-5504-b205-f293e4a7115d/94049f52-6dce-5869-b9aa-04ce6bcf6896.jpg",
+        "thumbnail_height": 209,
+        "thumbnail_width": 300
+      }
+    ],
+    "expect_search_results": "true",
+    "plan": {
+      "goals": [
+        {
+          "id": "0",
+          "description": "Searching the web",
+          "final": true,
+          "todo_task_status": "INCOMPLETE"
+        }
+      ],
+      "final": true
+    },
+    "privacy_state": "NONE",
+    "gpt4": false,
+    "sources": {
+      "sources": [
+        "web"
+      ]
+    },
+    "text_completed": true,
+    "expect_sponsored_results": false,
+    "entry_updated_datetime": "2025-10-12T20:32:55.248739+00:00",
+    "blocks": [
+      {
+        "intended_usage": "plan",
+        "plan_block": {
+          "progress": "DONE",
+          "goals": [
+            {
+              "id": "0",
+              "description": "Searching the web",
+              "final": true,
+              "todo_task_status": "INCOMPLETE"
+            }
+          ],
+          "final": true
+        }
+      },
+      {
+        "intended_usage": "pro_search_steps",
+        "plan_block": {
+          "progress": "DONE",
+          "goals": [],
+          "steps": [
+            {
+              "uuid": "",
+              "step_type": "INITIAL_QUERY",
+              "initial_query_content": {
+                "query": "What is Python?"
+              }
+            },
+            {
+              "uuid": "76f0ea55-f297-400a-b230-fd16b3346742",
+              "step_type": "SEARCH_WEB",
+              "search_web_content": {
+                "goal_id": "0",
+                "queries": [
+                  {
+                    "engine": "web",
+                    "query": "What is Python?",
+                    "limit": 8
+                  }
+                ]
+              }
+            },
+            {
+              "uuid": "a79be579-6249-43be-9f4b-99c43622fba9",
+              "step_type": "SEARCH_RESULTS",
+              "web_results_content": {
+                "goal_id": "0",
+                "web_results": [
+                  {
+                    "name": "What is Python?",
+                    "url": "https://www.teradata.com/glossary/what-is-python",
+                    "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "teradata",
+                      "suffix": "com",
+                      "domain_name": "Teradata",
+                      "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.",
+                      "published_date": "2023-10-12T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Introduction to Python",
+                    "url": "https://www.w3schools.com/python/python_intro.asp",
+                    "snippet": "What is Python? Python is a popular programming language. It was created by Guido van Rossum, and released in 1991. It is used for:.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "w3schools",
+                      "suffix": "com",
+                      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+                      "published_date": "2025-09-09T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What is Python? Executive Summary",
+                    "url": "https://www.python.org/doc/essays/blurb/",
+                    "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "python",
+                      "suffix": "org",
+                      "domain_name": "Python.org",
+                      "description": "The official home of the Python Programming Language"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What is Python?",
+                    "url": "https://opensource.com/resources/python",
+                    "snippet": "Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "opensource",
+                      "suffix": "com",
+                      "domain_name": "Opensource.com",
+                      "description": "Python is a popular general-purpose programming language that can be used for a wide variety of applications.",
+                      "published_date": "2018-09-01T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Python (programming language)",
+                    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+                    "snippet": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "wikipedia",
+                      "suffix": "org",
+                      "domain_name": "Wikimedia Foundation, Inc.",
+                      "published_date": "2001-10-29T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What is Python? - Python Language Explained",
+                    "url": "https://aws.amazon.com/what-is/python/",
+                    "snippet": "Python is a programming language that is widely used in web applications, software development, data science, and machine learning (ML).",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "aws.amazon",
+                      "suffix": "com",
+                      "domain_name": "Amazon Web Services, Inc.",
+                      "description": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+                      "published_date": "2025-09-29T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What is Python?",
+                    "url": "https://www.oracle.com/in/developer/what-is-python-for-developers/",
+                    "snippet": "Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax. Ideal for prototyping and ad-hoc tasks, Python has ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "oracle",
+                      "suffix": "com",
+                      "domain_name": "oracle.com",
+                      "description": "Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax.",
+                      "published_date": "2024-06-10T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Welcome to Python.org",
+                    "url": "https://www.python.org",
+                    "snippet": "Python is a programming language that lets you work quickly and integrate systems more effectively. Learn More",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "python",
+                      "suffix": "org",
+                      "domain_name": "Python.org",
+                      "description": "The official home of the Python Programming Language",
+                      "published_date": "2025-10-01T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What Is Python Used For? A Beginner's Guide",
+                    "url": "https://www.coursera.org/in/articles/what-is-python-used-for-a-beginners-guide-to-using-python",
+                    "snippet": "Python is a computer programming language often used to build websites and software, automate tasks, and analyse data. Python is a general- ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "coursera",
+                      "suffix": "org",
+                      "domain_name": "Coursera",
+                      "description": "Python has become one of the most popular programming languages in recent years. It's been used in everything from machine learning to building websites and software testing. Developers and non-developers alike find it useful.",
+                      "published_date": "2025-07-15T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  }
+                ]
+              }
+            }
+          ],
+          "final": true
+        }
+      },
+      {
+        "intended_usage": "ask_text",
+        "markdown_block": {
+          "progress": "DONE",
+          "chunks": [
+            "Python is an interpreted",
+            ", high-level,",
+            " object-oriented",
+            " programming language",
+            " with dynamic",
+            " semantics, created",
+            " by Guido van",
+            " Rossum and first",
+            " released in",
+            " 1991. It is known",
+            " for its easy",
+            "-to-read syntax",
+            " that resembles",
+            " the English language",
+            ", making it beginner",
+            "-friendly and",
+            " allowing developers",
+            " to write programs",
+            " with fewer lines",
+            " of code than",
+            " many other languages",
+            ". Python supports",
+            " multiple programming",
+            " paradigms, including",
+            " procedural, object",
+            "-oriented, and",
+            " functional programming",
+            ".\n\nPython is widely",
+            " used for server",
+            "-side web development",
+            ", software development",
+            ", scientific computing",
+            ", data analysis",
+            ", artificial intelligence",
+            ", machine learning",
+            ", system scripting",
+            ", automation,",
+            " and more. It",
+            " runs on various",
+            " platforms like",
+            " Windows, Mac",
+            ", Linux, and others",
+            ". Its interpreter",
+            " system enables",
+            " fast prototyping",
+            " as code can be",
+            " executed immediately",
+            ". Python also",
+            " offers extensive",
+            " standard libraries",
+            ", modular programming",
+            " support through",
+            " modules and packages",
+            ", and a large",
+            " supportive community",
+            ".\n\nImportantly, Python",
+            " emphasizes readability",
+            " using indentation",
+            " instead of curly",
+            " brackets to define",
+            " code blocks,",
+            " and it dynamically",
+            " types variables",
+            " at runtime, adding",
+            " flexibility for",
+            " developers. It",
+            " is open source",
+            " and continually",
+            " enhanced by a",
+            " broad community",
+            " of developers",
+            ".",
+            "[1][2][3][4][5][6][7]"
+          ],
+          "chunk_starting_offset": 0,
+          "answer": "Python is an interpreted, high-level, object-oriented programming language with dynamic semantics, created by Guido van Rossum and first released in 1991. It is known for its easy-to-read syntax that resembles the English language, making it beginner-friendly and allowing developers to write programs with fewer lines of code than many other languages. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.\n\nPython is widely used for server-side web development, software development, scientific computing, data analysis, artificial intelligence, machine learning, system scripting, automation, and more. It runs on various platforms like Windows, Mac, Linux, and others. Its interpreter system enables fast prototyping as code can be executed immediately. Python also offers extensive standard libraries, modular programming support through modules and packages, and a large supportive community.\n\nImportantly, Python emphasizes readability using indentation instead of curly brackets to define code blocks, and it dynamically types variables at runtime, adding flexibility for developers. It is open source and continually enhanced by a broad community of developers.[1][2][3][4][5][6][7]"
+        }
+      },
+      {
+        "intended_usage": "web_results",
+        "web_result_block": {
+          "progress": "DONE",
+          "web_results": [
+            {
+              "name": "What is Python?",
+              "snippet": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.",
+              "timestamp": "2023-10-12T00:00:00",
+              "url": "https://www.teradata.com/glossary/what-is-python",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "teradata",
+                "suffix": "com",
+                "domain_name": "Teradata",
+                "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum.",
+                "images": [
+                  "https://www.teradata.com/Content/Assets/default/teradata-logo-social.png"
+                ],
+                "published_date": "2023-10-12T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Introduction to Python",
+              "snippet": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+              "timestamp": "2025-09-09T00:00:00",
+              "url": "https://www.w3schools.com/python/python_intro.asp",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "w3schools",
+                "suffix": "com",
+                "domain_name": null,
+                "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+                "images": [
+                  "https://www.w3schools.com/images/w3schools_logo_436_2.png"
+                ],
+                "published_date": "2025-09-09T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What is Python? Executive Summary",
+              "snippet": "The official home of the Python Programming Language",
+              "timestamp": "",
+              "url": "https://www.python.org/doc/essays/blurb/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "python",
+                "suffix": "org",
+                "domain_name": "Python.org",
+                "description": "The official home of the Python Programming Language",
+                "images": [
+                  "https://www.python.org/static/opengraph-icon-200x200.png"
+                ],
+                "published_date": null
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What is Python?",
+              "snippet": "Python is a popular general-purpose programming language that can be used for a wide variety of applications.",
+              "timestamp": "2018-09-01T00:00:00",
+              "url": "https://opensource.com/resources/python",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "opensource",
+                "suffix": "com",
+                "domain_name": "Opensource.com",
+                "description": "Python is a popular general-purpose programming language that can be used for a wide variety of applications.",
+                "images": [
+                  "https://opensource.com/sites/default/files/lead-images/python_snake_file_box.jpg"
+                ],
+                "published_date": "2018-09-01T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Python (programming language)",
+              "snippet": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically type-checked and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language. Python 3.0, released in 2008, was a major...",
+              "timestamp": "2001-10-29T00:00:00",
+              "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "wikipedia",
+                "suffix": "org",
+                "domain_name": "Wikimedia Foundation, Inc.",
+                "description": null,
+                "images": [
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                ],
+                "published_date": "2001-10-29T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What is Python? - Python Language Explained",
+              "snippet": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+              "timestamp": "2025-09-29T00:00:00",
+              "url": "https://aws.amazon.com/what-is/python/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "aws.amazon",
+                "suffix": "com",
+                "domain_name": "Amazon Web Services, Inc.",
+                "description": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+                "images": [],
+                "published_date": "2025-09-29T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What is Python?",
+              "snippet": "Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax.",
+              "timestamp": "2024-06-10T00:00:00",
+              "url": "https://www.oracle.com/in/developer/what-is-python-for-developers/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "oracle",
+                "suffix": "com",
+                "domain_name": "oracle.com",
+                "description": "Python is an easy to interpret and high-level object-oriented programming language with easy-to-read syntax.",
+                "images": [],
+                "published_date": "2024-06-10T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Welcome to Python.org",
+              "snippet": "The official home of the Python Programming Language",
+              "timestamp": "2025-10-01T00:00:00",
+              "url": "https://www.python.org",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "python",
+                "suffix": "org",
+                "domain_name": "Python.org",
+                "description": "The official home of the Python Programming Language",
+                "images": [
+                  "https://www.python.org/static/opengraph-icon-200x200.png"
+                ],
+                "published_date": "2025-10-01T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What Is Python Used For? A Beginner's Guide",
+              "snippet": "Python has become one of the most popular programming languages in recent years. It's been used in everything from machine learning to building websites and software testing. Developers and non-developers alike find it useful.",
+              "timestamp": "2025-07-15T00:00:00",
+              "url": "https://www.coursera.org/in/articles/what-is-python-used-for-a-beginners-guide-to-using-python",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "coursera",
+                "suffix": "org",
+                "domain_name": "Coursera",
+                "description": "Python has become one of the most popular programming languages in recent years. It's been used in everything from machine learning to building websites and software testing. Developers and non-developers alike find it useful.",
+                "images": [
+                  "https://images.ctfassets.net/wp1lcwdav1p1/4AgqC7a7PyJ1qbGzyRNNck/c243cd5826aa2c2552be9f5bda688e02/GettyImages-1175128257.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive"
+                ],
+                "published_date": "2025-07-15T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            }
+          ]
+        }
+      }
+    ],
+    "message_mode": "FULL",
+    "related_query_items": [
+      {
+        "text": "How does Python differ from Java and C++",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "What are Python's main use cases in 2025",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "Which Python version should I learn first",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "What are the best beginner projects in Python",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "How do I set up Python and run my first script",
+        "type": "DEFAULT"
+      }
+    ],
+    "access_level": "PUBLIC_READ",
+    "answer_modes": [
+      {
+        "answer_mode_type": "IMAGE",
+        "has_preview": true
+      },
+      {
+        "answer_mode_type": "SOURCES"
+      }
+    ],
+    "structured_answer_block_usages": [
+      "answer_media_items",
+      "ask_text"
+    ],
+    "reconnectable": false,
+    "image_completions": [],
+    "cursor": "068ec107-7b7a-7e2c-8000-8d1740d0b027",
+    "classifier_results": {
+      "personal_search": false,
+      "skip_search": false,
+      "widget_type": "GENERAL",
+      "hide_nav": false,
+      "hide_sources": false,
+      "image_generation": false,
+      "time_widget": false,
+      "mhe_predictions": {
+        "skip_search": false,
+        "image_generation_intent": false,
+        "time_widget": false,
+        "sports_intent": false,
+        "places_search_intent": false,
+        "shopping_intent": false,
+        "movie_lists_intent": false,
+        "image_preview": true,
+        "video_preview": false,
+        "nav_intent": false,
+        "study_intent": false,
+        "personal_search": false,
+        "weather_widget": false,
+        "finance_widget_gating": false,
+        "calculator_widget": false
+      }
+    },
+    "search_implementation_mode": "fast",
+    "telemetry_data": {
+      "has_displayed_search_results": true,
+      "has_first_output_token": true,
+      "has_first_token": true,
+      "country": "IN",
+      "is_followup": false,
+      "source": "default",
+      "engine_mode": "auto",
+      "search_implementation_mode": "fast",
+      "has_widget_data": false,
+      "search_duration_seconds": 0.1083977222442627,
+      "has_useful_renderable_content": true
+    },
+    "has_expired_attachments": false,
+    "status": "COMPLETED",
+    "final": true,
+    "_extras": {
+      "next": null,
+      "country": "IN",
+      "subdomain": null,
+      "pro_search_mode": "auto",
+      "core_elapsed": 6.7288826660078485
+    },
+    "final_sse_message": true
+  },
+  "follow_up_result": {
+    "backend_uuid": "2363d809-29fa-4dc1-ae54-1ea6656a536c",
+    "context_uuid": "c5364ace-815d-447e-8b64-c34934de1745",
+    "uuid": "d52b44d2-bd6e-425d-9bb2-b6e673b88000",
+    "frontend_context_uuid": "3d17e481-c573-4370-b8a5-d10bf24590b2",
+    "frontend_uuid": "d52b44d2-bd6e-425d-9bb2-b6e673b88000",
+    "text": [
+      {
+        "step_type": "INITIAL_QUERY",
+        "content": {
+          "query": "Tell me more about its features"
+        },
+        "uuid": ""
+      },
+      {
+        "step_type": "SEARCH_WEB",
+        "content": {
+          "goal_id": "0",
+          "queries": [
+            {
+              "engine": "web",
+              "query": "Python programming language main features",
+              "limit": 8
+            }
+          ]
+        },
+        "uuid": "68b5f1b9-c029-414a-a973-2cc0a588b9c2"
+      },
+      {
+        "step_type": "SEARCH_RESULTS",
+        "content": {
+          "goal_id": "0",
+          "web_results": [
+            {
+              "name": "16 Key Features of Python With Real-World Applications ...",
+              "url": "https://unstop.com/blog/features-of-python",
+              "snippet": "Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "unstop",
+                "suffix": "com",
+                "domain_name": "Unstop",
+                "description": "Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.",
+                "published_date": "2025-05-21T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "13 Key Features of Python You Need to Know in 2025",
+              "url": "https://www.guvi.in/blog/features-of-python/",
+              "snippet": "1. Simple and Easy to Learn · 2. Free and Open Source · 3. Cross-Platform Compatibility · 4. Large Standard Library · 5. Dynamically Typed Language · 6. Interpreted ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "guvi",
+                "suffix": "in",
+                "domain_name": "GUVI Geek Networks",
+                "description": "Python continues to be the most popular. Have you wondered why? Through this article, we have enlisted key features of python you need to know.",
+                "published_date": "2025-09-23T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "15 Features of Python Every Developer Should Know",
+              "url": "https://www.simplilearn.com/python-features-article",
+              "snippet": "1. GUI Programming Support · 2. Object-Oriented Programming · 3. Dynamic Language · 4. Easy to Code · 5. Free and Open-Source · 6. High-level ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "simplilearn",
+                "suffix": "com",
+                "domain_name": "Simplilearn",
+                "description": "The features of Python include a simple syntax, multi-paradigm support, and a robust community. Discover why Python is great for all types of projects.",
+                "published_date": "2025-06-29T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Top 10 Key Features of Python in 2024",
+              "url": "https://kochiva.com/blog/features-of-python/",
+              "snippet": "1. Easy to Understand · 2. Simple to code · 3. Language interpretation · 4. Object-Based Programming · 5. Open Source and Free · 6. Multiplatform ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "kochiva",
+                "suffix": "com",
+                "domain_name": "Kochiva",
+                "description": "Learn top 10 features of Python that make it easy to learn, powerful & versatile for web dev, data science, and more! You can read our blog.",
+                "published_date": "2025-07-30T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Introduction to Python Programming and its Key Features",
+              "url": "https://www.aezion.com/blogs/introduction-to-python-programming/",
+              "snippet": "Python is a multi-paradigm programming language because it employs both object-oriented and functional programming.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "aezion",
+                "suffix": "com",
+                "domain_name": "Aezion",
+                "description": "Discover more about the Python Programming language, its concepts, features, and areas of application that can be used for web app and custom software development.",
+                "published_date": "2025-10-08T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Python Features",
+              "url": "https://www.geeksforgeeks.org/python/python-features/",
+              "snippet": "1. Free and Open Source · 2. Easy to code · 3. Easy to Read · 4. Object-Oriented Language · 5. GUI Programming Support · 6. High-Level Language · 7.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "geeksforgeeks",
+                "suffix": "org",
+                "domain_name": "GeeksforGeeks",
+                "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                "published_date": "2019-04-03T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Python (programming language)",
+              "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+              "snippet": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "wikipedia",
+                "suffix": "org",
+                "domain_name": "Wikimedia Foundation, Inc.",
+                "published_date": "2001-10-29T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "What is Python? - Python Language Explained",
+              "url": "https://aws.amazon.com/what-is/python/",
+              "snippet": "Developers can easily read and understand a Python program because it has basic, English-like syntax. Python makes developers more productive because they can ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "aws.amazon",
+                "suffix": "com",
+                "domain_name": "Amazon Web Services, Inc.",
+                "description": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+                "published_date": "2025-09-29T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "General Python FAQ",
+              "url": "https://docs.python.org/3/faq/general.html",
+              "snippet": "Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "python",
+                "suffix": "org",
+                "domain_name": "Python documentation",
+                "description": "Contents: General Python FAQ- General Information- What is Python?, What is the Python Software Foundation?, Are there copyright restrictions on the use of Python?, Why was Python created in the fi...",
+                "published_date": "2025-10-11T00:00:00"
+              },
+              "sitelinks": null
+            },
+            {
+              "name": "Introduction to Python",
+              "url": "https://www.w3schools.com/python/python_intro.asp",
+              "snippet": "Python was designed for readability, and has some similarities to the English language with influence from mathematics. · Python uses new lines to complete a ...",
+              "is_attachment": false,
+              "is_navigational": false,
+              "is_focused_web": false,
+              "is_memory": false,
+              "is_conversation_history": false,
+              "tab_id": null,
+              "meta_data": {
+                "client": "web",
+                "citation_domain_name": "w3schools",
+                "suffix": "com",
+                "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+                "published_date": "2025-09-09T00:00:00"
+              },
+              "sitelinks": null
+            }
+          ]
+        },
+        "uuid": "1f70e7c4-8b17-4cd2-9ee5-a5a5fd1e1323"
+      },
+      {
+        "step_type": "FINAL",
+        "content": {
+          "answer": "{\"answer\": \"Python has several key features that contribute to its popularity and versatility as a programming language:\\n\\n- Readable and Simple Syntax: Python emphasizes code readability with simple, English-like syntax, making it easy to learn and write code quickly.\\n- Dynamically Typed: Variable types are determined at runtime, allowing flexibility in coding without explicit type declarations.\\n- Extensive Standard Library: Python includes a rich set of built-in modules and packages that support many functionalities, reducing the need for external libraries.\\n- Object-Oriented Programming (OOP) Support: Python supports OOP principles such as encapsulation, inheritance, polymorphism, and abstraction.\\n- Multi-Paradigm: Python supports procedural, object-oriented, and functional programming styles, giving developers flexibility in code organization.\\n- Interpreted Language: Python code is executed line by line, allowing fast development, testing, and debugging without prior compilation.\\n- Cross-Platform Compatibility: Python programs can run on various operating systems (Windows, macOS, Linux) with little or no modification.\\n- High-Level Language: Python abstracts low-level details like memory management to help developers focus on application logic.\\n- GUI Programming Support: Libraries like Tkinter, PyQt, and Kivy enable building graphical user interfaces.\\n- Open Source and Free: Python is freely available under an open-source license, supported by a large community.\\n- Integrated Language: Python can integrate with other languages such as C and C++.\\n- Memory Management: Automatic memory allocation occurs dynamically as variables are assigned values.\\n\\nThese features make Python suitable for a wide range of applications from web development and software engineering to scientific research and artificial intelligence.[1][2][3][4][5][6]\", \"web_results\": [{\"name\": \"16 Key Features of Python With Real-World Applications ...\", \"snippet\": \"Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.\", \"timestamp\": \"2025-05-21T00:00:00\", \"url\": \"https://unstop.com/blog/features-of-python\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"unstop\", \"suffix\": \"com\", \"domain_name\": \"Unstop\", \"description\": \"Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.\", \"images\": [\"https://d8it4huxumps7.cloudfront.net/bites/wp-content/banners/2023/9/6508818ae6cfa_features_of_python.png+?d=700x400\"], \"published_date\": \"2025-05-21T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"13 Key Features of Python You Need to Know in 2025\", \"snippet\": \"Python continues to be the most popular. Have you wondered why? Through this article, we have enlisted key features of python you need to know.\", \"timestamp\": \"2025-09-23T00:00:00\", \"url\": \"https://www.guvi.in/blog/features-of-python/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"guvi\", \"suffix\": \"in\", \"domain_name\": \"GUVI Geek Networks\", \"description\": \"Python continues to be the most popular. Have you wondered why? Through this article, we have enlisted key features of python you need to know.\", \"images\": [\"https://www.guvi.in/blog/wp-content/uploads/2022/03/key-features-of-python-1200x628.png\"], \"published_date\": \"2025-09-23T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"15 Features of Python Every Developer Should Know\", \"snippet\": \"The features of Python include a simple syntax, multi-paradigm support, and a robust community. Discover why Python is great for all types of projects.\", \"timestamp\": \"2025-06-29T00:00:00\", \"url\": \"https://www.simplilearn.com/python-features-article\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"simplilearn\", \"suffix\": \"com\", \"domain_name\": \"Simplilearn\", \"description\": \"The features of Python include a simple syntax, multi-paradigm support, and a robust community. Discover why Python is great for all types of projects.\", \"images\": [\"https://www.simplilearn.com/ice9/free_resources_article_thumb/Important_Python_Features.jpg\"], \"published_date\": \"2025-06-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Top 10 Key Features of Python in 2024\", \"snippet\": \"Learn top 10 features of Python that make it easy to learn, powerful & versatile for web dev, data science, and more! You can read our blog.\", \"timestamp\": \"2025-07-30T00:00:00\", \"url\": \"https://kochiva.com/blog/features-of-python/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"kochiva\", \"suffix\": \"com\", \"domain_name\": \"Kochiva\", \"description\": \"Learn top 10 features of Python that make it easy to learn, powerful & versatile for web dev, data science, and more! You can read our blog.\", \"images\": [\"https://kochiva.com/wp-content/uploads/2024/03/Top-10-features-of-python.webp\"], \"published_date\": \"2025-07-30T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Introduction to Python Programming and its Key Features\", \"snippet\": \"Discover more about the Python Programming language, its concepts, features, and areas of application that can be used for web app and custom software development.\", \"timestamp\": \"2025-10-08T00:00:00\", \"url\": \"https://www.aezion.com/blogs/introduction-to-python-programming/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"aezion\", \"suffix\": \"com\", \"domain_name\": \"Aezion\", \"description\": \"Discover more about the Python Programming language, its concepts, features, and areas of application that can be used for web app and custom software development.\", \"images\": [\"https://www.aezion.com/wp-content/uploads/2025/05/Thumb_python.jpg\"], \"published_date\": \"2025-10-08T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Python Features\", \"snippet\": \"Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.\", \"timestamp\": \"2019-04-03T00:00:00\", \"url\": \"https://www.geeksforgeeks.org/python/python-features/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"geeksforgeeks\", \"suffix\": \"org\", \"domain_name\": \"GeeksforGeeks\", \"description\": \"Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.\", \"images\": [\"https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png\"], \"published_date\": \"2019-04-03T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Python (programming language)\", \"snippet\": \"\", \"timestamp\": \"2001-10-29T00:00:00\", \"url\": \"https://en.wikipedia.org/wiki/Python_(programming_language)\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"wikipedia\", \"suffix\": \"org\", \"domain_name\": \"Wikimedia Foundation, Inc.\", \"description\": null, \"images\": [\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png\"], \"published_date\": \"2001-10-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"What is Python? - Python Language Explained\", \"snippet\": \"Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.\", \"timestamp\": \"2025-09-29T00:00:00\", \"url\": \"https://aws.amazon.com/what-is/python/\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"aws.amazon\", \"suffix\": \"com\", \"domain_name\": \"Amazon Web Services, Inc.\", \"description\": \"Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.\", \"images\": [], \"published_date\": \"2025-09-29T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"General Python FAQ\", \"snippet\": \"Contents: General Python FAQ- General Information- What is Python?, What is the Python Software Foundation?, Are there copyright restrictions on the use of Python?, Why was Python created in the fi...\", \"timestamp\": \"2025-10-11T00:00:00\", \"url\": \"https://docs.python.org/3/faq/general.html\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"python\", \"suffix\": \"org\", \"domain_name\": \"Python documentation\", \"description\": \"Contents: General Python FAQ- General Information- What is Python?, What is the Python Software Foundation?, Are there copyright restrictions on the use of Python?, Why was Python created in the fi...\", \"images\": [\"https://docs.python.org/3.14/_images/social_previews/summary_faq_general_ebb191be.png\"], \"published_date\": \"2025-10-11T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}, {\"name\": \"Introduction to Python\", \"snippet\": \"W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.\", \"timestamp\": \"2025-09-09T00:00:00\", \"url\": \"https://www.w3schools.com/python/python_intro.asp\", \"meta_data\": {\"client\": \"web\", \"date\": null, \"citation_domain_name\": \"w3schools\", \"suffix\": \"com\", \"domain_name\": null, \"description\": \"W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.\", \"images\": [\"https://www.w3schools.com/images/w3schools_logo_436_2.png\"], \"published_date\": \"2025-09-09T00:00:00\"}, \"file_metadata\": null, \"is_attachment\": false, \"is_image\": false, \"is_code_interpreter\": false, \"is_knowledge_card\": false, \"is_navigational\": false, \"is_widget\": false, \"sitelinks\": null, \"is_focused_web\": false, \"is_client_context\": false, \"inline_entity_id\": null, \"is_memory\": false, \"is_conversation_history\": false, \"tab_id\": null, \"is_scrubbed\": null}], \"chunks\": [\"Python has several\", \" key features\", \" that contribute\", \" to its popularity\", \" and versatility\", \" as a programming\", \" language:\\n\\n-\", \" Readable and\", \" Simple Syntax\", \": Python emphasizes\", \" code readability\", \" with simple,\", \" English-like\", \" syntax, making\", \" it easy to learn\", \" and write code\", \" quickly.\\n- Dynam\", \"ically Typed:\", \" Variable types\", \" are determined\", \" at runtime, allowing\", \" flexibility in\", \" coding without\", \" explicit type\", \" declarations\", \".\\n- Extensive\", \" Standard Library\", \": Python includes\", \" a rich set of\", \" built-in modules\", \" and packages\", \" that support\", \" many functionalities\", \", reducing the\", \" need for external\", \" libraries.\\n-\", \" Object-Oriented\", \" Programming (\", \"OOP) Support:\", \" Python supports\", \" OOP principles\", \" such as encaps\", \"ulation, inheritance\", \", polymorphism\", \", and abstraction\", \".\\n- Multi-Par\", \"adigm: Python\", \" supports procedural\", \", object-oriented\", \", and functional\", \" programming styles\", \", giving developers\", \" flexibility in\", \" code organization\", \".\\n- Interpreted\", \" Language: Python\", \" code is executed\", \" line by line\", \", allowing fast\", \" development,\", \" testing, and\", \" debugging without\", \" prior compilation\", \".\\n- Cross-Platform\", \" Compatibility\", \": Python programs\", \" can run on various\", \" operating systems\", \" (Windows, mac\", \"OS, Linux) with\", \" little or no\", \" modification\", \".\\n- High-Level\", \" Language: Python\", \" abstracts low\", \"-level details\", \" like memory management\", \" to help developers\", \" focus on application\", \" logic.\\n- GUI\", \" Programming Support\", \": Libraries like\", \" Tkinter, PyQt\", \", and Kivy enable\", \" building graphical\", \" user interfaces\", \".\\n- Open Source\", \" and Free: Python\", \" is freely available\", \" under an open\", \"-source license\", \", supported by\", \" a large community\", \".\\n- Integrated\", \" Language: Python\", \" can integrate\", \" with other languages\", \" such as C and\", \" C++.\\n- Memory\", \" Management: Automatic\", \" memory allocation\", \" occurs dynamically\", \" as variables\", \" are assigned\", \" values.\\n\\nThese\", \" features make\", \" Python suitable\", \" for a wide range\", \" of applications\", \" from web development\", \" and software\", \" engineering to\", \" scientific research\", \" and artificial\", \" intelligence\", \".\", \"[1][2][3][4][5][6]\"], \"extra_web_results\": [], \"structured_answer\": []}"
+        },
+        "uuid": ""
+      }
+    ],
+    "thread_title": "What is Python?",
+    "related_queries": [
+      "Show examples of Python's dynamic typing in real code",
+      "Compare Python's standard library to Java's core libraries",
+      "Explain Python's concurrency options and when to use them",
+      "List Python features most useful for data science",
+      "Recommend which Python features to teach beginners first"
+    ],
+    "display_model": "turbo",
+    "user_selected_model": "turbo",
+    "personalized": true,
+    "mode": "COPILOT",
+    "query_str": "Tell me more about its features",
+    "search_focus": "internet",
+    "source": "default",
+    "attachments": [],
+    "updated_datetime": "2025-10-12T20:33:02.122188",
+    "read_write_token": "14ba6bfe-383e-4fce-9025-8235b7313f97",
+    "is_pro_reasoning_mode": false,
+    "step_type": "FINAL",
+    "bookmark_state": "NOT_BOOKMARKED",
+    "s3_social_preview_url": "https://ppl-ai-public.s3.amazonaws.com/static/img/pplx-default-preview.png",
+    "thread_access": 2,
+    "thread_url_slug": "what-is-python-Hn9YIPHLT9afTLA2G0RRzQ",
+    "expect_search_results": "true",
+    "plan": {
+      "goals": [
+        {
+          "id": "0",
+          "description": "Searching the web",
+          "final": true,
+          "todo_task_status": "INCOMPLETE"
+        }
+      ],
+      "final": true
+    },
+    "privacy_state": "NONE",
+    "gpt4": false,
+    "sources": {
+      "sources": [
+        "web"
+      ]
+    },
+    "text_completed": true,
+    "expect_sponsored_results": false,
+    "entry_updated_datetime": "2025-10-12T20:33:02.122188+00:00",
+    "blocks": [
+      {
+        "intended_usage": "plan",
+        "plan_block": {
+          "progress": "DONE",
+          "goals": [
+            {
+              "id": "0",
+              "description": "Searching the web",
+              "final": true,
+              "todo_task_status": "INCOMPLETE"
+            }
+          ],
+          "final": true
+        }
+      },
+      {
+        "intended_usage": "pro_search_steps",
+        "plan_block": {
+          "progress": "DONE",
+          "goals": [],
+          "steps": [
+            {
+              "uuid": "",
+              "step_type": "INITIAL_QUERY",
+              "initial_query_content": {
+                "query": "Tell me more about its features"
+              }
+            },
+            {
+              "uuid": "68b5f1b9-c029-414a-a973-2cc0a588b9c2",
+              "step_type": "SEARCH_WEB",
+              "search_web_content": {
+                "goal_id": "0",
+                "queries": [
+                  {
+                    "engine": "web",
+                    "query": "Python programming language main features",
+                    "limit": 8
+                  }
+                ]
+              }
+            },
+            {
+              "uuid": "1f70e7c4-8b17-4cd2-9ee5-a5a5fd1e1323",
+              "step_type": "SEARCH_RESULTS",
+              "web_results_content": {
+                "goal_id": "0",
+                "web_results": [
+                  {
+                    "name": "16 Key Features of Python With Real-World Applications ...",
+                    "url": "https://unstop.com/blog/features-of-python",
+                    "snippet": "Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "unstop",
+                      "suffix": "com",
+                      "domain_name": "Unstop",
+                      "description": "Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.",
+                      "published_date": "2025-05-21T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "13 Key Features of Python You Need to Know in 2025",
+                    "url": "https://www.guvi.in/blog/features-of-python/",
+                    "snippet": "1. Simple and Easy to Learn · 2. Free and Open Source · 3. Cross-Platform Compatibility · 4. Large Standard Library · 5. Dynamically Typed Language · 6. Interpreted ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "guvi",
+                      "suffix": "in",
+                      "domain_name": "GUVI Geek Networks",
+                      "description": "Python continues to be the most popular. Have you wondered why? Through this article, we have enlisted key features of python you need to know.",
+                      "published_date": "2025-09-23T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "15 Features of Python Every Developer Should Know",
+                    "url": "https://www.simplilearn.com/python-features-article",
+                    "snippet": "1. GUI Programming Support · 2. Object-Oriented Programming · 3. Dynamic Language · 4. Easy to Code · 5. Free and Open-Source · 6. High-level ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "simplilearn",
+                      "suffix": "com",
+                      "domain_name": "Simplilearn",
+                      "description": "The features of Python include a simple syntax, multi-paradigm support, and a robust community. Discover why Python is great for all types of projects.",
+                      "published_date": "2025-06-29T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Top 10 Key Features of Python in 2024",
+                    "url": "https://kochiva.com/blog/features-of-python/",
+                    "snippet": "1. Easy to Understand · 2. Simple to code · 3. Language interpretation · 4. Object-Based Programming · 5. Open Source and Free · 6. Multiplatform ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "kochiva",
+                      "suffix": "com",
+                      "domain_name": "Kochiva",
+                      "description": "Learn top 10 features of Python that make it easy to learn, powerful & versatile for web dev, data science, and more! You can read our blog.",
+                      "published_date": "2025-07-30T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Introduction to Python Programming and its Key Features",
+                    "url": "https://www.aezion.com/blogs/introduction-to-python-programming/",
+                    "snippet": "Python is a multi-paradigm programming language because it employs both object-oriented and functional programming.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "aezion",
+                      "suffix": "com",
+                      "domain_name": "Aezion",
+                      "description": "Discover more about the Python Programming language, its concepts, features, and areas of application that can be used for web app and custom software development.",
+                      "published_date": "2025-10-08T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Python Features",
+                    "url": "https://www.geeksforgeeks.org/python/python-features/",
+                    "snippet": "1. Free and Open Source · 2. Easy to code · 3. Easy to Read · 4. Object-Oriented Language · 5. GUI Programming Support · 6. High-Level Language · 7.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "geeksforgeeks",
+                      "suffix": "org",
+                      "domain_name": "GeeksforGeeks",
+                      "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                      "published_date": "2019-04-03T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Python (programming language)",
+                    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+                    "snippet": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "wikipedia",
+                      "suffix": "org",
+                      "domain_name": "Wikimedia Foundation, Inc.",
+                      "published_date": "2001-10-29T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "What is Python? - Python Language Explained",
+                    "url": "https://aws.amazon.com/what-is/python/",
+                    "snippet": "Developers can easily read and understand a Python program because it has basic, English-like syntax. Python makes developers more productive because they can ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "aws.amazon",
+                      "suffix": "com",
+                      "domain_name": "Amazon Web Services, Inc.",
+                      "description": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+                      "published_date": "2025-09-29T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "General Python FAQ",
+                    "url": "https://docs.python.org/3/faq/general.html",
+                    "snippet": "Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "python",
+                      "suffix": "org",
+                      "domain_name": "Python documentation",
+                      "description": "Contents: General Python FAQ- General Information- What is Python?, What is the Python Software Foundation?, Are there copyright restrictions on the use of Python?, Why was Python created in the fi...",
+                      "published_date": "2025-10-11T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  },
+                  {
+                    "name": "Introduction to Python",
+                    "url": "https://www.w3schools.com/python/python_intro.asp",
+                    "snippet": "Python was designed for readability, and has some similarities to the English language with influence from mathematics. · Python uses new lines to complete a ...",
+                    "is_attachment": false,
+                    "meta_data": {
+                      "client": "web",
+                      "citation_domain_name": "w3schools",
+                      "suffix": "com",
+                      "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+                      "published_date": "2025-09-09T00:00:00"
+                    },
+                    "is_memory": false,
+                    "is_conversation_history": false,
+                    "is_navigational": false,
+                    "is_focused_web": false
+                  }
+                ]
+              }
+            }
+          ],
+          "final": true
+        }
+      },
+      {
+        "intended_usage": "ask_text",
+        "markdown_block": {
+          "progress": "DONE",
+          "chunks": [
+            "Python has several",
+            " key features",
+            " that contribute",
+            " to its popularity",
+            " and versatility",
+            " as a programming",
+            " language:\n\n-",
+            " Readable and",
+            " Simple Syntax",
+            ": Python emphasizes",
+            " code readability",
+            " with simple,",
+            " English-like",
+            " syntax, making",
+            " it easy to learn",
+            " and write code",
+            " quickly.\n- Dynam",
+            "ically Typed:",
+            " Variable types",
+            " are determined",
+            " at runtime, allowing",
+            " flexibility in",
+            " coding without",
+            " explicit type",
+            " declarations",
+            ".\n- Extensive",
+            " Standard Library",
+            ": Python includes",
+            " a rich set of",
+            " built-in modules",
+            " and packages",
+            " that support",
+            " many functionalities",
+            ", reducing the",
+            " need for external",
+            " libraries.\n-",
+            " Object-Oriented",
+            " Programming (",
+            "OOP) Support:",
+            " Python supports",
+            " OOP principles",
+            " such as encaps",
+            "ulation, inheritance",
+            ", polymorphism",
+            ", and abstraction",
+            ".\n- Multi-Par",
+            "adigm: Python",
+            " supports procedural",
+            ", object-oriented",
+            ", and functional",
+            " programming styles",
+            ", giving developers",
+            " flexibility in",
+            " code organization",
+            ".\n- Interpreted",
+            " Language: Python",
+            " code is executed",
+            " line by line",
+            ", allowing fast",
+            " development,",
+            " testing, and",
+            " debugging without",
+            " prior compilation",
+            ".\n- Cross-Platform",
+            " Compatibility",
+            ": Python programs",
+            " can run on various",
+            " operating systems",
+            " (Windows, mac",
+            "OS, Linux) with",
+            " little or no",
+            " modification",
+            ".\n- High-Level",
+            " Language: Python",
+            " abstracts low",
+            "-level details",
+            " like memory management",
+            " to help developers",
+            " focus on application",
+            " logic.\n- GUI",
+            " Programming Support",
+            ": Libraries like",
+            " Tkinter, PyQt",
+            ", and Kivy enable",
+            " building graphical",
+            " user interfaces",
+            ".\n- Open Source",
+            " and Free: Python",
+            " is freely available",
+            " under an open",
+            "-source license",
+            ", supported by",
+            " a large community",
+            ".\n- Integrated",
+            " Language: Python",
+            " can integrate",
+            " with other languages",
+            " such as C and",
+            " C++.\n- Memory",
+            " Management: Automatic",
+            " memory allocation",
+            " occurs dynamically",
+            " as variables",
+            " are assigned",
+            " values.\n\nThese",
+            " features make",
+            " Python suitable",
+            " for a wide range",
+            " of applications",
+            " from web development",
+            " and software",
+            " engineering to",
+            " scientific research",
+            " and artificial",
+            " intelligence",
+            ".",
+            "[1][2][3][4][5][6]"
+          ],
+          "chunk_starting_offset": 0,
+          "answer": "Python has several key features that contribute to its popularity and versatility as a programming language:\n\n- Readable and Simple Syntax: Python emphasizes code readability with simple, English-like syntax, making it easy to learn and write code quickly.\n- Dynamically Typed: Variable types are determined at runtime, allowing flexibility in coding without explicit type declarations.\n- Extensive Standard Library: Python includes a rich set of built-in modules and packages that support many functionalities, reducing the need for external libraries.\n- Object-Oriented Programming (OOP) Support: Python supports OOP principles such as encapsulation, inheritance, polymorphism, and abstraction.\n- Multi-Paradigm: Python supports procedural, object-oriented, and functional programming styles, giving developers flexibility in code organization.\n- Interpreted Language: Python code is executed line by line, allowing fast development, testing, and debugging without prior compilation.\n- Cross-Platform Compatibility: Python programs can run on various operating systems (Windows, macOS, Linux) with little or no modification.\n- High-Level Language: Python abstracts low-level details like memory management to help developers focus on application logic.\n- GUI Programming Support: Libraries like Tkinter, PyQt, and Kivy enable building graphical user interfaces.\n- Open Source and Free: Python is freely available under an open-source license, supported by a large community.\n- Integrated Language: Python can integrate with other languages such as C and C++.\n- Memory Management: Automatic memory allocation occurs dynamically as variables are assigned values.\n\nThese features make Python suitable for a wide range of applications from web development and software engineering to scientific research and artificial intelligence.[1][2][3][4][5][6]"
+        }
+      },
+      {
+        "intended_usage": "web_results",
+        "web_result_block": {
+          "progress": "DONE",
+          "web_results": [
+            {
+              "name": "16 Key Features of Python With Real-World Applications ...",
+              "snippet": "Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.",
+              "timestamp": "2025-05-21T00:00:00",
+              "url": "https://unstop.com/blog/features-of-python",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "unstop",
+                "suffix": "com",
+                "domain_name": "Unstop",
+                "description": "Explore 16 key features of Python language: 1. Readable syntax 2. Dynamic typing 3. Extensive libraries 4. OOP 5. Cross-platform compatibility, and more.",
+                "images": [
+                  "https://d8it4huxumps7.cloudfront.net/bites/wp-content/banners/2023/9/6508818ae6cfa_features_of_python.png+?d=700x400"
+                ],
+                "published_date": "2025-05-21T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "13 Key Features of Python You Need to Know in 2025",
+              "snippet": "Python continues to be the most popular. Have you wondered why? Through this article, we have enlisted key features of python you need to know.",
+              "timestamp": "2025-09-23T00:00:00",
+              "url": "https://www.guvi.in/blog/features-of-python/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "guvi",
+                "suffix": "in",
+                "domain_name": "GUVI Geek Networks",
+                "description": "Python continues to be the most popular. Have you wondered why? Through this article, we have enlisted key features of python you need to know.",
+                "images": [
+                  "https://www.guvi.in/blog/wp-content/uploads/2022/03/key-features-of-python-1200x628.png"
+                ],
+                "published_date": "2025-09-23T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "15 Features of Python Every Developer Should Know",
+              "snippet": "The features of Python include a simple syntax, multi-paradigm support, and a robust community. Discover why Python is great for all types of projects.",
+              "timestamp": "2025-06-29T00:00:00",
+              "url": "https://www.simplilearn.com/python-features-article",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "simplilearn",
+                "suffix": "com",
+                "domain_name": "Simplilearn",
+                "description": "The features of Python include a simple syntax, multi-paradigm support, and a robust community. Discover why Python is great for all types of projects.",
+                "images": [
+                  "https://www.simplilearn.com/ice9/free_resources_article_thumb/Important_Python_Features.jpg"
+                ],
+                "published_date": "2025-06-29T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Top 10 Key Features of Python in 2024",
+              "snippet": "Learn top 10 features of Python that make it easy to learn, powerful & versatile for web dev, data science, and more! You can read our blog.",
+              "timestamp": "2025-07-30T00:00:00",
+              "url": "https://kochiva.com/blog/features-of-python/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "kochiva",
+                "suffix": "com",
+                "domain_name": "Kochiva",
+                "description": "Learn top 10 features of Python that make it easy to learn, powerful & versatile for web dev, data science, and more! You can read our blog.",
+                "images": [
+                  "https://kochiva.com/wp-content/uploads/2024/03/Top-10-features-of-python.webp"
+                ],
+                "published_date": "2025-07-30T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Introduction to Python Programming and its Key Features",
+              "snippet": "Discover more about the Python Programming language, its concepts, features, and areas of application that can be used for web app and custom software development.",
+              "timestamp": "2025-10-08T00:00:00",
+              "url": "https://www.aezion.com/blogs/introduction-to-python-programming/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "aezion",
+                "suffix": "com",
+                "domain_name": "Aezion",
+                "description": "Discover more about the Python Programming language, its concepts, features, and areas of application that can be used for web app and custom software development.",
+                "images": [
+                  "https://www.aezion.com/wp-content/uploads/2025/05/Thumb_python.jpg"
+                ],
+                "published_date": "2025-10-08T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Python Features",
+              "snippet": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+              "timestamp": "2019-04-03T00:00:00",
+              "url": "https://www.geeksforgeeks.org/python/python-features/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "geeksforgeeks",
+                "suffix": "org",
+                "domain_name": "GeeksforGeeks",
+                "description": "Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.",
+                "images": [
+                  "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200x200-min.png"
+                ],
+                "published_date": "2019-04-03T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Python (programming language)",
+              "snippet": "",
+              "timestamp": "2001-10-29T00:00:00",
+              "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "wikipedia",
+                "suffix": "org",
+                "domain_name": "Wikimedia Foundation, Inc.",
+                "description": null,
+                "images": [
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
+                ],
+                "published_date": "2001-10-29T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "What is Python? - Python Language Explained",
+              "snippet": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+              "timestamp": "2025-09-29T00:00:00",
+              "url": "https://aws.amazon.com/what-is/python/",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "aws.amazon",
+                "suffix": "com",
+                "domain_name": "Amazon Web Services, Inc.",
+                "description": "Find out more about the easy-to-learn programming language python, what the benefits of python are, and discover resources for using python.",
+                "images": [],
+                "published_date": "2025-09-29T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "General Python FAQ",
+              "snippet": "Contents: General Python FAQ- General Information- What is Python?, What is the Python Software Foundation?, Are there copyright restrictions on the use of Python?, Why was Python created in the fi...",
+              "timestamp": "2025-10-11T00:00:00",
+              "url": "https://docs.python.org/3/faq/general.html",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "python",
+                "suffix": "org",
+                "domain_name": "Python documentation",
+                "description": "Contents: General Python FAQ- General Information- What is Python?, What is the Python Software Foundation?, Are there copyright restrictions on the use of Python?, Why was Python created in the fi...",
+                "images": [
+                  "https://docs.python.org/3.14/_images/social_previews/summary_faq_general_ebb191be.png"
+                ],
+                "published_date": "2025-10-11T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            },
+            {
+              "name": "Introduction to Python",
+              "snippet": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+              "timestamp": "2025-09-09T00:00:00",
+              "url": "https://www.w3schools.com/python/python_intro.asp",
+              "meta_data": {
+                "client": "web",
+                "date": null,
+                "citation_domain_name": "w3schools",
+                "suffix": "com",
+                "domain_name": null,
+                "description": "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more.",
+                "images": [
+                  "https://www.w3schools.com/images/w3schools_logo_436_2.png"
+                ],
+                "published_date": "2025-09-09T00:00:00"
+              },
+              "is_attachment": false,
+              "is_image": false,
+              "is_code_interpreter": false,
+              "is_knowledge_card": false,
+              "is_navigational": false,
+              "is_widget": false,
+              "is_focused_web": false,
+              "is_client_context": false,
+              "is_memory": false,
+              "is_conversation_history": false
+            }
+          ]
+        }
+      }
+    ],
+    "message_mode": "FULL",
+    "related_query_items": [
+      {
+        "text": "Show examples of Python's dynamic typing in real code",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "Compare Python's standard library to Java's core libraries",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "Explain Python's concurrency options and when to use them",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "List Python features most useful for data science",
+        "type": "DEFAULT"
+      },
+      {
+        "text": "Recommend which Python features to teach beginners first",
+        "type": "DEFAULT"
+      }
+    ],
+    "access_level": "PUBLIC_READ",
+    "answer_modes": [
+      {
+        "answer_mode_type": "SOURCES"
+      }
+    ],
+    "reconnectable": false,
+    "image_completions": [],
+    "cursor": "068ec107-e41f-7ef4-8000-b79226d8a2ba",
+    "classifier_results": {
+      "personal_search": false,
+      "skip_search": false,
+      "widget_type": "GENERAL",
+      "hide_nav": false,
+      "hide_sources": false,
+      "image_generation": false,
+      "time_widget": false,
+      "mhe_predictions": {
+        "skip_search": false,
+        "image_generation_intent": false,
+        "time_widget": false,
+        "sports_intent": false,
+        "places_search_intent": false,
+        "shopping_intent": false,
+        "movie_lists_intent": false,
+        "image_preview": false,
+        "video_preview": false,
+        "nav_intent": false,
+        "study_intent": false,
+        "personal_search": false,
+        "weather_widget": false,
+        "finance_widget_gating": false,
+        "calculator_widget": false
+      }
+    },
+    "search_implementation_mode": "fast",
+    "telemetry_data": {
+      "has_displayed_search_results": true,
+      "has_first_output_token": true,
+      "has_first_token": true,
+      "country": "IN",
+      "is_followup": true,
+      "source": "default",
+      "engine_mode": "auto",
+      "search_implementation_mode": "fast",
+      "has_widget_data": false,
+      "context_lookup_in_parallel_with_fast_search": false,
+      "search_duration_seconds": 0.6088027954101562,
+      "has_useful_renderable_content": true
+    },
+    "has_expired_attachments": false,
+    "status": "COMPLETED",
+    "final": true,
+    "_extras": {
+      "next": null,
+      "country": "IN",
+      "subdomain": null,
+      "pro_search_mode": "auto",
+      "core_elapsed": 6.234606111887842
+    },
+    "final_sse_message": true
+  }
+}

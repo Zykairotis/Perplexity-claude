@@ -30,7 +30,8 @@ async def analyze_file_with_perplexity(
     query_source: Optional[str] = None,
     should_ask_for_mcp_tool_confirmation: Optional[bool] = False,
     search_focus: Optional[str] = None,
-    timezone: Optional[str] = None
+    timezone: Optional[str] = None,
+    space: Optional[str] = None
 ) -> str:
     """
     📄 Analyze and interpret file content using Perplexity AI (pro mode) for code, data, or document insights.
@@ -72,6 +73,7 @@ async def analyze_file_with_perplexity(
         should_ask_for_mcp_tool_confirmation: Whether to ask for confirmation before executing MCP tools (default: False)
         search_focus: Specific focus area for the analysis (e.g., 'security', 'performance', 'architecture', default: None)
         timezone: Timezone for context-aware responses (e.g., 'UTC', 'America/New_York', default: None)
+        space: Space name or UUID to analyze within a specific Perplexity collection (default: None)
 
     Returns:
         Clean text analysis (default) or structured report with insights and metadata.
@@ -144,7 +146,8 @@ async def analyze_file_with_perplexity(
             query_source=query_source,
             should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
             search_focus=search_focus,
-            timezone=timezone
+            timezone=timezone,
+            space=space
         )
 
         # Format response

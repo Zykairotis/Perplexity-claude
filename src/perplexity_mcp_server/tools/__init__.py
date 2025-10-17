@@ -12,6 +12,7 @@ from tools.search import search_perplexity
 from tools.chat import chat_with_perplexity
 from tools.file_analysis import analyze_file_with_perplexity
 from tools.utils import get_available_models, get_search_profiles, get_perplexity_health
+from tools.spaces import create_perplexity_space, list_perplexity_spaces
 
 __all__ = [
     "search_perplexity",
@@ -19,5 +20,7 @@ __all__ = [
     "analyze_file_with_perplexity",
     "get_available_models",
     "get_search_profiles",
-    "get_perplexity_health"
+    "get_perplexity_health",
+    "create_perplexity_space",
+    "list_perplexity_spaces"
 ]

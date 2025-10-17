@@ -17,6 +17,7 @@ from .consultation_session_prompt import consultation_session
 from .file_analysis_deep_dive_prompt import file_analysis_deep_dive
 from .research_assistant_prompt import research_assistant
 from .list_server_assets_prompt import list_server_assets
+from .space_creation_wizard_prompt import space_creation_wizard
 
 __all__ = [
     "PromptManager",
@@ -29,5 +30,6 @@ __all__ = [
     "consultation_session",
     "file_analysis_deep_dive",
     "research_assistant",
-    "list_server_assets"
+    "list_server_assets",
+    "space_creation_wizard"
 ]

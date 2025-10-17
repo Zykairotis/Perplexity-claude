@@ -83,7 +83,7 @@ class Client(AsyncMixin):
         except Exception as e:
             print(f"Warning: Could not initialize session: {e}")
     
-    async def _create_payload(self, query, mode, model, sources, files, follow_up, incognito, language='en-US', prompt_source='user', query_source='home', should_ask_for_mcp_tool_confirmation=True, search_focus='internet', timezone='Europe/Berlin'):
+    async def _create_payload(self, query, mode, model, sources, files, follow_up, incognito, language='en-US', prompt_source='user', query_source='home', should_ask_for_mcp_tool_confirmation=True, search_focus='internet', timezone='Europe/Berlin', target_collection_uuid=None):
         """Helper to create the JSON payload for the API request."""
         
         # Validate sources - now supports all available sources including edgar
@@ -174,9 +174,8 @@ class Client(AsyncMixin):
 
         final_query = query
 
-        return {
-            'query_str': final_query,
-            'params': {
+        # Build the params dictionary
+        params = {
                 'attachments': uploaded_files + (follow_up.get('attachments', []) if follow_up else []),
                 'language': language,
                 'timezone': timezone,
@@ -220,12 +219,20 @@ class Client(AsyncMixin):
                 'source': 'default',
                 'sources': sources,
                 'version': '2.18'
-            }
+        }
+        
+        # Add target_collection_uuid if provided (for accessing specific Perplexity spaces)
+        if target_collection_uuid:
+            params['target_collection_uuid'] = target_collection_uuid
+        
+        return {
+            'query_str': final_query,
+            'params': params
         }
 
-    async def search(self, query, mode='auto', model=None, sources=['web'], files={}, language='en-US', follow_up=None, incognito=False, prompt_source='user', query_source='home', should_ask_for_mcp_tool_confirmation=True, search_focus='internet', timezone='Europe/Berlin'):
+    async def search(self, query, mode='auto', model=None, sources=['web'], files={}, language='en-US', follow_up=None, incognito=False, prompt_source='user', query_source='home', should_ask_for_mcp_tool_confirmation=True, search_focus='internet', timezone='Europe/Berlin', target_collection_uuid=None):
         """Performs a non-streaming search and returns the final JSON result."""
-        json_data = await self._create_payload(query, mode, model, sources, files, follow_up, incognito, language, prompt_source, query_source, should_ask_for_mcp_tool_confirmation, search_focus, timezone)
+        json_data = await self._create_payload(query, mode, model, sources, files, follow_up, incognito, language, prompt_source, query_source, should_ask_for_mcp_tool_confirmation, search_focus, timezone, target_collection_uuid)
 
         try:
             resp = await self.session.post('https://www.perplexity.ai/rest/sse/perplexity_ask', json=json_data, stream=True)
@@ -264,9 +271,9 @@ class Client(AsyncMixin):
         except Exception as e:
             raise PerplexityError(f"Search request failed: {str(e)}")
 
-    async def search_stream(self, query, mode='auto', model=None, sources=['web'], files={}, language='en-US', follow_up=None, incognito=False, prompt_source='user', query_source='home', should_ask_for_mcp_tool_confirmation=True, search_focus='internet', timezone='Europe/Berlin'):
+    async def search_stream(self, query, mode='auto', model=None, sources=['web'], files={}, language='en-US', follow_up=None, incognito=False, prompt_source='user', query_source='home', should_ask_for_mcp_tool_confirmation=True, search_focus='internet', timezone='Europe/Berlin', target_collection_uuid=None):
         """Performs a streaming search, yielding each JSON chunk."""
-        json_data = await self._create_payload(query, mode, model, sources, files, follow_up, incognito, language, prompt_source, query_source, should_ask_for_mcp_tool_confirmation, search_focus, timezone)
+        json_data = await self._create_payload(query, mode, model, sources, files, follow_up, incognito, language, prompt_source, query_source, should_ask_for_mcp_tool_confirmation, search_focus, timezone, target_collection_uuid)
 
         try:
             resp = await self.session.post('https://www.perplexity.ai/rest/sse/perplexity_ask', json=json_data, stream=True)
@@ -298,3 +305,50 @@ class Client(AsyncMixin):
                     
         except Exception as e:
             yield {'error': 'Stream failed', 'message': str(e)}
+
+    async def create_collection(self, title, description='', emoji='', instructions='', access=1):
+        """
+        Creates a new Perplexity collection/space.
+        
+        Args:
+            title: Name of the collection/space
+            description: Detailed description of the collection's purpose
+            emoji: Emoji for the collection (optional)
+            instructions: System prompt for the agent to follow in this space
+            access: Access level (1 = private, default)
+        
+        Returns:
+            Dictionary with collection details including UUID
+        
+        Raises:
+            PerplexityError: If collection creation fails
+        """
+        try:
+            payload = {
+                "title": title,
+                "description": description,
+                "emoji": emoji,
+                "instructions": instructions,
+                "access": access
+            }
+            
+            resp = await self.session.post(
+                'https://www.perplexity.ai/rest/collections/create_collection?version=2.18&source=default',
+                json=payload
+            )
+            
+            if resp.status_code != 200:
+                raise PerplexityError(f"HTTP Error {resp.status_code}: {resp.text}")
+            
+            collection_data = resp.json()
+            
+            # Validate response has UUID
+            if 'uuid' not in collection_data:
+                raise PerplexityError("Collection created but UUID not found in response")
+            
+            return collection_data
+            
+        except Exception as e:
+            if isinstance(e, PerplexityError):
+                raise
+            raise PerplexityError(f"Failed to create collection: {str(e)}")

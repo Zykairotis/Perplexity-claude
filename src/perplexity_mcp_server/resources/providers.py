@@ -207,3 +207,48 @@ class ProfilesResourceProvider(BaseResourceProvider):
             "description": "Available search profiles with descriptions and use cases",
             "mime_type": "application/json"
         }
+
+
+class SpacesResourceProvider(BaseResourceProvider):
+    """Provider for Perplexity spaces/collections."""
+
+    async def read(self, uri: str) -> str:
+        """Read configured spaces."""
+        try:
+            import sys
+            import os
+            sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+            
+            from perplexity_api import load_spaces_mapping
+            
+            spaces = load_spaces_mapping()
+            
+            spaces_list = [
+                {"name": name, "uuid": uuid}
+                for name, uuid in spaces.items()
+            ]
+            
+            return json.dumps({
+                "spaces": spaces_list,
+                "count": len(spaces),
+                "usage": "Use space names or UUIDs in search queries to access specific collections",
+                "capabilities": [
+                    "Search within space context",
+                    "Access historical conversations",
+                    "Use uploaded documents",
+                    "Reference web links"
+                ]
+            }, indent=2)
+            
+        except Exception as e:
+            logger.error(f"Error reading spaces: {e}")
+            return json.dumps({"error": str(e), "spaces": [], "count": 0}, indent=2)
+
+    def get_info(self) -> Dict[str, Any]:
+        """Get spaces resource information."""
+        return {
+            "uri": "perplexity://spaces",
+            "name": "Perplexity Spaces",
+            "description": "Configured Perplexity spaces/collections",
+            "mime_type": "application/json"
+        }

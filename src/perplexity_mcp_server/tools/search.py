@@ -32,7 +32,8 @@ async def search_perplexity(
     query_source: Optional[str] = None,
     should_ask_for_mcp_tool_confirmation: Optional[bool] = False,
     search_focus: Optional[str] = None,
-    timezone: Optional[str] = None
+    timezone: Optional[str] = None,
+    space: Optional[str] = None
 ) -> str:
     """
     🧩 Search using Perplexity AI (pro mode) for current, factual, or research-based answers.
@@ -77,6 +78,7 @@ async def search_perplexity(
         should_ask_for_mcp_tool_confirmation: Whether to ask for confirmation before executing MCP tools (default: False)
         search_focus: Specific focus area for the search (e.g., 'technical', 'academic', 'news', default: None)
         timezone: Timezone for context-aware responses (e.g., 'UTC', 'America/New_York', default: None)
+        space: Space name or UUID to search within a specific Perplexity collection (default: None)
 
     Returns:
         Clean text/markdown answer (default) or full JSON response with sources and metadata.
@@ -155,7 +157,8 @@ async def search_perplexity(
             query_source=query_source,
             should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
             search_focus=search_focus,
-            timezone=timezone
+            timezone=timezone,
+            space=space
         )
 
         # Format response

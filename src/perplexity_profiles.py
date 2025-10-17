@@ -8,6 +8,7 @@ from enum import Enum
 
 class SearchProfile(Enum):
     """Available search profiles for different use cases"""
+    SIMPLE = "simple"
     RESEARCH = "research"
     CODE_ANALYSIS = "code_analysis"
     TROUBLESHOOTING = "troubleshooting"
@@ -25,6 +26,8 @@ class SearchProfile(Enum):
 
 # Profile definitions with specific instructions
 PROFILE_INSTRUCTIONS = {
+    SearchProfile.SIMPLE: "",  # No additional instructions - uses query as-is
+    
     SearchProfile.RESEARCH: "do a detailed research on this and provide me with most recent information about this be very detailed about it also make sure u are reffering to multiple sources like this",
 
     SearchProfile.CODE_ANALYSIS: "analyze this code in detail, explain the logic, identify potential issues, suggest improvements, and provide best practices for this type of implementation",

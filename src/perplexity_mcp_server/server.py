@@ -18,26 +18,33 @@ from mcp.server.fastmcp import FastMCP
 # Import server components
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from config.settings import load_config, ServerConfig
-from tools import (
+# Add parent directory to path for imports
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, current_dir)  # Add MCP server directory
+sys.path.insert(0, os.path.dirname(current_dir))  # Add src directory
+
+from perplexity_mcp_server.config.settings import load_config, ServerConfig
+from perplexity_mcp_server.tools import (
     search_perplexity,
     chat_with_perplexity,
     analyze_file_with_perplexity,
     get_available_models,
     get_search_profiles,
-    get_perplexity_health
+    get_perplexity_health,
+    create_perplexity_space,
+    list_perplexity_spaces
 )
-from resources import get_resource_manager, get_search_context, get_session_history
-from resources.providers import (
+from perplexity_mcp_server.resources import get_resource_manager, get_search_context, get_session_history
+from perplexity_mcp_server.resources.providers import (
     ModelsResourceProvider,
     HealthResourceProvider,
     ConfigurationResourceProvider,
-    ProfilesResourceProvider
+    ProfilesResourceProvider,
+    SpacesResourceProvider
 )
-from utils.perplexity_client import get_perplexity_api
-from prompts import (
+from perplexity_mcp_server.utils.perplexity_client import get_perplexity_api
+from perplexity_mcp_server.prompts import (
     search_workshop,
     consultation_session,
     file_analysis_deep_dive,
@@ -105,7 +112,16 @@ class PerplexityMCPServer:
             get_perplexity_health
         )
 
-        self.logger.info(f"Registered 6 tools")
+        # Register space management tools
+        self.mcp.tool()(
+            create_perplexity_space
+        )
+
+        self.mcp.tool()(
+            list_perplexity_spaces
+        )
+
+        self.logger.info(f"Registered 8 tools")
 
     def _setup_resources(self):
         """Register all MCP resources."""
@@ -127,6 +143,7 @@ class PerplexityMCPServer:
         self.mcp.resource("perplexity://health")(self._get_health_resource)
         self.mcp.resource("perplexity://config")(self._get_config_resource)
         self.mcp.resource("perplexity://profiles")(self._get_profiles_resource)
+        self.mcp.resource("perplexity://spaces")(self._get_spaces_resource)
 
         # Register new dynamic resources
         self.mcp.resource("perplexity://search/context")(self._get_search_context_resource)
@@ -135,7 +152,7 @@ class PerplexityMCPServer:
         self.mcp.resource("perplexity://session/history")(self._get_session_history_resource)
         self.mcp.resource("perplexity://session/analytics")(self._get_session_analytics_resource)
 
-        self.logger.info(f"Registered 9 resources")
+        self.logger.info(f"Registered 10 resources")
 
     def _setup_prompts(self):
         """Register all MCP prompts."""
@@ -198,6 +215,14 @@ class PerplexityMCPServer:
             return await self.resource_manager.read_resource("perplexity://profiles")
         except Exception as e:
             self.logger.error(f"Error reading profiles resource: {e}")
+            return json.dumps({"error": str(e)})
+
+    async def _get_spaces_resource(self):
+        """Resource handler for spaces."""
+        try:
+            return await self.resource_manager.read_resource("perplexity://spaces")
+        except Exception as e:
+            self.logger.error(f"Error reading spaces resource: {e}")
             return json.dumps({"error": str(e)})
 
     async def _get_search_context_resource(self):
@@ -278,13 +303,16 @@ class PerplexityMCPServer:
                 "analyze_file_with_perplexity",
                 "get_available_models",
                 "get_search_profiles",
-                "get_perplexity_health"
+                "get_perplexity_health",
+                "create_perplexity_space",
+                "list_perplexity_spaces"
             ],
             "resources": [
                 "perplexity://models",
                 "perplexity://health",
                 "perplexity://config",
                 "perplexity://profiles",
+                "perplexity://spaces",
                 "perplexity://search/context",
                 "perplexity://search/analytics",
                 "perplexity://search/trending",

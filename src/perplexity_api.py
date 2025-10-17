@@ -47,6 +47,60 @@ def load_cookies_from_env() -> Dict[str, str]:
     return {}
 
 
+def load_spaces_mapping() -> Dict[str, str]:
+    """Load space name to UUID mappings from spaces.json"""
+    possible_paths = [
+        "spaces.json",  # Current directory
+        "/app/spaces.json",  # Docker container path
+        "../spaces.json",  # Parent directory
+        "/home/mewtwo/Zykairotis/Perplexity-claude/spaces.json",  # Original path
+    ]
+
+    for spaces_path in possible_paths:
+        try:
+            with open(spaces_path, 'r') as f:
+                spaces_data = json.load(f)
+                spaces = spaces_data.get('spaces', {})
+                if spaces:
+                    print(f"✅ Loaded {len(spaces)} space mappings from {spaces_path}")
+                    return spaces
+        except (FileNotFoundError, json.JSONDecodeError, KeyError) as e:
+            continue
+
+    print(f"⚠️ Could not load spaces from any of the attempted paths: {possible_paths}")
+    return {}
+
+
+def resolve_space_to_uuid(space: Optional[Union[str, Dict[str, str]]] = None) -> Optional[str]:
+    """
+    Resolve a space name or UUID to a valid UUID.
+    
+    Args:
+        space: Space name (e.g., "trading"), UUID string, or None
+    
+    Returns:
+        UUID string if valid, None otherwise
+    """
+    if not space:
+        return None
+    
+    # If it's already a valid UUID format, return it
+    import re
+    uuid_pattern = re.compile(r'^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$', re.IGNORECASE)
+    if isinstance(space, str) and uuid_pattern.match(space):
+        return space
+    
+    # Otherwise, try to resolve it from spaces.json
+    spaces_mapping = load_spaces_mapping()
+    if isinstance(space, str) and space in spaces_mapping:
+        resolved_uuid = spaces_mapping[space]
+        print(f"🔑 Resolved space '{space}' to UUID: {resolved_uuid}")
+        return resolved_uuid
+    
+    print(f"⚠️ Could not resolve space: {space}")
+    return None
+
+
 class SearchMode(Enum):
     """Available search modes"""
     AUTO = "auto"
@@ -175,7 +229,8 @@ class PerplexityAPI:
         query_source: str = "home",
         should_ask_for_mcp_tool_confirmation: bool = True,
         search_focus: str = "internet",
-        timezone: str = "Europe/Berlin"
+        timezone: str = "Europe/Berlin",
+        space: Optional[str] = None
     ) -> Union[SearchResult, Dict[str, Any]]:
         """
         Perform a search query
@@ -197,6 +252,7 @@ class PerplexityAPI:
             should_ask_for_mcp_tool_confirmation: Whether to ask for MCP tool confirmation (default: True)
             search_focus: Focus of the search (default: "internet")
             timezone: Timezone for the search (default: "Europe/Berlin")
+            space: Space name or UUID to access specific Perplexity collection (default: None)
 
         Returns:
             SearchResult object with structured response or raw Dict if raw_response=True
@@ -226,6 +282,9 @@ class PerplexityAPI:
             # Apply profile enhancement to query
             enhanced_query = apply_profile_to_query(query, search_profile)
 
+            # Resolve space name to UUID if provided
+            target_collection_uuid = resolve_space_to_uuid(space)
+
             client = await self._get_client()
 
             # Perform the search with enhanced query
@@ -243,7 +302,8 @@ class PerplexityAPI:
                 query_source=query_source,
                 should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
                 search_focus=search_focus,
-                timezone=timezone
+                timezone=timezone,
+                target_collection_uuid=target_collection_uuid
             )
             
             if isinstance(response, dict) and 'error' in response:
@@ -280,7 +340,8 @@ class PerplexityAPI:
         query_source: str = "home",
         should_ask_for_mcp_tool_confirmation: bool = True,
         search_focus: str = "internet",
-        timezone: str = "Europe/Berlin"
+        timezone: str = "Europe/Berlin",
+        space: Optional[str] = None
     ) -> AsyncGenerator[StreamChunk, None]:
         """
         Perform a streaming search query
@@ -300,6 +361,7 @@ class PerplexityAPI:
             should_ask_for_mcp_tool_confirmation: Whether to ask for MCP tool confirmation (default: True)
             search_focus: Focus of the search (default: "internet")
             timezone: Timezone for the search (default: "Europe/Berlin")
+            space: Space name or UUID to access specific Perplexity collection (default: None)
 
         Yields:
             StreamChunk objects with real-time updates
@@ -329,6 +391,9 @@ class PerplexityAPI:
             # Apply profile enhancement to query
             enhanced_query = apply_profile_to_query(query, search_profile)
 
+            # Resolve space name to UUID if provided
+            target_collection_uuid = resolve_space_to_uuid(space)
+
             client = await self._get_client()
 
             # Get the stream with enhanced query
@@ -345,7 +410,8 @@ class PerplexityAPI:
                 query_source=query_source,
                 should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
                 search_focus=search_focus,
-                timezone=timezone
+                timezone=timezone,
+                target_collection_uuid=target_collection_uuid
             )
             
             async for chunk in stream:
@@ -480,6 +546,106 @@ class PerplexityAPI:
             'file_uploads_remaining': file_uploads_remaining,
             'owns_account': getattr(client, 'own', False)
         }
+    
+    async def create_space(
+        self,
+        title: str,
+        description: str = '',
+        emoji: str = '',
+        instructions: str = '',
+        access: int = 1,
+        auto_save: bool = False
+    ) -> Dict[str, Any]:
+        """
+        Create a new Perplexity space/collection
+        
+        Args:
+            title: Name of the space
+            description: Detailed description of the space's purpose
+            emoji: Emoji for the space (optional)
+            instructions: System prompt/instructions for the agent in this space
+            access: Access level (1 = private, default)
+            auto_save: If True, automatically save the space UUID to spaces.json
+        
+        Returns:
+            Dictionary with space details including UUID, title, slug, etc.
+        
+        Raises:
+            PerplexityAPIError: If space creation fails
+        """
+        try:
+            client = await self._get_client()
+            
+            result = await client.create_collection(
+                title=title,
+                description=description,
+                emoji=emoji,
+                instructions=instructions,
+                access=access
+            )
+            
+            if isinstance(result, dict) and 'error' in result:
+                raise PerplexityAPIError(
+                    f"Failed to create space: {result.get('message', 'Unknown error')}",
+                    error_code=result.get('error'),
+                    raw_response=result
+                )
+            
+            # Optionally save to spaces.json
+            if auto_save and 'uuid' in result:
+                try:
+                    self._save_space_to_config(title, result['uuid'])
+                except Exception as e:
+                    print(f"⚠️ Warning: Could not auto-save space to spaces.json: {e}")
+            
+            return result
+            
+        except Exception as e:
+            if isinstance(e, PerplexityAPIError):
+                raise
+            raise PerplexityAPIError(f"Space creation failed: {str(e)}", raw_response={"error": str(e)})
+    
+    def _save_space_to_config(self, space_name: str, space_uuid: str):
+        """Save a space to spaces.json configuration file"""
+        possible_paths = [
+            "spaces.json",
+            "/app/spaces.json",
+            "../spaces.json",
+            "/home/mewtwo/Zykairotis/Perplexity-claude/spaces.json",
+        ]
+        
+        # Find existing spaces.json
+        spaces_path = None
+        for path in possible_paths:
+            try:
+                with open(path, 'r') as f:
+                    spaces_path = path
+                    break
+            except FileNotFoundError:
+                continue
+        
+        if not spaces_path:
+            # Create new spaces.json in current directory
+            spaces_path = "spaces.json"
+            data = {"spaces": {}}
+        else:
+            # Load existing
+            with open(spaces_path, 'r') as f:
+                data = json.load(f)
+        
+        # Update spaces
+        if 'spaces' not in data:
+            data['spaces'] = {}
+        
+        # Create a safe key name (lowercase, replace spaces with underscores)
+        safe_key = space_name.lower().replace(' ', '_').replace('-', '_')
+        data['spaces'][safe_key] = space_uuid
+        
+        # Save back
+        with open(spaces_path, 'w') as f:
+            json.dump(data, f, indent=2)
+        
+        print(f"✅ Saved space '{safe_key}' ({space_uuid}) to {spaces_path}")
     
     async def close(self):
         """Close the client session"""

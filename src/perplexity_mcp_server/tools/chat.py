@@ -31,7 +31,8 @@ async def chat_with_perplexity(
     query_source: Optional[str] = None,
     should_ask_for_mcp_tool_confirmation: Optional[bool] = False,
     search_focus: Optional[str] = None,
-    timezone: Optional[str] = None
+    timezone: Optional[str] = None,
+    space: Optional[str] = None
 ) -> str:
     """
     💬 Chat with Perplexity AI (pro mode) for interactive, context-aware explanations and reasoning.
@@ -75,6 +76,7 @@ async def chat_with_perplexity(
         should_ask_for_mcp_tool_confirmation: Whether to ask for confirmation before executing MCP tools (default: False)
         search_focus: Specific focus area for the chat (e.g., 'technical', 'academic', 'news', default: None)
         timezone: Timezone for context-aware responses (e.g., 'UTC', 'America/New_York', default: None)
+        space: Space name or UUID to chat within a specific Perplexity collection (default: None)
 
     Returns:
         Clean text response (default) or full JSON with conversation context and metadata.
@@ -136,7 +138,8 @@ async def chat_with_perplexity(
             query_source=query_source,
             should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
             search_focus=search_focus,
-            timezone=timezone
+            timezone=timezone,
+            space=space
         )
 
         # Format response

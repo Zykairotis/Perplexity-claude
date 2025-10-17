@@ -114,6 +114,7 @@ class SearchRequest(BaseModel):
     should_ask_for_mcp_tool_confirmation: Optional[bool] = None
     search_focus: Optional[str] = None
     timezone: Optional[str] = None
+    space: Optional[str] = None
 
 class SearchWithFilesRequest(BaseModel):
     query: str
@@ -131,6 +132,7 @@ class SearchWithFilesRequest(BaseModel):
     should_ask_for_mcp_tool_confirmation: Optional[bool] = None
     search_focus: Optional[str] = None
     timezone: Optional[str] = None
+    space: Optional[str] = None
 
 class SearchResponse(BaseModel):
     query: str
@@ -147,6 +149,14 @@ class SearchResponse(BaseModel):
 class StreamMessage(BaseModel):
     type: str  # "status", "chunk", "final", "error"
     data: Dict
+
+class CreateSpaceRequest(BaseModel):
+    title: str
+    description: str = ""
+    emoji: str = ""
+    instructions: str = ""
+    access: int = 1
+    auto_save: bool = False
 
 # Global API instance and conversation storage
 api_instance = None
@@ -251,6 +261,7 @@ async def home():
 
                     <select id="profile">
                         <option value="">No Profile</option>
+                        <option value="simple">⚡ Simple (No Enhancement)</option>
                         <option value="research">🔬 Research</option>
                         <option value="code_analysis">💻 Code Analysis</option>
                         <option value="troubleshooting">🔧 Troubleshooting</option>
@@ -265,6 +276,12 @@ async def home():
                         <option value="integration">🔗 Integration</option>
                         <option value="debugging">🐛 Debugging</option>
                         <option value="optimization">🎯 Optimization</option>
+                    </select>
+
+                    <select id="space">
+                        <option value="">No Space (Default)</option>
+                        <option value="trading">📊 Trading Space</option>
+                        <!-- Add more space options from your spaces.json here -->
                     </select>
                 </div>
                 
@@ -321,6 +338,47 @@ async def home():
                 <button onclick="search()">Search (Upload)</button>
                 <button onclick="streamSearch()">Search (Stream)</button>
                 <button onclick="streamSearchWithFiles()">Stream with Files</button>
+                <button onclick="showCreateSpaceModal()" style="background: #28a745; margin-left: 10px;">➕ Create New Space</button>
+            </div>
+            
+            <!-- Create Space Modal -->
+            <div id="createSpaceModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 30px; border-radius: 10px; max-width: 600px; width: 90%;">
+                    <h2 style="margin-top: 0;">Create New Perplexity Space</h2>
+                    
+                    <div style="margin: 15px 0;">
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">Space Name *</label>
+                        <input type="text" id="spaceName" placeholder="e.g., Trading Analysis" style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 5px;">
+                    </div>
+                    
+                    <div style="margin: 15px 0;">
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">Description</label>
+                        <textarea id="spaceDescription" placeholder="Detailed description of this space's purpose..." style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 5px; min-height: 80px;"></textarea>
+                    </div>
+                    
+                    <div style="margin: 15px 0;">
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">Emoji</label>
+                        <input type="text" id="spaceEmoji" placeholder="e.g., 📊" style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 5px;">
+                    </div>
+                    
+                    <div style="margin: 15px 0;">
+                        <label style="display: block; margin-bottom: 5px; font-weight: bold;">Instructions (System Prompt)</label>
+                        <textarea id="spaceInstructions" placeholder="System prompt for the AI agent in this space..." style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 5px; min-height: 100px;"></textarea>
+                    </div>
+                    
+                    <div style="margin: 15px 0;">
+                        <label>
+                            <input type="checkbox" id="autoSave" checked> Auto-save to spaces.json
+                        </label>
+                    </div>
+                    
+                    <div style="margin-top: 20px; display: flex; gap: 10px;">
+                        <button onclick="createSpace()" style="flex: 1; padding: 12px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Create Space</button>
+                        <button onclick="closeCreateSpaceModal()" style="flex: 1; padding: 12px; background: #6c757d; color: white; border: none; border-radius: 5px; cursor: pointer;">Cancel</button>
+                    </div>
+                    
+                    <div id="spaceCreationResult" style="margin-top: 15px;"></div>
+                </div>
             </div>
             
             <div id="result"></div>
@@ -350,6 +408,7 @@ async def home():
                 const model = document.getElementById('model').value;
                 const sources = Array.from(document.getElementById('sources').selectedOptions).map(option => option.value);
                 const profile = document.getElementById('profile').value;
+                const space = document.getElementById('space').value;
                 const files = document.getElementById('files').files;
 
                 // Advanced options
@@ -372,6 +431,11 @@ async def home():
                 }
                 formData.append('sources', sources.join(','));
                 formData.append('stream', 'false');
+
+                // Add space parameter
+                if (space) {
+                    formData.append('space', space);
+                }
 
                 // Add advanced options
                 if (promptSource) {
@@ -425,6 +489,7 @@ async def home():
                             model_preference: model || null,
                             sources,
                             profile: profile || null,
+                            space: space || null,
                             prompt_source: promptSource || null,
                             query_source: querySource || null,
                             search_focus: searchFocus || null,
@@ -452,6 +517,7 @@ async def home():
                 const model = document.getElementById('model').value;
                 const sources = Array.from(document.getElementById('sources').selectedOptions).map(option => option.value);
                 const profile = document.getElementById('profile').value;
+                const space = document.getElementById('space').value;
 
                 // Advanced options
                 const promptSource = document.getElementById('promptSource').value;
@@ -476,6 +542,7 @@ async def home():
                     model_preference: model,
                     sources: sources,
                     profile: profile,
+                    space: space || null,
                     prompt_source: promptSource || null,
                     query_source: querySource || null,
                     search_focus: searchFocus || null,
@@ -511,6 +578,7 @@ async def home():
                 const model = document.getElementById('model').value;
                 const sources = Array.from(document.getElementById('sources').selectedOptions).map(option => option.value);
                 const profile = document.getElementById('profile').value;
+                const space = document.getElementById('space').value;
                 const files = document.getElementById('files').files;
                 const rawResponse = document.getElementById('rawResponse').checked;
 
@@ -539,6 +607,9 @@ async def home():
                 formData.append('continue_chat', document.getElementById('continueChat').checked);
                 if (profile) {
                     formData.append('profile', profile);
+                }
+                if (space) {
+                    formData.append('space', space);
                 }
 
                 // Add advanced options
@@ -688,6 +759,83 @@ async def home():
                     search();
                 }
             });
+
+            // Space creation functions
+            function showCreateSpaceModal() {
+                document.getElementById('createSpaceModal').style.display = 'block';
+            }
+
+            function closeCreateSpaceModal() {
+                document.getElementById('createSpaceModal').style.display = 'none';
+                // Clear form
+                document.getElementById('spaceName').value = '';
+                document.getElementById('spaceDescription').value = '';
+                document.getElementById('spaceEmoji').value = '';
+                document.getElementById('spaceInstructions').value = '';
+                document.getElementById('spaceCreationResult').innerHTML = '';
+            }
+
+            async function createSpace() {
+                const spaceName = document.getElementById('spaceName').value.trim();
+                const spaceDescription = document.getElementById('spaceDescription').value.trim();
+                const spaceEmoji = document.getElementById('spaceEmoji').value.trim();
+                const spaceInstructions = document.getElementById('spaceInstructions').value.trim();
+                const autoSave = document.getElementById('autoSave').checked;
+
+                if (!spaceName) {
+                    alert('Space name is required');
+                    return;
+                }
+
+                document.getElementById('spaceCreationResult').innerHTML = '<div class="loading">Creating space...</div>';
+
+                try {
+                    const response = await fetch('/api/spaces/create', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            title: spaceName,
+                            description: spaceDescription,
+                            emoji: spaceEmoji,
+                            instructions: spaceInstructions,
+                            access: 1,
+                            auto_save: autoSave
+                        })
+                    });
+
+                    const data = await response.json();
+
+                    if (response.ok && data.success) {
+                        document.getElementById('spaceCreationResult').innerHTML = `
+                            <div class="result">
+                                <h3>✅ Space Created Successfully!</h3>
+                                <p><strong>UUID:</strong> ${data.uuid}</p>
+                                <p><strong>Title:</strong> ${data.title}</p>
+                                <p><strong>Slug:</strong> ${data.slug}</p>
+                                ${autoSave ? '<p style="color: #28a745;">✓ Saved to spaces.json</p>' : ''}
+                                <button onclick="location.reload()" style="margin-top: 10px; padding: 8px 16px;">Reload Page</button>
+                            </div>
+                        `;
+                    } else {
+                        document.getElementById('spaceCreationResult').innerHTML = `
+                            <div class="error">
+                                Failed to create space: ${data.detail || data.error || 'Unknown error'}
+                            </div>
+                        `;
+                    }
+                } catch (error) {
+                    document.getElementById('spaceCreationResult').innerHTML = `
+                        <div class="error">Error: ${error.message}</div>
+                    `;
+                }
+            }
+
+            // Close modal on outside click
+            document.getElementById('createSpaceModal').addEventListener('click', function(e) {
+                if (e.target === this) {
+                    closeCreateSpaceModal();
+                }
+            });
         </script>
     </body>
     </html>
@@ -731,7 +879,8 @@ async def api_search(request: SearchRequest):
             query_source=request.query_source,
             should_ask_for_mcp_tool_confirmation=request.should_ask_for_mcp_tool_confirmation,
             search_focus=request.search_focus,
-            timezone=request.timezone
+            timezone=request.timezone,
+            space=request.space
         )
         
         if request.raw_response:
@@ -772,7 +921,8 @@ async def api_search_with_files(
     query_source: Optional[str] = Form(None),
     should_ask_for_mcp_tool_confirmation: Optional[bool] = Form(None),
     search_focus: Optional[str] = Form(None),
-    timezone: Optional[str] = Form(None)
+    timezone: Optional[str] = Form(None),
+    space: Optional[str] = Form(None)
 ):
     """API endpoint for search with file uploads"""
     try:
@@ -808,7 +958,8 @@ async def api_search_with_files(
                     query_source=query_source,
                     should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
                     search_focus=search_focus,
-                    timezone=timezone
+                    timezone=timezone,
+                    space=space
                 ):
                     yield f"data: {json.dumps(chunk.to_dict())}\n\n"
                 yield "data: [DONE]\n\n"
@@ -833,7 +984,8 @@ async def api_search_with_files(
                 query_source=query_source,
                 should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
                 search_focus=search_focus,
-                timezone=timezone
+                timezone=timezone,
+                space=space
             )
             return result
             
@@ -858,7 +1010,8 @@ async def api_search_with_files_stream(
     query_source: Optional[str] = Form(None),
     should_ask_for_mcp_tool_confirmation: Optional[bool] = Form(None),
     search_focus: Optional[str] = Form(None),
-    timezone: Optional[str] = Form(None)
+    timezone: Optional[str] = Form(None),
+    space: Optional[str] = Form(None)
 ):
     """API endpoint for streaming search with file uploads"""
     try:
@@ -913,7 +1066,8 @@ async def api_search_with_files_stream(
                     query_source=query_source,
                     should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
                     search_focus=search_focus,
-                    timezone=timezone
+                    timezone=timezone,
+                    space=space
                 ):
                     # Extract and store conversation tokens automatically
                     raw_data = chunk.to_dict() if hasattr(chunk, 'to_dict') else chunk.__dict__
@@ -1011,6 +1165,7 @@ async def websocket_search(websocket: WebSocket):
         should_ask_for_mcp_tool_confirmation = data.get("should_ask_for_mcp_tool_confirmation")
         search_focus = data.get("search_focus")
         timezone = data.get("timezone")
+        space = data.get("space")
 
         # Validate profile if provided
         search_profile = None
@@ -1035,7 +1190,8 @@ async def websocket_search(websocket: WebSocket):
                 query_source=query_source,
                 should_ask_for_mcp_tool_confirmation=should_ask_for_mcp_tool_confirmation,
                 search_focus=search_focus,
-                timezone=timezone
+                timezone=timezone,
+                space=space
             ):
                 # Send the chunk data
                 await websocket.send_json({
@@ -1106,6 +1262,57 @@ async def get_profiles():
             "troubleshooting": "Step-by-step troubleshooting with solutions"
         }
     }
+
+@app.post("/api/spaces/create")
+async def create_space(request: CreateSpaceRequest):
+    """
+    Create a new Perplexity space/collection
+    
+    Request body:
+    - title: Name of the space (required)
+    - description: Detailed description of the space's purpose
+    - emoji: Emoji for the space (optional)
+    - instructions: System prompt/instructions for the agent in this space
+    - access: Access level (1 = private, default)
+    - auto_save: If True, automatically save to spaces.json
+    """
+    try:
+        api = await get_api()
+        
+        result = await api.create_space(
+            title=request.title,
+            description=request.description,
+            emoji=request.emoji,
+            instructions=request.instructions,
+            access=request.access,
+            auto_save=request.auto_save
+        )
+        
+        return {
+            "success": True,
+            "uuid": result.get('uuid'),
+            "title": result.get('title'),
+            "slug": result.get('slug'),
+            "full_response": result
+        }
+        
+    except PerplexityAPIError as e:
+        raise HTTPException(status_code=400, detail=f"API Error: {str(e)}")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Server Error: {str(e)}")
+
+@app.get("/api/spaces")
+async def list_spaces():
+    """Get list of configured spaces from spaces.json"""
+    try:
+        from perplexity_api import load_spaces_mapping
+        spaces = load_spaces_mapping()
+        return {
+            "spaces": spaces,
+            "count": len(spaces)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error loading spaces: {str(e)}")
 
 def find_free_port():
     """Find an available port"""

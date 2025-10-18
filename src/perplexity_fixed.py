@@ -98,10 +98,10 @@ class Client(AsyncMixin):
         model_preference_map = {
             'auto': { None: 'turbo' },
             'pro': {
-                None: 'pplx_pro', 'sonar': 'experimental', 'gpt-4.5': 'gpt45', 'gpt-4o': 'gpt4o',
+                None: 'pplx_pro', 'experimental': 'experimental', 'gpt-4.5': 'gpt45', 'gpt-4o': 'gpt4o',
                 'claude 3.7 sonnet': 'claude2', 'gemini 2.0 flash': 'gemini2flash', 'grok-2': 'grok',
                 'claude': 'claude2', 'gemini2flash': 'gemini2flash', 'grok4': 'grok4', 'pplx_pro': 'pplx_pro',
-                'sonar': 'sonar', 'gpt41': 'gpt41', 'claude37sonnetthinking': 'claude37sonnetthinking', 'o3': 'o3',
+                'sonar': 'experimental', 'gpt41': 'gpt41', 'claude37sonnetthinking': 'claude37sonnetthinking', 'o3': 'o3',
                 'claude45sonnet': 'claude45sonnet', 'claude45sonnetthinking': 'claude45sonnetthinking',
                 'gpt5': 'gpt5', 'gpt5thinking': 'gpt5thinking'
             },

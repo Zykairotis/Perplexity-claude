@@ -38,7 +38,7 @@ perplexity_api = PerplexityAPI()
 class SearchRequest(BaseModel):
     query: str = Field(..., description="The search query or question")
     mode: str = Field("pro", description="Search mode: always 'pro'")
-    model: str = Field(..., description="Specific model to use: claude45sonnet, claude45sonnetthinking, gpt5, gpt5thinking, sonar")
+    model: str = Field(..., description="Specific model to use: claude45sonnet, claude45sonnetthinking, gpt5, gpt5thinking, experimental")
     sources: List[str] = Field(["web"], description="Sources: web, scholar, social")
     language: str = Field("english", description="Response language")
     max_results: int = Field(5, description="Maximum number of search results")
@@ -56,7 +56,7 @@ class ChatRequest(BaseModel):
     message: str = Field(..., description="The message or question")
     conversation_id: Optional[str] = Field(None, description="Conversation ID for continuity")
     mode: str = Field("pro", description="Chat mode: always 'pro'")
-    model: str = Field(..., description="Specific model to use: claude45sonnet, claude45sonnetthinking, gpt5, gpt5thinking, sonar")
+    model: str = Field(..., description="Specific model to use: claude45sonnet, claude45sonnetthinking, gpt5, gpt5thinking, experimental")
     temperature: float = Field(0.7, description="Temperature for response generation")
     stream: bool = Field(False, description="Whether to stream the response")
     profile: str = Field(..., description="Search profile: research, code_analysis, troubleshooting, etc.")
@@ -73,7 +73,7 @@ class FileAnalysisRequest(BaseModel):
     file_type: str = Field("text", description="Type of file: text, pdf, image, etc.")
     query: str = Field(..., description="What to analyze about the file")
     mode: str = Field("pro", description="Analysis mode: always 'pro'")
-    model: str = Field(..., description="Specific model to use: claude45sonnet, claude45sonnetthinking, gpt5, gpt5thinking, sonar")
+    model: str = Field(..., description="Specific model to use: claude45sonnet, claude45sonnetthinking, gpt5, gpt5thinking, experimental")
     profile: str = Field(..., description="Search profile: research, code_analysis, security, etc.")
     raw_mode: bool = Field(False, description="Return full JSON response (true) or clean text answer (false, recommended)")
     prompt_source: Optional[str] = Field(None, description="Source of the prompt for context tracking")
@@ -109,7 +109,7 @@ async def search_perplexity(
     • `claude45sonnetthinking` – advanced logical reasoning
     • `gpt5` – deep analytical research
     • `gpt5thinking` – complex reasoning and critical synthesis
-    • `sonar` – fast, efficient factual lookups
+    • `experimental` – fast, efficient factual lookups (formerly Sonar)
 
     **Required Args:**
         query: The search question or topic
@@ -154,7 +154,7 @@ async def search_perplexity(
             return f"Error: Only 'pro' mode is supported. Please use mode='pro'"
 
         # Validate model (required)
-        valid_models = ["claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "sonar"]
+        valid_models = ["claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "experimental"]
         if not model:
             return f"Error: Model is required. Available models: {valid_models}"
         if model not in valid_models:
@@ -265,7 +265,7 @@ async def chat_with_perplexity(
     • `claude45sonnetthinking` – logical and step-by-step discussions
     • `gpt5` – expert reasoning in conversation
     • `gpt5thinking` – advanced analytical discussions
-    • `sonar` – fast, concise replies
+    • `experimental` – fast, concise replies (formerly Sonar)
 
     **Required Args:**
         message: User message or question
@@ -309,7 +309,7 @@ async def chat_with_perplexity(
             return f"Error: Only 'pro' mode is supported. Please use mode='pro'"
 
         # Validate model (required)
-        valid_models = ["claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "sonar"]
+        valid_models = ["claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "experimental"]
         if not model:
             return f"Error: Model is required. Available models: {valid_models}"
         if model not in valid_models:
@@ -403,7 +403,7 @@ async def analyze_file_with_perplexity(
     • `claude45sonnetthinking` – logical problem-solving
     • `gpt5` – comprehensive technical analysis
     • `gpt5thinking` – deep reasoning and complex document insight
-    • `sonar` – quick analysis and summaries
+    • `experimental` – quick analysis and summaries (formerly Sonar)
 
     **Required Args:**
         file_content: Raw file content to analyze
@@ -445,7 +445,7 @@ async def analyze_file_with_perplexity(
             return f"Error: Only 'pro' mode is supported. Please use mode='pro'"
 
         # Validate model (required)
-        valid_models = ["claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "sonar"]
+        valid_models = ["claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "experimental"]
         if not model:
             return f"Error: Model is required. Available models: {valid_models}"
         if model not in valid_models:
@@ -535,7 +535,7 @@ async def get_available_models() -> str:
     • claude45sonnetthinking – advanced logical reasoning
     • gpt5 – deep analytical research
     • gpt5thinking – complex reasoning and critical synthesis
-    • sonar – fast, efficient factual lookups
+    • experimental – fast, efficient factual lookups (formerly Sonar)
 
     **Returns:**
         Model list with descriptions and use cases
@@ -558,7 +558,7 @@ async def get_available_models() -> str:
                 "description": "Complex reasoning and critical synthesis",
                 "use_case": "Advanced analytical thinking and problem-solving"
             },
-            "sonar": {
+            "experimental": {
                 "description": "Fast, efficient factual lookups",
                 "use_case": "Quick factual answers and simple queries"
             }

@@ -45,7 +45,7 @@ async def search_perplexity(
     • `claude45sonnetthinking` – advanced logical reasoning
     • `gpt5` – deep analytical research
     • `gpt5thinking` – complex reasoning and critical synthesis
-    • `sonar` – fast, efficient factual lookups
+    • `experimental` – fast, efficient factual lookups (formerly Sonar)
 
     **Required Args:**
         query: The search question or topic

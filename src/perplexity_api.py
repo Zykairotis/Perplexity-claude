@@ -118,7 +118,7 @@ class SearchSource(Enum):
 
 class ProModel(Enum):
     """Available models for Pro mode"""
-    SONAR = "sonar"
+    SONAR = "experimental"
     GPT_4_5 = "gpt-4.5"
     GPT_4O = "gpt-4o"
     CLAUDE_3_7_SONNET = "claude 3.7 sonnet"

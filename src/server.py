@@ -222,7 +222,7 @@ async def home():
                         <option value="">Default Model</option>
                         
                         <!-- Pro Mode Models -->
-                        <option value="sonar">Sonar (Pro)</option>
+                        <option value="experimental">Experimental (Sonar)</option>
                         <option value="gpt-4.5">GPT-4.5 (Pro)</option>
                         <option value="gpt-4o">GPT-4o (Pro)</option>
                         <option value="claude 3.7 sonnet">Claude 3.7 Sonnet (Pro)</option>
@@ -1240,7 +1240,7 @@ async def get_modes():
     return {
         "modes": ["auto", "pro", "reasoning", "deep research", "deep lab"],
         "pro_models": [
-            "sonar", "gpt-4.5", "gpt-4o", "claude 3.7 sonnet", "gemini 2.0 flash", "grok-2",
+            "experimental", "gpt-4.5", "gpt-4o", "claude 3.7 sonnet", "gemini 2.0 flash", "grok-2",
             "gemini2flash", "grok4", "pplx_pro", "gpt41", "claude37sonnetthinking", "o3",
             "claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking"
         ],

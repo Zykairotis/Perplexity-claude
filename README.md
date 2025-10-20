@@ -6,12 +6,16 @@ A Model Context Protocol (MCP) server that provides seamless integration with Pe
 
 - **MCP Server Integration**: Full Model Context Protocol support for Claude Desktop and other MCP clients
 - **Perplexity AI Integration**: Direct access to Perplexity's powerful search and AI capabilities
+- **Experimental Model Support**: Updated to use Perplexity's latest "experimental" model (formerly Sonar) with "copilot" mode
 - **Profile Management**: Support for multiple user profiles with different configurations
-- **LiteLLM Proxy**: Built-in proxy server for unified LLM access
+- **LiteLLM Proxy**: Built-in proxy server for unified LLM access with OpenAI-compatible endpoints
 - **CLI Chat Interface**: Interactive command-line chat interface
 - **Webhook Support**: HTTP webhook endpoints for external integrations
+- **Space Management**: Create and manage Perplexity collections/spaces
 - **Docker Support**: Containerized deployment with Docker and Docker Compose
 - **Cookie-based Authentication**: Secure session management using browser cookies
+- **Streaming Support**: Real-time streaming responses via WebSocket and Server-Sent Events
+- **File Analysis**: Upload and analyze files with AI-powered insights
 - **Async/Await Support**: High-performance asynchronous architecture
 
 ## 📋 Prerequisites
@@ -50,12 +54,41 @@ cp .example.env .env
 5. **Set up authentication**
 
 Extract your Perplexity cookies and save them to `cookies.json`:
+
+### 🍪 How to Get Cookies
+
+#### Perplexity (to use your own account)
+* Open [Perplexity.ai](https://perplexity.ai/) and login.
+* Click `F12` or `Ctrl + Shift + I` to open inspector.
+* Go to the "Network" tab in the inspector.
+* Refresh the page, right-click the first request, hover on "Copy" and click "Copy as cURL (bash)".
+* Now go to the [CurlConverter](https://curlconverter.com/python/) and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
+
+#### Emailnator (for account generating)
+* Open [Emailnator](https://emailnator.com/) and verify you're human.
+* Click `F12` or `Ctrl + Shift + I` to open inspector.
+* Go to the "Network" tab in the inspector.
+* Refresh the page, right-click the first request, hover on "Copy" and click "Copy as cURL (bash)".
+* Now go to the [CurlConverter](https://curlconverter.com/python/) and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
+* Cookies for Emailnator are temporary, you need to renew them continuously.
+
+**Save cookies to `cookies.json`:**
 ```json
 {
-  "session_cookie": "your_session_cookie_here",
-  "other_cookies": "as_needed"
+  "cookies": {
+    "pplx.visitor-id": "your-visitor-id",
+    "pplx.session-id": "your-session-id",
+    "next-auth.csrf-token": "your-csrf-token",
+    "__Secure-next-auth.session-token": "your-session-token",
+    "pplx.search-models-v4": "{\"research\":\"pplx_alpha\",\"search\":\"experimental\",\"studio\":\"pplx_beta\"}"
+  }
 }
 ```
+
+**⚠️ Important Notes:**
+- Never commit `cookies.json` to version control
+- Cookies expire and need to be refreshed periodically
+- The `pplx.search-models-v4` setting controls which models are available to your account
 
 ## 🔧 Configuration
 
@@ -146,14 +179,19 @@ python src/litellm_proxy.py
 
 ```bash
 # Build and start services
-docker-compose up -d
+docker-compose up -d --build
 
 # View logs
 docker-compose logs -f
 
 # Stop services
 docker-compose down
+
+# Restart with latest changes
+docker-compose down && docker-compose up -d --build
 ```
+
+**📝 Note:** If you have a `cookies.json` file, the Docker setup will automatically mount it. Make sure it's in the project root directory.
 
 ### Using Docker Directly
 
@@ -201,6 +239,46 @@ Ask a question and get an AI-generated answer.
 - `POST /api/ask` - Ask a question
 - `GET /api/profiles` - List available profiles
 - `POST /api/webhook` - Webhook endpoint
+- `GET /api/modes` - Get available search modes and models
+- `GET /api/health` - Health check endpoint
+
+### 🤖 Available Models
+
+#### Pro Mode Models (use with `mode: "pro"`)
+- `experimental` - Fast, efficient factual lookups (formerly Sonar)
+- `claude45sonnet` - Balanced reasoning and explanation
+- `claude45sonnetthinking` - Advanced logical reasoning
+- `gpt5` - Deep analytical research
+- `gpt5thinking` - Complex reasoning and critical synthesis
+- `gpt-4.5` - GPT-4.5 with enhanced capabilities
+- `gpt-4o` - GPT-4o multimodal model
+- `claude 3.7 sonnet` - Claude 3.7 Sonnet
+- `gemini 2.0 flash` - Fast multimodal responses
+
+#### Other Modes
+- **Reasoning Mode**: `r1`, `o3-mini`, `claude 3.7 sonnet`
+- **Deep Research**: `pplx_alpha`
+- **Deep Lab**: `pplx_beta`
+
+#### Example Usage
+```bash
+# Using experimental model (formerly Sonar)
+curl -X POST http://localhost:9522/api/search \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What is AI?",
+    "mode": "pro",
+    "model_preference": "experimental"
+  }'
+
+# Using with LiteLLM proxy
+curl -X POST http://localhost:4000/v1/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "pro-experimental",
+    "prompt": "What is AI?"
+  }'
+```
 
 ## 🧪 Testing
 
@@ -287,6 +365,17 @@ pip install -r requirements.txt
 - Verify your `cookies.json` file is correctly formatted
 - Ensure cookies are not expired
 - Re-extract cookies from your browser
+- Check that `pplx.search-models-v4` cookie includes the models you want to use
+
+**Issue: "Model not found" errors**
+- The `sonar` model has been renamed to `experimental`
+- Update your code to use `experimental` instead of `sonar`
+- Check your `pplx.search-models-v4` cookie setting to ensure the model is available
+
+**Issue: Docker containers can't find cookies**
+- Make sure `cookies.json` is in the project root directory
+- Copy cookies to running container: `docker cp cookies.json perplexity-claude-perplexity-server-1:/app/`
+- Restart containers with: `docker-compose down && docker-compose up -d --build`
 
 **Issue: "Port already in use"**
 ```bash
@@ -318,6 +407,22 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Create web UI dashboard
 - [ ] Add support for streaming responses
 - [ ] Implement rate limiting and quotas
+
+## 📝 Changelog
+
+### Recent Updates
+- **🚀 Model Update**: Sonar model renamed to `experimental` with `copilot` mode support
+- **🍪 Enhanced Cookie Guide**: Added detailed step-by-step instructions for extracting cookies from Perplexity.ai and Emailnator
+- **🐳 Docker Improvements**: Better cookie mounting and container management
+- **📚 Documentation**: Updated model listings, API endpoints, and troubleshooting guides
+- **🔧 Security**: Added important notes about cookie management and model availability
+
+### Previous Updates
+- Added space/collection management functionality
+- Implemented streaming support with WebSocket and SSE
+- Enhanced profile system with multiple search contexts
+- Added webhook integration for external API calls
+- Improved Docker containerization and deployment options
 
 ---
 

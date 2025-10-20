@@ -66,31 +66,32 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Default cookies (you can update these)
+# Default cookies (PLACEHOLDER - Load from cookies.json file)
+# These are fallback values only and won't work without real authentication cookies
 DEFAULT_COOKIES = {
-    'pplx.visitor-id': '6f9c24a6-b955-42f1-8246-01fa8e42c25c',
+    'pplx.visitor-id': 'your-visitor-id',
     'pplx.source-selection-v3-space-': '[]',
-    '__stripe_mid': 'f2ee6402-dbbc-4dba-a486-98793b96dca52887e3',
+    '__stripe_mid': 'your-stripe-mid',
     'gov-badge': '3',
     'sidebar-upgrade-badge': '10',
     'pplx.personal-search-badge-seen': '{%22sidebar%22:true%2C%22settingsSidebar%22:false%2C%22personalize%22:false}',
     'pplx.tasks-settings-seen': 'true',
     'sidebarHiddenHubs': '[]',
     'finance-alert-page-visit': '1',
-    'pplx.session-id': '999662ec-9b4f-4312-8f5f-f23a25ef8da4',
-    'next-auth.csrf-token': 'f7fb7ef2ef9bd574599b59237df74b7e5b3e2cc8647f80b4d7862d0ce0fa1020%7C3ed5e175229584b3c935efaa43c2ae087bea3a7af7dc5aeacb73daa3bee308e7',
-    'pplx.source-selection-v3-space-d1136065-6fdf-4add-9a5b-394c9fa328e9': '[%22web%22]',
+    'pplx.session-id': 'your-session-id',
+    'next-auth.csrf-token': 'your-csrf-token',
+    'pplx.source-selection-v3-space-id': '[%22web%22]',
     'next-auth.callback-url': 'https%3A%2F%2Fwww.perplexity.ai%2Fapi%2Fauth%2Fsignin-callback%3Fredirect%3Dhttps%253A%252F%252Fwww.perplexity.ai',
-    'pplx.search-models-v4': '{%22research%22:%22pplx_alpha%22%2C%22search%22:%22claude45sonnetthinking%22%2C%22studio%22:%22pplx_beta%22}',
-    '__cflb': '02DiuDyvFMmK5p9jVbVnMNSKYZhUL9aGm8TweGJwz94wE',
-    'cf_clearance': 'r_fdp1zJ0s1IZLUOa5ZJKj0LfhYZeLqt2a1FvJbFcVs-1760429451-1.2.1.1-uZp_JDKoK_y0TqaD710TJSM52ICnaA_3c8qMWRHIoi3K9lo4E.49_jEGidT3agVWcRdVF.At_AVQV3Qx3OsRSkwuhKAqypGS0JEdfwSAXyRNH2AWuF5C_zYgDVas1RMUzXb02NDqYuQgzooAuJbkUIE2XZXWUPyEO75U4BquzVxFtZZvzfOHHKM6bsfXYBZJvofpZDt_O45e9WWuJ_9q7VIOs5Y4oKdWUwPGLRgd2OM',
-    '__cf_bm': 'BPfiS7VUpBvSCrf6_pr2pYofcBbXI6dYUjsxD2jcTEk-1760445904-1.0.1.1-iUQ0P6pU98LrBZZFq9NhmM.fQ43rQm_5fFbAg0SusxyUiijCf71YkVGNYKrTNUadKdX9WfLI4FyKXsnaPeMVacZJQ9Z0gYk95cnC9Rw.Fhg',
-    '__stripe_sid': '9bd9a46f-c412-4e43-8f6e-a313eca4ab31f21572',
-    '__Secure-next-auth.session-token': 'eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..i7xpZGJtagedgtkS.enlnycOeIchAp_v8BgsHZlGS0msf3yLZ5VgWsx0tH1bAcJK3EPBl2l0ij3K0N5VaEqRORpNUERQiQv3uKEKQFEjJr3G72zQr6T83x4FUTipL23_rdv8eSVkAlRJgMhtqB7E1lwsB1DreU2Z0pgR_vMo_7OZqExrS5SfphZ8VySQYtgfkoDuWNkfJeEoUZotdFkApsmQ7G3g9NPZDDueOpBgQEzZqRS_4k29SXDVgOEnuy-UBBVGPg-C_0ysBv6WxjzkGHGyJtB85ckOf-GkugjsjH62VJR_E5EdGag3cRqBArVpvbpvswIxPvj4sPhDJ6UOGUtOp5G4-Vz8zdQvs5kRBnlg3IGZeWnRca5nkT4rtGtxBYAPsVpf9OuRnuuPME5tPbcSaMirOiYPy_LYiTal65aZFnR88hJUKx9QT7Iaefyuepg.yKdURVHeyuR_MmDNfOH4iQ',
-    'AWSALB': 'GFSPjhLyYzfoNBHFtXrEDTBUfn2QX72Hepy+ILFmGgmeTXnr7emXr0BFo7MesvzRozAgTuxnXka0ewTuI8PJDAB2zAMVH4EjN0Oby+f3OdvWTI+27sfTLo/IvFf7l9oVFJUrjQE75wlNOlYxjG8Y27imGbCpQo8tS/Od2m8ngfzOctitLXPekufqOVJrAQ==',
-    'AWSALBCORS': 'GFSPjhLyYzfoNBHFtXrEDTBUfn2QX72Hepy+ILFmGgmeTXnr7emXr0BFo7MesvzRozAgTuxnXka0ewTuI8PJDAB2zAMVH4EjN0Oby+f3OdvWTI+27sfTLo/IvFf7l9oVFJUrjQE75wlNOlYxjG8Y27imGbCpQo8tS/Od2m8ngfzOctitLXPekufqOVJrAQ==',
-    '_dd_s': 'aid=70854b1d-dc02-4de9-a5e4-2b3c79590d2d&rum=2&id=7c073ada-d858-4bb4-b18c-fc75cebe1b7f&created=1760445902544&expire=1760446833805&logs=0',
-    'pplx.metadata': '{%22qc%22:71%2C%22qcu%22:1942%2C%22qcm%22:243%2C%22qcc%22:1847%2C%22qcco%22:0%2C%22qccol%22:0%2C%22qcdr%22:5%2C%22qcs%22:2%2C%22qcd%22:0%2C%22hli%22:true%2C%22hcga%22:true%2C%22hcds%22:false%2C%22hso%22:false%2C%22hfo%22:false%2C%22hsco%22:false%2C%22hfco%22:false%2C%22hsma%22:false%2C%22hdc%22:false%2C%22fqa%22:1759854523119%2C%22lqa%22:1760445933806}',
+    'pplx.search-models-v4': '{%22research%22:%22pplx_alpha%22%2C%22search%22:%22experimental%22%2C%22studio%22:%22pplx_beta%22}',
+    '__cflb': 'your-cflb-token',
+    'cf_clearance': 'your-cloudflare-clearance-token',
+    '__cf_bm': 'your-cloudflare-bm-token',
+    '__stripe_sid': 'your-stripe-sid',
+    '__Secure-next-auth.session-token': 'your-session-token-here',
+    'AWSALB': 'your-aws-alb-cookie',
+    'AWSALBCORS': 'your-aws-alb-cors-cookie',
+    '_dd_s': 'your-datadog-session',
+    'pplx.metadata': '{%22qc%22:0}',
 }
 
 # Pydantic models for request/response

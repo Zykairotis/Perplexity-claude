@@ -2,6 +2,8 @@ services:
   perplexity-mcp:
     build: .
     command: python -m src.perplexity_mcp_server.server
+    mem_limit: 128m
+    mem_reservation: 96m
     environment:
       - PERPLEXITY_MCP_LOG_LEVEL=INFO
       - PERPLEXITY_MCP_PERPLEXITY_TIMEOUT=120
@@ -21,6 +23,8 @@ services:
       context: .
       dockerfile: Dockerfile
     command: python src/server.py
+    mem_limit: 128m
+    mem_reservation: 96m
     ports:
       - "9522:9522"
     environment:
@@ -39,6 +43,8 @@ services:
       context: .
       dockerfile: Dockerfile
     command: python src/s2.py
+    mem_limit: 128m
+    mem_reservation: 96m
     ports:
       - "4000:4000"
     environment:

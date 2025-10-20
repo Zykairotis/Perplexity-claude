@@ -24,6 +24,9 @@ MANIFEST
 
 # Sensitive files
 cookies.json
+src/cookies.json
+spaces.json
+clean_response_new.json
 *.json.bak
 
 # Virtual Environment

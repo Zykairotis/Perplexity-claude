@@ -4,19 +4,77 @@ A Model Context Protocol (MCP) server that provides seamless integration with Pe
 
 ## 🌟 Features
 
-- **MCP Server Integration**: Full Model Context Protocol support for Claude Desktop and other MCP clients
+### **🤖 Core AI Integration**
 - **Perplexity AI Integration**: Direct access to Perplexity's powerful search and AI capabilities
 - **Experimental Model Support**: Updated to use Perplexity's latest "experimental" model (formerly Sonar) with "copilot" mode
-- **Profile Management**: Support for multiple user profiles with different configurations
-- **LiteLLM Proxy**: Built-in proxy server for unified LLM access with OpenAI-compatible endpoints
-- **CLI Chat Interface**: Interactive command-line chat interface
-- **Webhook Support**: HTTP webhook endpoints for external integrations
-- **Space Management**: Create and manage Perplexity collections/spaces
-- **Docker Support**: Containerized deployment with Docker and Docker Compose
-- **Cookie-based Authentication**: Secure session management using browser cookies
-- **Streaming Support**: Real-time streaming responses via WebSocket and Server-Sent Events
-- **File Analysis**: Upload and analyze files with AI-powered insights
-- **Async/Await Support**: High-performance asynchronous architecture
+- **Multi-Model Support**: Access to Claude 4.5 Sonnet, GPT-5, Grok-4, Gemini 2.0 Flash, and more
+- **Multiple Search Modes**: Auto, Pro, Reasoning, Deep Research, and Deep Lab modes
+
+### **🔧 Advanced Features**
+
+#### **📚 Profile System**
+Enhanced search profiles for specialized use cases:
+- **Research**: Detailed research with multiple sources
+- **Code Analysis**: Code review, logic analysis, improvements
+- **Troubleshooting**: Step-by-step issue resolution
+- **Documentation**: Comprehensive setup and usage docs
+- **Architecture**: Design patterns and scalability
+- **Security**: Vulnerability assessment and best practices
+- **Performance**: Bottlenecks and optimization strategies
+- **Tutorial**: Step-by-step learning with examples
+- **Comparison**: Detailed alternatives analysis
+- **Trending**: Latest developments and emerging tech
+- **Best Practices**: Industry standards and guidelines
+- **Integration**: System compatibility and API patterns
+- **Debugging**: Systematic debugging techniques
+- **Optimization**: Specific performance improvements
+
+#### **🏢 Space Management**
+Create and manage Perplexity collections/spaces:
+- **Space Creation**: Create dedicated knowledge bases
+- **Auto-save Configuration**: Automatic space UUID management
+- **Access Control**: Private, team, and public space options
+- **Custom Instructions**: Define AI behavior within spaces
+- **Content Storage**: Historical chats, documents, web links
+- **Thread Management**: Track conversations and file uploads
+
+#### **🔌 Webhook Integration**
+Advanced external system integration:
+- **HTTP Client**: Call external webhooks with authentication
+- **Multiple Auth Methods**: Bearer, Basic, API Key authentication
+- **Retry Logic**: Configurable retry with exponential backoff
+- **Response Analysis**: AI-powered webhook response analysis
+- **SSRF Protection**: Security validation for external calls
+- **Combined Operations**: Webhook + AI analysis in single workflow
+
+#### **📡 Streaming & Real-time**
+Multiple streaming options for real-time responses:
+- **Server-Sent Events (SSE)**: HTTP-based streaming for file uploads
+- **WebSocket Streaming**: Real-time bidirectional communication
+- **File Upload Streaming**: Stream responses while analyzing files
+- **Progress Tracking**: Real-time status updates and completion notifications
+
+#### **📁 File Analysis**
+Advanced file processing capabilities:
+- **Multi-format Support**: Text, PDF, image, code files
+- **Code Analysis**: Bug detection, optimization suggestions
+- **Document Understanding**: Extract insights from various file types
+- **Bulk Processing**: Analyze multiple files simultaneously
+- **Custom Queries**: Tailored analysis requests
+
+### **🌐 Interface Options**
+- **MCP Server Integration**: Full Model Context Protocol support for Claude Desktop
+- **LiteLLM Proxy**: OpenAI-compatible API endpoints
+- **CLI Chat Interface**: Interactive command-line tool with rich formatting
+- **Web Interface**: Full-featured web UI at http://localhost:9522
+- **REST API**: Comprehensive HTTP API with all features
+
+### **🛠️ Development & Deployment**
+- **Docker Support**: Multi-service containerized deployment
+- **Cookie-based Authentication**: Secure session management
+- **Async/Await Architecture**: High-performance asynchronous operations
+- **Environment Configuration**: Flexible configuration via environment variables
+- **Health Monitoring**: Built-in health checks and diagnostics
 
 ## 📋 Prerequisites
 
@@ -375,6 +433,161 @@ curl http://localhost:9522/api/modes
 
 # Get available profiles
 curl http://localhost:9522/api/profiles
+```
+
+## 🔧 Detailed Feature Usage
+
+### **📚 Using Search Profiles**
+
+Enhance your searches with specialized profiles:
+
+```bash
+# Code Analysis Profile
+curl -X POST http://localhost:9522/api/search \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "Optimize this React component",
+    "mode": "pro",
+    "model_preference": "claude45sonnet",
+    "profile": "code_analysis"
+  }'
+
+# Security Assessment Profile
+curl -X POST http://localhost:9522/api/search \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "Check authentication implementation",
+    "mode": "pro",
+    "model_preference": "experimental",
+    "profile": "security"
+  }'
+
+# Research Profile (most detailed)
+curl -X POST http://localhost:9522/api/search \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "Latest developments in quantum computing",
+    "mode": "pro",
+    "model_preference": "claude45sonnetthinking",
+    "profile": "research"
+  }'
+```
+
+### **🏢 Managing Spaces**
+
+Create dedicated knowledge bases:
+
+```bash
+# Create a trading analysis space
+curl -X POST http://localhost:9522/api/spaces/create \
+  -H "Content-Type: application/json" \
+  -d '{
+    "title": "Trading Analysis",
+    "description": "Space for market analysis and trading strategies",
+    "emoji": "📊",
+    "instructions": "You are a financial analyst providing data-driven insights",
+    "access": 1,
+    "auto_save": true
+  }'
+
+# List configured spaces
+curl http://localhost:9522/api/spaces
+
+# Use space in search (if space is configured)
+curl -X POST http://localhost:9522/api/search \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "Analyze recent market trends",
+    "mode": "pro",
+    "model_preference": "experimental",
+    "space": "trading-analysis"
+  }'
+```
+
+### **📁 File Upload & Analysis**
+
+Analyze files with AI:
+
+```bash
+# Single file analysis
+curl -X POST http://localhost:9522/api/search/files \
+  -F "query=Find bugs and suggest improvements" \
+  -F "files=@src/main.py" \
+  -F "mode=pro" \
+  -F "model_preference=claude45sonnet" \
+  -F "profile=code_analysis"
+
+# Multiple files
+curl -X POST http://localhost:9522/api/search/files \
+  -F "query=Compare implementations and find the best approach" \
+  -F "files=@src/app.py" \
+  -F "files=@src/utils.py" \
+  -F "files=@docs/api.md" \
+  -F "mode=pro" \
+  -F "model_preference=experimental"
+```
+
+### **📡 Streaming Responses**
+
+Real-time streaming for long queries:
+
+```bash
+# Server-Sent Events streaming
+curl -X POST http://localhost:9522/api/search/files/stream \
+  -F "query=Explain blockchain technology in detail" \
+  -F "mode=pro" \
+  -F "model_preference=claude45sonnetthinking" \
+  --no-buffer
+
+# WebSocket streaming (use client library)
+# Endpoint: ws://localhost:9522/ws/search
+# Send JSON: {"query": "Your question", "mode": "pro", "model_preference": "experimental"}
+```
+
+### **🔌 Webhook Integration**
+
+Automate external service workflows:
+
+```bash
+# Via MCP (Claude Desktop)
+# Call webhook and analyze response
+webhook_and_analyze(
+  url="https://api.example.com/data",
+  method="POST",
+  body={"query": "market_data"},
+  analysis_query="Analyze this market data for trading opportunities",
+  perplexity_mode="pro"
+)
+
+# Via Webhook MCP Server (Port 8000)
+curl -X POST http://localhost:8000/call_webhook \
+  -H "Content-Type: application/json" \
+  -d '{
+    "url": "https://api.github.com/repos",
+    "method": "GET",
+    "auth_type": "bearer",
+    "auth_credentials": {"token": "your-token"}
+  }'
+```
+
+### **💻 CLI Interface**
+
+Interactive chat with rich formatting:
+
+```bash
+# Start CLI chat
+python src/chat_cli.py
+
+# Available commands in CLI:
+# /models - Show available models
+# /profiles - Show search profiles
+# /help - Show help
+# /quit - Exit
+
+# Usage examples in CLI:
+> What are the latest trends in AI?
+> /profile research How does quantum computing work?
+> /model claude45sonnet Analyze this code: print("Hello")
 ```
 
 ## 🧪 Testing

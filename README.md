@@ -30,7 +30,7 @@ A Model Context Protocol (MCP) server that provides seamless integration with Pe
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/Perplexity-claude.git
+git clone https://github.com/Zykairotis/Perplexity-claude.git
 cd Perplexity-claude
 ```
 

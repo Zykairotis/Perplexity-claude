@@ -97,9 +97,6 @@ Extract your Perplexity cookies and save them to `cookies.json`:
 Create a `.env` file with the following variables:
 
 ```env
-# Perplexity API Configuration
-PERPLEXITY_API_KEY=your_api_key_here
-
 # Server Configuration
 HOST=0.0.0.0
 PORT=8000

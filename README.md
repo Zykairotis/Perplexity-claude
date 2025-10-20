@@ -123,6 +123,8 @@ Extract your Perplexity cookies and save them to `cookies.json`:
 * Now go to the [CurlConverter](https://curlconverter.com/python/) and paste your code here. The cookies dictionary will appear, copy and use it in your codes.
 
 #### Emailnator (for account generating)
+
+![Image #1](https://maas-log-prod.cn-wlcb.ufileos.com/anthropic/7f0c7a6e-7215-417f-b67f-2c2c75c02bfe/d65dd53e5e5a112b9875d05a1797f150.png?UCloudPublicKey=TOKEN_e15ba47a-d098-4fbd-9afc-a0dcf0e4e621&Expires=1760957175&Signature=drsP2K8TfXnR3t/wzFUwK63uRck=)
 * Open [Emailnator](https://emailnator.com/) and verify you're human.
 * Click `F12` or `Ctrl + Shift + I` to open inspector.
 * Go to the "Network" tab in the inspector.

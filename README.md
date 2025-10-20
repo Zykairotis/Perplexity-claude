@@ -210,34 +210,78 @@ docker run -d \
 
 The server exposes the following MCP tools:
 
-#### `perplexity_search`
-Performs a search query using Perplexity AI.
+#### `search_perplexity`
+Performs enhanced search queries using Perplexity AI with profile support.
 
 ```json
 {
   "query": "What is quantum computing?",
-  "profile": "default"
+  "mode": "pro",
+  "model": "experimental",
+  "profile": "research",
+  "sources": ["web"],
+  "language": "english",
+  "max_results": 5,
+  "raw_mode": false,
+  "search_focus": "technical"
 }
 ```
 
-#### `perplexity_ask`
-Ask a question and get an AI-generated answer.
+**Required Parameters:**
+- `query`: The search question or topic
+- `mode`: Always "pro"
+- `model`: One of "claude45sonnet", "claude45sonnetthinking", "gpt5", "gpt5thinking", "experimental"
+- `profile`: Enhanced search profile ("research", "code_analysis", "troubleshooting", etc.)
+
+#### `chat_with_perplexity`
+Interactive conversational AI with context awareness.
 
 ```json
 {
-  "question": "Explain machine learning in simple terms",
-  "context": "optional context"
+  "message": "Explain machine learning in simple terms",
+  "mode": "pro",
+  "model": "claude45sonnet",
+  "profile": "research",
+  "conversation_id": "optional-conversation-id",
+  "temperature": 0.7
 }
 ```
 
+#### `analyze_file_with_perplexity`
+Analyze file content with AI-powered insights.
+
+```json
+{
+  "file_content": "def hello(): print('Hello World')",
+  "file_type": "python",
+  "query": "Find bugs and suggest improvements",
+  "mode": "pro",
+  "model": "claude45sonnet",
+  "profile": "code_analysis"
+}
+```
+
+#### `get_available_models`
+List all supported Perplexity models with descriptions.
+
+#### `get_search_profiles`
+Get comprehensive list of available search profiles with use cases.
+
+#### `get_perplexity_health`
+Check API connection status and performance metrics.
+
 ### REST API Endpoints
 
-- `POST /api/search` - Perform a search
-- `POST /api/ask` - Ask a question
-- `GET /api/profiles` - List available profiles
-- `POST /api/webhook` - Webhook endpoint
+- `POST /api/search` - Perform a search with full parameters
+- `POST /api/search/files` - File upload search with multipart form data
+- `POST /api/search/files/stream` - Server-Sent Events streaming search
+- `GET /api/health` - Health check and system status
+- `GET /api/session` - Session information and status
 - `GET /api/modes` - Get available search modes and models
-- `GET /api/health` - Health check endpoint
+- `GET /api/profiles` - List available search profiles
+- `POST /api/spaces/create` - Create new Perplexity space/collection
+- `GET /api/spaces` - List available spaces
+- `GET /` - Web interface (HTML)
 
 ### 🤖 Available Models
 
@@ -258,23 +302,79 @@ Ask a question and get an AI-generated answer.
 - **Deep Lab**: `pplx_beta`
 
 #### Example Usage
+
+**1. Direct API Usage (Port 9522)**
 ```bash
-# Using experimental model (formerly Sonar)
+# Basic search with experimental model
 curl -X POST http://localhost:9522/api/search \
   -H "Content-Type: application/json" \
   -d '{
-    "query": "What is AI?",
+    "query": "What is artificial intelligence?",
     "mode": "pro",
-    "model_preference": "experimental"
+    "model_preference": "experimental",
+    "sources": ["web"],
+    "language": "english"
   }'
 
-# Using with LiteLLM proxy
+# File upload search
+curl -X POST http://localhost:9522/api/search/files \
+  -F "query=Analyze this code" \
+  -F "files=@example.py" \
+  -F "mode=pro" \
+  -F "model_preference=claude45sonnet"
+
+# Streaming search (Server-Sent Events)
+curl -X POST http://localhost:9522/api/search/files/stream \
+  -F "query=Explain quantum computing" \
+  -F "mode=pro" \
+  -F "model_preference=experimental"
+```
+
+**2. LiteLLM Proxy Usage (Port 4000)**
+```bash
+# OpenAI-style completions
 curl -X POST http://localhost:4000/v1/completions \
   -H "Content-Type: application/json" \
   -d '{
     "model": "pro-experimental",
-    "prompt": "What is AI?"
+    "prompt": "What is machine learning?"
   }'
+
+# OpenAI-style chat completions
+curl -X POST http://localhost:4000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "pro-claude45sonnet",
+    "prompt": "Explain blockchain technology"
+  }'
+
+# Model format: {mode}-{model}
+# Examples: pro-experimental, pro-claude45sonnet, pro-gpt5, pro-gpt5thinking
+```
+
+**3. MCP Client Usage (Claude Desktop)**
+```json
+{
+  "mcpServers": {
+    "perplexity": {
+      "command": "python",
+      "args": ["-m", "src.perplexity_mcp_server.server"],
+      "cwd": "/path/to/Perplexity-claude"
+    }
+  }
+}
+```
+
+**4. Health Check and Model Info**
+```bash
+# Check API health
+curl http://localhost:9522/api/health
+
+# Get available models and modes
+curl http://localhost:9522/api/modes
+
+# Get available profiles
+curl http://localhost:9522/api/profiles
 ```
 
 ## 🧪 Testing
